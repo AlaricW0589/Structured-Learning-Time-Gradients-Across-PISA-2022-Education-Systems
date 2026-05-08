@@ -1,0 +1,2157 @@
+[
+  {
+    "name": "CNT",
+    "label": "Country code 3-character",
+    "type": "CHAR"
+  },
+  {
+    "name": "CNTRYID",
+    "label": "Country Identifier",
+    "type": "NUM"
+  },
+  {
+    "name": "CNTSCHID",
+    "label": "Intl. School ID",
+    "type": "NUM"
+  },
+  {
+    "name": "CYC",
+    "label": "PISA Assessment Cycle (2 digits + 2 character Assessment type - MS/FT)",
+    "type": "CHAR"
+  },
+  {
+    "name": "NatCen",
+    "label": "National Centre 6-digit Code",
+    "type": "CHAR"
+  },
+  {
+    "name": "STRATUM",
+    "label": "Stratum ID 5-character (cnt + original stratum ID)",
+    "type": "CHAR"
+  },
+  {
+    "name": "SUBNATIO",
+    "label": "Adjudicated sub-region code 7-digit code (3-digit country code + region ID + stratum ID)",
+    "type": "CHAR"
+  },
+  {
+    "name": "REGION",
+    "label": "REGION",
+    "type": "NUM"
+  },
+  {
+    "name": "OECD",
+    "label": "OECD country",
+    "type": "NUM"
+  },
+  {
+    "name": "ADMINMODE",
+    "label": "Mode of Respondent",
+    "type": "NUM"
+  },
+  {
+    "name": "LANGTEST_QQQ",
+    "label": "Language of Questionnaire",
+    "type": "NUM"
+  },
+  {
+    "name": "SC001Q01TA",
+    "label": "Which of the following definitions best describes the community in which your school is located?",
+    "type": "NUM"
+  },
+  {
+    "name": "SC013Q01TA",
+    "label": "Is your school a public or a private school?",
+    "type": "NUM"
+  },
+  {
+    "name": "SC014Q01TA",
+    "label": "What kind of organisation runs your school?",
+    "type": "NUM"
+  },
+  {
+    "name": "SC016Q01TA",
+    "label": "Percentage of schoolyr funding comes from: Government (includes departments, local, regional, state and national)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC016Q02TA",
+    "label": "Percentage of schoolyr funding comes from: Student fees or school charges paid by parents or guardians",
+    "type": "NUM"
+  },
+  {
+    "name": "SC016Q03TA",
+    "label": "Percentage of schoolyr funding comes from: Benefactors, donations, bequests, sponsorships, parent or guardian fundraising",
+    "type": "NUM"
+  },
+  {
+    "name": "SC016Q04TA",
+    "label": "Percentage of schoolyr funding comes from: Other",
+    "type": "NUM"
+  },
+  {
+    "name": "SC011Q01TA",
+    "label": "Which of the following statements best describes the schooling available to students in your location?",
+    "type": "NUM"
+  },
+  {
+    "name": "SC002Q01TA",
+    "label": "As of [February 1, 2021], what was the total school enrolment (number of students): Number of boys:",
+    "type": "NUM"
+  },
+  {
+    "name": "SC002Q02TA",
+    "label": "As of [February 1, 2021], what was the total school enrolment (number of students): Number of girls:",
+    "type": "NUM"
+  },
+  {
+    "name": "SC211Q01JA",
+    "label": "Percentage [15-year-old modal grade] students who: Students whose [heritage language] is different from [test language]",
+    "type": "NUM"
+  },
+  {
+    "name": "SC211Q02JA",
+    "label": "Percentage [15-year-old modal grade] students who: Students with special learning needs",
+    "type": "NUM"
+  },
+  {
+    "name": "SC211Q03JA",
+    "label": "Percentage [15-year-old modal grade] students who: Students from socioeconomically disadvantaged homes",
+    "type": "NUM"
+  },
+  {
+    "name": "SC211Q04JA",
+    "label": "Percentage [15-year-old modal grade] students who: Students who are immigrants (not including refugees)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC211Q05JA",
+    "label": "Percentage [15-year-old modal grade] students who: Students who have parents who have immigrated",
+    "type": "NUM"
+  },
+  {
+    "name": "SC211Q06JA",
+    "label": "Percentage [15-year-old modal grade] students who: Students who are refugees",
+    "type": "NUM"
+  },
+  {
+    "name": "SC018Q01TA01",
+    "label": "Teachers in TOTAL: Full-time",
+    "type": "NUM"
+  },
+  {
+    "name": "SC018Q01TA02",
+    "label": "Teachers in TOTAL: Part-time",
+    "type": "NUM"
+  },
+  {
+    "name": "SC018Q02TA01",
+    "label": "Teachers [fully certified] by [the appropriate authority]: Full-time",
+    "type": "NUM"
+  },
+  {
+    "name": "SC018Q02TA02",
+    "label": "Teachers [fully certified] by [the appropriate authority]: Part-time",
+    "type": "NUM"
+  },
+  {
+    "name": "SC018Q08JA01",
+    "label": "Teachers with an [ISCED Level 6 - Bachelor's or equivalent level] qualification: Full-time",
+    "type": "NUM"
+  },
+  {
+    "name": "SC018Q08JA02",
+    "label": "Teachers with an [ISCED Level 6 - Bachelor's or equivalent level] qualification: Part-time",
+    "type": "NUM"
+  },
+  {
+    "name": "SC018Q09JA01",
+    "label": "Teachers with an [ISCED Level 7 - Master's or equivalent level] qualification: Full-time",
+    "type": "NUM"
+  },
+  {
+    "name": "SC018Q09JA02",
+    "label": "Teachers with an [ISCED Level 7 - Master's or equivalent level] qualification: Part-time",
+    "type": "NUM"
+  },
+  {
+    "name": "SC018Q10JA01",
+    "label": "Teachers with an [ISCED Level 8 - Doctoral or equivalent level] qualification: Full-time",
+    "type": "NUM"
+  },
+  {
+    "name": "SC018Q10JA02",
+    "label": "Teachers with an [ISCED Level 8 - Doctoral or equivalent level] qualification: Part-time",
+    "type": "NUM"
+  },
+  {
+    "name": "SC182Q01WA01",
+    "label": "Teachers of mathematics in TOTAL: Full-time",
+    "type": "NUM"
+  },
+  {
+    "name": "SC182Q01WA02",
+    "label": "Teachers of mathematics in TOTAL: Part-time",
+    "type": "NUM"
+  },
+  {
+    "name": "SC182Q06WA01",
+    "label": "Teachers of math [fully certified] by [the appropriate authority]: Full-time",
+    "type": "NUM"
+  },
+  {
+    "name": "SC182Q06WA02",
+    "label": "Teachers of math [fully certified] by [the appropriate authority]: Part-time",
+    "type": "NUM"
+  },
+  {
+    "name": "SC182Q07JA01",
+    "label": "Teachers of math with at least an [ISCED Level 6 ] qualification: Full-time",
+    "type": "NUM"
+  },
+  {
+    "name": "SC182Q07JA02",
+    "label": "Teachers of math with at least an [ISCED Level 6 ] qualification: Part-time",
+    "type": "NUM"
+  },
+  {
+    "name": "SC182Q08JA01",
+    "label": "Teachers of math with at least an [ISCED Level 6 ] qualification [with a major] in mathematics: Full-time",
+    "type": "NUM"
+  },
+  {
+    "name": "SC182Q08JA02",
+    "label": "Teachers of math with at least an [ISCED Level 6 ] qualification [with a major] in mathematics: Part-time",
+    "type": "NUM"
+  },
+  {
+    "name": "SC182Q09JA01",
+    "label": "Teachers of math with at least an [ISCED Level 6 ] qualification in [pedagogy]: Full-time",
+    "type": "NUM"
+  },
+  {
+    "name": "SC182Q09JA02",
+    "label": "Teachers of math with at least an [ISCED Level 6 ] qualification in [pedagogy]: Part-time",
+    "type": "NUM"
+  },
+  {
+    "name": "SC182Q10JA01",
+    "label": "Teachers of math with an [ISCED Level 5] but not an [ISCED Level 6] qualification: Full-time",
+    "type": "NUM"
+  },
+  {
+    "name": "SC182Q10JA02",
+    "label": "Teachers of math with an [ISCED Level 5] but not an [ISCED Level 6] qualification: Part-time",
+    "type": "NUM"
+  },
+  {
+    "name": "SC168Q01JA",
+    "label": "Number of non-teaching staff working in school who are: Personnel for pedagogical support, irrespective of the [grade levels]/ages they support",
+    "type": "NUM"
+  },
+  {
+    "name": "SC168Q02JA",
+    "label": "Number of non-teaching staff working in school who are: School administrative personnel",
+    "type": "NUM"
+  },
+  {
+    "name": "SC168Q03JA",
+    "label": "Number of non-teaching staff working in school who are: School management personnel",
+    "type": "NUM"
+  },
+  {
+    "name": "SC168Q04JA",
+    "label": "Number of non-teaching staff working in school who are: Other non-teaching staff",
+    "type": "NUM"
+  },
+  {
+    "name": "SC012Q01TA",
+    "label": "During admission, how often consider: Student's record of academic performance (including placement tests)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC012Q02TA",
+    "label": "During admission, how often consider: Recommendation of feeder schools",
+    "type": "NUM"
+  },
+  {
+    "name": "SC012Q03TA",
+    "label": "During admission, how often consider: Parents' or guardians' endorsement of the instructional or religious philosophy of the school",
+    "type": "NUM"
+  },
+  {
+    "name": "SC012Q04TA",
+    "label": "During admission, how often consider: Whether the student requires or is interested in a special programme",
+    "type": "NUM"
+  },
+  {
+    "name": "SC012Q05TA",
+    "label": "During admission, how often consider: Preference given to family members of current or former students",
+    "type": "NUM"
+  },
+  {
+    "name": "SC012Q06TA",
+    "label": "During admission, how often consider: Residence in a particular area",
+    "type": "NUM"
+  },
+  {
+    "name": "SC012Q08JA",
+    "label": "During admission, how often consider: Student's disciplinary record in this or another school",
+    "type": "NUM"
+  },
+  {
+    "name": "SC012Q10JA",
+    "label": "During admission, how often consider: Student's parental status or pregnancy",
+    "type": "NUM"
+  },
+  {
+    "name": "SC012Q11JA",
+    "label": "During admission, how often consider: Student's working status",
+    "type": "NUM"
+  },
+  {
+    "name": "SC012Q12JA",
+    "label": "During admission, how often consider: Student's cultural or ethnic background",
+    "type": "NUM"
+  },
+  {
+    "name": "SC185Q01WA",
+    "label": "How likely a student in your school would be transferred to another school for: Low academic achievement",
+    "type": "NUM"
+  },
+  {
+    "name": "SC185Q02WA",
+    "label": "How likely a student in your school would be transferred to another school for: High academic achievement",
+    "type": "NUM"
+  },
+  {
+    "name": "SC185Q03WA",
+    "label": "How likely a student in your school would be transferred to another school for: Behavioural problems",
+    "type": "NUM"
+  },
+  {
+    "name": "SC185Q04WA",
+    "label": "How likely a student in your school would be transferred to another school for: Special learning needs",
+    "type": "NUM"
+  },
+  {
+    "name": "SC185Q05WA",
+    "label": "How likely a student in your school would be transferred to another school for: Parents' or guardians' request",
+    "type": "NUM"
+  },
+  {
+    "name": "SC202Q01JA",
+    "label": "At your school, who is responsible for: Appointing or hiring teachers",
+    "type": "NUM"
+  },
+  {
+    "name": "SC202Q02JA",
+    "label": "At your school, who is responsible for: Dismissing or suspending teachers from employment",
+    "type": "NUM"
+  },
+  {
+    "name": "SC202Q03JA",
+    "label": "At your school, who is responsible for: Establishing teachers' starting salaries, including setting pay scales",
+    "type": "NUM"
+  },
+  {
+    "name": "SC202Q04JA",
+    "label": "At your school, who is responsible for: Determining teachers' salary increases",
+    "type": "NUM"
+  },
+  {
+    "name": "SC202Q05JA",
+    "label": "At your school, who is responsible for: Formulating the school budget",
+    "type": "NUM"
+  },
+  {
+    "name": "SC202Q06JA",
+    "label": "At your school, who is responsible for: Deciding on budget allocations",
+    "type": "NUM"
+  },
+  {
+    "name": "SC202Q07JA",
+    "label": "At your school, who is responsible for: Establishing student disciplinary policies and procedures",
+    "type": "NUM"
+  },
+  {
+    "name": "SC202Q08JA",
+    "label": "At your school, who is responsible for: Establishing student assessment policies, including [national/regional] assessments",
+    "type": "NUM"
+  },
+  {
+    "name": "SC202Q09JA",
+    "label": "At your school, who is responsible for: Approving students for admission to the school",
+    "type": "NUM"
+  },
+  {
+    "name": "SC202Q10JA",
+    "label": "At your school, who is responsible for: Choosing which learning materials are used",
+    "type": "NUM"
+  },
+  {
+    "name": "SC202Q11JA",
+    "label": "At your school, who is responsible for: Determining course content, including [national/regional] curricula",
+    "type": "NUM"
+  },
+  {
+    "name": "SC202Q12JA",
+    "label": "At your school, who is responsible for: Deciding which courses are offered",
+    "type": "NUM"
+  },
+  {
+    "name": "SC201Q01JA",
+    "label": "How often you/others in [school management team]: Collaborating with teachers to solve classroom discipline problems",
+    "type": "NUM"
+  },
+  {
+    "name": "SC201Q03JA",
+    "label": "How often you/others in [school management team]: Providing feedback to teachers based on observations of instruction in the classroom",
+    "type": "NUM"
+  },
+  {
+    "name": "SC201Q04JA",
+    "label": "How often you/others in [school management team]: Taking actions to support co-operation among teachers to develop new teaching practices",
+    "type": "NUM"
+  },
+  {
+    "name": "SC201Q05JA",
+    "label": "How often you/others in [school management team]: Taking actions to ensure that teachers take responsibility for improving their teaching skills",
+    "type": "NUM"
+  },
+  {
+    "name": "SC201Q06JA",
+    "label": "How often you/others in [school management team]: Taking actions to ensure that teachers feel responsible for their students' learning outcomes",
+    "type": "NUM"
+  },
+  {
+    "name": "SC201Q07JA",
+    "label": "How often you/others in [school management team]: Providing parents or guardians with information on the school and student performance",
+    "type": "NUM"
+  },
+  {
+    "name": "SC201Q11JA",
+    "label": "How often you/others in [school management team]: Working on a professional development plan for this school",
+    "type": "NUM"
+  },
+  {
+    "name": "SC004Q01TA",
+    "label": "[Stem] At your school, what is the total number of students in the [national modal grade for 15-year-olds]? ",
+    "type": "NUM"
+  },
+  {
+    "name": "SC004Q02TA",
+    "label": "[Stem] Approximately, how many desktop or laptop computers are available for these students for educational purposes? ",
+    "type": "NUM"
+  },
+  {
+    "name": "SC004Q03TA",
+    "label": "[Stem] Approximately, how many of these desktop or laptop computers are connected to the Internet? ",
+    "type": "NUM"
+  },
+  {
+    "name": "SC004Q08JA",
+    "label": "[Stem] Approximately, how many tablet devices (e.g. [iPad®], [Galaxy Book®], [Fire®]) or e-book readers (i.e. portable device for reading books on screen, e.g. [Amazon® KindleTM], [Kobo]) are available for these students for educational purposes?",
+    "type": "NUM"
+  },
+  {
+    "name": "SC004Q05NA",
+    "label": "[Stem] Approximately, how many interactive whiteboards are available in the school altogether? ",
+    "type": "NUM"
+  },
+  {
+    "name": "SC004Q06NA",
+    "label": "[Stem] Approximately, how many data projectors are available in the school altogether? ",
+    "type": "NUM"
+  },
+  {
+    "name": "SC004Q07NA",
+    "label": "[Stem] Approximately, how many desktop or laptop computers with internet connection are available for teachers in your school? ",
+    "type": "NUM"
+  },
+  {
+    "name": "SC190Q01JA",
+    "label": "Apply to your school: The school has a written statement about the general use of digital devices on the school premises.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC190Q02JA",
+    "label": "Apply to your school: The use of [cell phones] is not allowed on the school premises.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC190Q05JA",
+    "label": "Apply to your school: The school has formal guidelines for the use of digital devices for teaching and learning in specific subjects.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC190Q06JA",
+    "label": "Apply to your school: Teachers establish rules for when students may use digital devices during lessons.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC190Q07JA",
+    "label": "Apply to your school: Teachers establish rules in collaboration with students about their use of [digital resources] at school or in class.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC190Q08JA",
+    "label": "Apply to your school: The school has a specific programme to prepare students for responsible internet behaviour.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC190Q09JA",
+    "label": "Apply to your school: The school has a specific policy about using social networks (e.g. [Facebook®]) in teaching and learning.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC190Q10JA",
+    "label": "Apply to your school: The school has a specific programme to promote collaboration on the use of digital devices among teachers.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC190Q11JA",
+    "label": "Apply to your school: The school has a scheduled time for teachers to meet to share, evaluate or develop instructional materials and approaches that employ digital devices.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC037Q01TA",
+    "label": "Exist at your school: Internal evaluation / Self-evaluation",
+    "type": "NUM"
+  },
+  {
+    "name": "SC037Q02TA",
+    "label": "Exist at your school: External evaluation",
+    "type": "NUM"
+  },
+  {
+    "name": "SC037Q03TA",
+    "label": "Exist at your school: Written specification of the school's curricular profile and educational goals",
+    "type": "NUM"
+  },
+  {
+    "name": "SC037Q04TA",
+    "label": "Exist at your school: Written specification of student performance standards",
+    "type": "NUM"
+  },
+  {
+    "name": "SC037Q05NA",
+    "label": "Exist at your school: Systematic recording of data such as teacher or student attendance and professional development",
+    "type": "NUM"
+  },
+  {
+    "name": "SC037Q06NA",
+    "label": "Exist at your school: Systematic recording of student test results and graduation rates",
+    "type": "NUM"
+  },
+  {
+    "name": "SC037Q07TA",
+    "label": "Exist at your school: Seeking written feedback from students (e.g. regarding lessons, teachers or resources)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC037Q08TA",
+    "label": "Exist at your school: Teacher mentoring",
+    "type": "NUM"
+  },
+  {
+    "name": "SC037Q09TA",
+    "label": "Exist at your school: Regular consultation aimed at school improvement with one or more experts over a period of at least six months",
+    "type": "NUM"
+  },
+  {
+    "name": "SC037Q11JA",
+    "label": "Exist at your school: Implementation of a standardised policy for mathematics subjects (i.e. school curriculum with shared instructional materials accompanied by staff development and training)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC200Q01JA",
+    "label": "Occur in school's external evals:  The results of external evaluation led to changes in school policies.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC200Q02JA",
+    "label": "Occur in school's external evals:  We used the data to plan specific action for school development.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC200Q03JA",
+    "label": "Occur in school's external evals:  We used the data to plan specific action for the improvement of teaching.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC200Q04JA",
+    "label": "Occur in school's external evals:  We put measures derived from the results of external evaluations into practice.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC032Q01TA",
+    "label": "Last school yr, teachers monitored by? Tests or assessments of student achievement",
+    "type": "NUM"
+  },
+  {
+    "name": "SC032Q02TA",
+    "label": "Last school yr, teachers monitored by? Teacher peer review (of lesson plans, assessment instruments, lessons)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC032Q03TA",
+    "label": "Last school yr, teachers monitored by? Principal or senior staff observations of lessons",
+    "type": "NUM"
+  },
+  {
+    "name": "SC032Q04TA",
+    "label": "Last school yr, teachers monitored by? Observation of classes by inspectors or other persons external to the school",
+    "type": "NUM"
+  },
+  {
+    "name": "SC193Q01WA",
+    "label": "Do teacher evals impact: A change in salary",
+    "type": "NUM"
+  },
+  {
+    "name": "SC193Q02WA",
+    "label": "Do teacher evals impact: A financial bonus or another kind of monetary reward",
+    "type": "NUM"
+  },
+  {
+    "name": "SC193Q03WA",
+    "label": "Do teacher evals impact: Opportunities for professional development activities",
+    "type": "NUM"
+  },
+  {
+    "name": "SC193Q04WA",
+    "label": "Do teacher evals impact: A change in the likelihood of career advancement",
+    "type": "NUM"
+  },
+  {
+    "name": "SC193Q05WA",
+    "label": "Do teacher evals impact: Public recognition from you",
+    "type": "NUM"
+  },
+  {
+    "name": "SC193Q06WA",
+    "label": "Do teacher evals impact: Changes in work responsibilities that make the job more attractive",
+    "type": "NUM"
+  },
+  {
+    "name": "SC193Q07WA",
+    "label": "Do teacher evals impact: A role in school development initiatives (e.g. curriculum development group, development of school objectives)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC025Q01NA",
+    "label": "Last 3 mnths, percentage teaching staff attended professional dev: All teaching staff at your school",
+    "type": "NUM"
+  },
+  {
+    "name": "SC025Q02NA",
+    "label": "Last 3 mnths, percentage teaching staff attended professional dev:  Staff who teach mathematics at your school",
+    "type": "NUM"
+  },
+  {
+    "name": "SC027Q02NA",
+    "label": "In-house professional dev: Our school invites specialists to conduct in-service training for teachers.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC027Q03NA",
+    "label": "In-house professional dev: Our school organises in-service workshops which deal with specific issues that our school faces.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC027Q04NA",
+    "label": "In-house professional dev: Our school organises in-service workshops for specific groups of teachers (e.g. newly appointed teachers).",
+    "type": "NUM"
+  },
+  {
+    "name": "SC183Q02JA",
+    "label": "In-house professional dev for math teachers: Our school invites specialists to conduct in-service training for mathematics teachers.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC183Q03JA",
+    "label": "In-house professional dev for math teachers: Our school organises in-service workshops, which deal with specific issues that our mathematics teachers face.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC183Q04JA",
+    "label": "In-house professional dev for math teachers: Our school organises in-service workshops for specific mathematics teachers (e.g. newly appointed teachers).",
+    "type": "NUM"
+  },
+  {
+    "name": "SC184Q01JA",
+    "label": "Offers math teachers professional dev in: Mathematics content",
+    "type": "NUM"
+  },
+  {
+    "name": "SC184Q02JA",
+    "label": "Offers math teachers professional dev in: Mathematics pedagogy/instruction",
+    "type": "NUM"
+  },
+  {
+    "name": "SC184Q03JA",
+    "label": "Offers math teachers professional dev in: Mathematics curriculum",
+    "type": "NUM"
+  },
+  {
+    "name": "SC184Q04JA",
+    "label": "Offers math teachers professional dev in: Integrating digital resources into mathematics instruction",
+    "type": "NUM"
+  },
+  {
+    "name": "SC184Q05JA",
+    "label": "Offers math teachers professional dev in: Improving students' critical thinking or problem solving skills",
+    "type": "NUM"
+  },
+  {
+    "name": "SC184Q06JA",
+    "label": "Offers math teachers professional dev in: Mathematics assessment",
+    "type": "NUM"
+  },
+  {
+    "name": "SC184Q07JA",
+    "label": "Offers math teachers professional dev in: Addressing individual students' needs (e.g. differentiated learning, differentiated instruction)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC017Q01NA",
+    "label": "Instruction hindered by: A lack of teaching staff",
+    "type": "NUM"
+  },
+  {
+    "name": "SC017Q02NA",
+    "label": "Instruction hindered by: Inadequate or poorly qualified teaching staff",
+    "type": "NUM"
+  },
+  {
+    "name": "SC017Q03NA",
+    "label": "Instruction hindered by: A lack of assisting staff",
+    "type": "NUM"
+  },
+  {
+    "name": "SC017Q04NA",
+    "label": "Instruction hindered by: Inadequate or poorly qualified assisting staff",
+    "type": "NUM"
+  },
+  {
+    "name": "SC017Q05NA",
+    "label": "Instruction hindered by: A lack of educational material (e.g. textbooks, IT equipment, library or laboratory material)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC017Q06NA",
+    "label": "Instruction hindered by: Inadequate or poor quality educational material (e.g. textbooks, IT equipment, library or laboratory material)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC017Q07NA",
+    "label": "Instruction hindered by: A lack of physical infrastructure (e.g. building, grounds, heating/cooling, lighting and acoustic systems)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC017Q08NA",
+    "label": "Instruction hindered by: Inadequate or poor quality physical infrastructure (e.g. building, grounds, heating/cooling, lighting and acoustic systems)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC017Q09JA",
+    "label": "Instruction hindered by: A lack of [digital resources] (e.g. desktop or laptop computers, internet access, learning management systems or school learning platforms)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC017Q10JA",
+    "label": "Instruction hindered by: Inadequate or poor quality [digital resources] (e.g. desktop or laptop computers, internet access, learning management systems or school learning platforms)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC061Q01TA",
+    "label": "Learning hindered by: Student truancy",
+    "type": "NUM"
+  },
+  {
+    "name": "SC061Q02TA",
+    "label": "Learning hindered by: Students skipping classes",
+    "type": "NUM"
+  },
+  {
+    "name": "SC061Q03TA",
+    "label": "Learning hindered by: Students lacking respect for teachers",
+    "type": "NUM"
+  },
+  {
+    "name": "SC061Q04TA",
+    "label": "Learning hindered by: Student use of alcohol or illegal drugs",
+    "type": "NUM"
+  },
+  {
+    "name": "SC061Q05TA",
+    "label": "Learning hindered by: Students intimidating or bullying other students",
+    "type": "NUM"
+  },
+  {
+    "name": "SC061Q11HA",
+    "label": "Learning hindered by: Students not being attentive",
+    "type": "NUM"
+  },
+  {
+    "name": "SC061Q06TA",
+    "label": "Learning hindered by: Teachers not meeting individual students' needs",
+    "type": "NUM"
+  },
+  {
+    "name": "SC061Q07TA",
+    "label": "Learning hindered by: Teacher absenteeism",
+    "type": "NUM"
+  },
+  {
+    "name": "SC061Q08TA",
+    "label": "Learning hindered by: Staff resisting change",
+    "type": "NUM"
+  },
+  {
+    "name": "SC061Q09TA",
+    "label": "Learning hindered by: Teachers being too strict with students",
+    "type": "NUM"
+  },
+  {
+    "name": "SC061Q10TA",
+    "label": "Learning hindered by: Teachers not being well prepared for classes",
+    "type": "NUM"
+  },
+  {
+    "name": "SC172Q02JA",
+    "label": "Extent a problem in your school: Profanity",
+    "type": "NUM"
+  },
+  {
+    "name": "SC172Q03JA",
+    "label": "Extent a problem in your school: Vandalism",
+    "type": "NUM"
+  },
+  {
+    "name": "SC172Q04JA",
+    "label": "Extent a problem in your school: Theft",
+    "type": "NUM"
+  },
+  {
+    "name": "SC172Q05JA",
+    "label": "Extent a problem in your school: Intimidation or verbal abuse among students (including texting, emailing, etc.)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC172Q06JA",
+    "label": "Extent a problem in your school: Physical injury caused by students to other students",
+    "type": "NUM"
+  },
+  {
+    "name": "SC172Q07JA",
+    "label": "Extent a problem in your school: Intimidation or verbal abuse of teachers or non-teaching staff (including texting, emailing, etc.)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC173Q01JA",
+    "label": "Last yr, how often staff: They helped students of different backgrounds to recognise the similarities that exist between them.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC173Q02JA",
+    "label": "Last yr, how often staff: They encouraged students of different backgrounds to resolve disagreements by finding common ground.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC173Q03JA",
+    "label": "Last yr, how often staff: They supported activities or organisations that encourage students' expression of diverse identities.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC173Q04JA",
+    "label": "Last yr, how often staff: They taught students how to respond to discrimination.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC173Q05JA",
+    "label": "Last yr, how often staff: They taught students to be inclusive of others with different backgrounds.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC173Q06JA",
+    "label": "Last yr, how often staff: They provided additional support for students from disadvantaged backgrounds.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC064Q05WA",
+    "label": "Proportion parent/guardians who: Discussed their child's behaviour with a teacher on the parents' or guardians' own initiative",
+    "type": "NUM"
+  },
+  {
+    "name": "SC064Q06WA",
+    "label": "Proportion parent/guardians who: Discussed their child's behaviour on the initiative of one of their child's teachers",
+    "type": "NUM"
+  },
+  {
+    "name": "SC064Q01TA",
+    "label": "Proportion parent/guardians who: Discussed their child's progress with a teacher on the parents' or guardians' own initiative",
+    "type": "NUM"
+  },
+  {
+    "name": "SC064Q02TA",
+    "label": "Proportion parent/guardians who: Discussed their child's progress on the initiative of one of their child's teachers",
+    "type": "NUM"
+  },
+  {
+    "name": "SC064Q04NA",
+    "label": "Proportion parent/guardians who: Volunteered in physical or extra-curricular activities, (e.g. building maintenance, carpentry, gardening or yard work, school play, sports, field trip)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC064Q03TA",
+    "label": "Proportion parent/guardians who: Participated in local school government (e.g. parent council or school management committee)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC064Q07WA",
+    "label": "Proportion parent/guardians who: Assisted in fundraising for the school",
+    "type": "NUM"
+  },
+  {
+    "name": "SC192Q01JA",
+    "label": "Last school yr, how often has school staff: Invited parents or guardians to volunteer for school activities",
+    "type": "NUM"
+  },
+  {
+    "name": "SC192Q02JA",
+    "label": "Last school yr, how often has school staff: Initiated communications with parents or guardians about school programmes",
+    "type": "NUM"
+  },
+  {
+    "name": "SC192Q03JA",
+    "label": "Last school yr, how often has school staff: Initiated communications with parents or guardians about their child's progress",
+    "type": "NUM"
+  },
+  {
+    "name": "SC192Q04JA",
+    "label": "Last school yr, how often has school staff: Included parents or guardians in making school decisions",
+    "type": "NUM"
+  },
+  {
+    "name": "SC192Q05JA",
+    "label": "Last school yr, how often has school staff: Provided information to parents or guardians about how to help students with homework and other curriculum-related activities",
+    "type": "NUM"
+  },
+  {
+    "name": "SC192Q06JA",
+    "label": "Last school yr, how often has school staff: Provided information to parents or guardians about how to help students improve their skills in mathematics",
+    "type": "NUM"
+  },
+  {
+    "name": "SC175Q01JA",
+    "label": "Minutes in [class period] for: Mathematics",
+    "type": "NUM"
+  },
+  {
+    "name": "SC175Q02JA",
+    "label": "Minutes in [class period] for: Average minutes in a [class period] across all subjects, including Mathematics",
+    "type": "NUM"
+  },
+  {
+    "name": "SC176Q01JA",
+    "label": "What is the average size of mathematics classes in <national modal grade for 15-year-olds> in your school?",
+    "type": "NUM"
+  },
+  {
+    "name": "SC003Q01TA",
+    "label": "What is the average size of <test language> classes in <national modal grade for 15-year-olds> in your school?",
+    "type": "NUM"
+  },
+  {
+    "name": "SC174Q01JA",
+    "label": "How many foreign languages are being taught at your school <this academic year>?",
+    "type": "NUM"
+  },
+  {
+    "name": "SC053Q01TA",
+    "label": "Does school offer this school yr: Band, orchestra or choir",
+    "type": "NUM"
+  },
+  {
+    "name": "SC053Q02TA",
+    "label": "Does school offer this school yr: School play or school musical",
+    "type": "NUM"
+  },
+  {
+    "name": "SC053Q03TA",
+    "label": "Does school offer this school yr: School yearbook, newspaper or magazine",
+    "type": "NUM"
+  },
+  {
+    "name": "SC053Q04TA",
+    "label": "Does school offer this school yr: Volunteering or service activities, e.g. [national examples]",
+    "type": "NUM"
+  },
+  {
+    "name": "SC053Q05NA",
+    "label": "Does school offer this school yr: Mathematics club",
+    "type": "NUM"
+  },
+  {
+    "name": "SC053Q06NA",
+    "label": "Does school offer this school yr: Mathematics competitions, e.g. [national examples]",
+    "type": "NUM"
+  },
+  {
+    "name": "SC053Q07TA",
+    "label": "Does school offer this school yr: Chess club",
+    "type": "NUM"
+  },
+  {
+    "name": "SC053Q08TA",
+    "label": "Does school offer this school yr: Club with a focus on computers (e.g. programming or coding)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC053Q09TA",
+    "label": "Does school offer this school yr: Art club or art activities",
+    "type": "NUM"
+  },
+  {
+    "name": "SC053Q10TA",
+    "label": "Does school offer this school yr: Sporting team or sporting activities",
+    "type": "NUM"
+  },
+  {
+    "name": "SC053D11TA",
+    "label": "<This academic year>,follow. activities/school offers<national modal grade for 15-year-olds>? <country specific item>",
+    "type": "CHAR"
+  },
+  {
+    "name": "SC212Q01JA",
+    "label": "Study help for [national modal grade for 15-year-olds] students: Room(s) where the students can do their homework",
+    "type": "NUM"
+  },
+  {
+    "name": "SC212Q02JA",
+    "label": "Study help for [national modal grade for 15-year-olds] students: Staff help with homework",
+    "type": "NUM"
+  },
+  {
+    "name": "SC212Q03JA",
+    "label": "Study help for [national modal grade for 15-year-olds] students: Peer-to-peer tutoring",
+    "type": "NUM"
+  },
+  {
+    "name": "SC034Q01NA",
+    "label": "How often students assessed by: Mandatory [standardised tests], e.g. [country specific example]",
+    "type": "NUM"
+  },
+  {
+    "name": "SC034Q02NA",
+    "label": "How often students assessed by: Non-mandatory [standardised tests] (e.g. publicly or commercially available standardised test material like [country specific example])",
+    "type": "NUM"
+  },
+  {
+    "name": "SC034Q03TA",
+    "label": "How often students assessed by: Teacher-developed tests",
+    "type": "NUM"
+  },
+  {
+    "name": "SC034Q04TA",
+    "label": "How often students assessed by: Teachers' judgmental ratings",
+    "type": "NUM"
+  },
+  {
+    "name": "SC035Q01NA",
+    "label": "How student tests are used: [Standardised tests]: To guide students' learning",
+    "type": "NUM"
+  },
+  {
+    "name": "SC035Q01NB",
+    "label": "How student tests are used: Teacher-developed tests: To guide students' learning",
+    "type": "NUM"
+  },
+  {
+    "name": "SC035Q02TA",
+    "label": "How student tests are used: [Standardised tests]: To inform parents or guardians about their child's progress",
+    "type": "NUM"
+  },
+  {
+    "name": "SC035Q02TB",
+    "label": "How student tests are used: Teacher-developed tests: To inform parents or guardians about their child's progress",
+    "type": "NUM"
+  },
+  {
+    "name": "SC035Q03TA",
+    "label": "How student tests are used: [Standardised tests]: To make decisions about students' retention or promotion",
+    "type": "NUM"
+  },
+  {
+    "name": "SC035Q03TB",
+    "label": "How student tests are used: Teacher-developed tests: To make decisions about students' retention or promotion",
+    "type": "NUM"
+  },
+  {
+    "name": "SC035Q04TA",
+    "label": "How student tests are used: [Standardised tests]: To group students for instructional purposes",
+    "type": "NUM"
+  },
+  {
+    "name": "SC035Q04TB",
+    "label": "How student tests are used: Teacher-developed tests: To group students for instructional purposes",
+    "type": "NUM"
+  },
+  {
+    "name": "SC035Q05TA",
+    "label": "How student tests are used: [Standardised tests]: To compare the school to [district or national] performance",
+    "type": "NUM"
+  },
+  {
+    "name": "SC035Q05TB",
+    "label": "How student tests are used: Teacher-developed tests: To compare the school to [district or national] performance",
+    "type": "NUM"
+  },
+  {
+    "name": "SC035Q06TA",
+    "label": "How student tests are used: [Standardised tests]: To monitor the school's progress from year to year",
+    "type": "NUM"
+  },
+  {
+    "name": "SC035Q06TB",
+    "label": "How student tests are used: Teacher-developed tests: To monitor the school's progress from year to year",
+    "type": "NUM"
+  },
+  {
+    "name": "SC035Q07TA",
+    "label": "How student tests are used: [Standardised tests]: To make judgements about teachers' effectiveness",
+    "type": "NUM"
+  },
+  {
+    "name": "SC035Q07TB",
+    "label": "How student tests are used: Teacher-developed tests: To make judgements about teachers' effectiveness",
+    "type": "NUM"
+  },
+  {
+    "name": "SC035Q08TA",
+    "label": "How student tests are used: [Standardised tests]: To identify aspects of instruction or the curriculum that could be improved",
+    "type": "NUM"
+  },
+  {
+    "name": "SC035Q08TB",
+    "label": "How student tests are used: Teacher-developed tests: To identify aspects of instruction or the curriculum that could be improved",
+    "type": "NUM"
+  },
+  {
+    "name": "SC035Q09NA",
+    "label": "How student tests are used: [Standardised tests]: To adapt teaching to the students' needs",
+    "type": "NUM"
+  },
+  {
+    "name": "SC035Q09NB",
+    "label": "How student tests are used: Teacher-developed tests: To adapt teaching to the students' needs",
+    "type": "NUM"
+  },
+  {
+    "name": "SC035Q10TA",
+    "label": "How student tests are used: [Standardised tests]: To compare the school with other schools",
+    "type": "NUM"
+  },
+  {
+    "name": "SC035Q10TB",
+    "label": "How student tests are used: Teacher-developed tests: To compare the school with other schools",
+    "type": "NUM"
+  },
+  {
+    "name": "SC035Q11NA",
+    "label": "How student tests are used: [Standardised tests]: To award certificates to students",
+    "type": "NUM"
+  },
+  {
+    "name": "SC035Q11NB",
+    "label": "How student tests are used: Teacher-developed tests: To award certificates to students",
+    "type": "NUM"
+  },
+  {
+    "name": "SC042Q01TA",
+    "label": "School's policy for [national modal grade for 15-year-olds] students: Students are grouped by ability into different classes.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC042Q02TA",
+    "label": "School's policy for [national modal grade for 15-year-olds] students: Students are grouped by ability within their classes.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC187Q01WA",
+    "label": "Which describes school's math classes: Mathematics classes study similar content, but at different levels of difficulty.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC187Q02WA",
+    "label": "Which describes school's math classes: Different classes study different content or sets of mathematics topics that have different levels of difficulty.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC187Q03WA",
+    "label": "Which describes school's math classes: Students are grouped by ability within their mathematics classes.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC187Q04WA",
+    "label": "Which describes school's math classes: In mathematics classes, teachers use pedagogy suitable for students with heterogeneous abilities (i.e. students are not grouped by ability). ",
+    "type": "NUM"
+  },
+  {
+    "name": "SC177Q01JA",
+    "label": "Who is responsible for this at your school: Choosing a student's mathematics course(s)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC177Q02JA",
+    "label": "Who is responsible for this at your school: Choosing the level of difficulty of a student's mathematics course(s)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC177Q03JA",
+    "label": "Who is responsible for this at your school: Choosing the number of mathematics courses or [class periods] that a student takes",
+    "type": "NUM"
+  },
+  {
+    "name": "SC188Q01JA",
+    "label": "Extent structures your school's math programme: [Local or municipal] curriculum standards or curriculum guides",
+    "type": "NUM"
+  },
+  {
+    "name": "SC188Q02JA",
+    "label": "Extent structures your school's math programme: [Regional or state] curriculum standards or curriculum guides",
+    "type": "NUM"
+  },
+  {
+    "name": "SC188Q03JA",
+    "label": "Extent structures your school's math programme: [National or federal] curriculum standards or frameworks",
+    "type": "NUM"
+  },
+  {
+    "name": "SC188Q04JA",
+    "label": "Extent structures your school's math programme: In-school curriculum frameworks and standards for learning",
+    "type": "NUM"
+  },
+  {
+    "name": "SC188Q05JA",
+    "label": "Extent structures your school's math programme: Results from [local or municipal] assessments",
+    "type": "NUM"
+  },
+  {
+    "name": "SC188Q06JA",
+    "label": "Extent structures your school's math programme: Results from [regional or state] assessments",
+    "type": "NUM"
+  },
+  {
+    "name": "SC188Q07JA",
+    "label": "Extent structures your school's math programme: Results from [national or federal ] assessments",
+    "type": "NUM"
+  },
+  {
+    "name": "SC188Q08JA",
+    "label": "Extent structures your school's math programme: Recommendations from school mathematics department",
+    "type": "NUM"
+  },
+  {
+    "name": "SC188Q09JA",
+    "label": "Extent structures your school's math programme: Discretion of individual teachers",
+    "type": "NUM"
+  },
+  {
+    "name": "SC188Q10JA",
+    "label": "Extent structures your school's math programme: Results from school assessments (e.g. quizzes or tests created by teachers)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC188Q11JA",
+    "label": "Extent structures your school's math programme: Commercially designed programmes",
+    "type": "NUM"
+  },
+  {
+    "name": "SC195Q01JA",
+    "label": "How often students assessed by: Mandatory [standardised tests], e.g. [country specific example]",
+    "type": "NUM"
+  },
+  {
+    "name": "SC195Q02JA",
+    "label": "How often students assessed by: Non-mandatory [standardised tests] (e.g. publicly or commercially available standardised test material like [country specific example])",
+    "type": "NUM"
+  },
+  {
+    "name": "SC195Q03JA",
+    "label": "How often students assessed by: Teacher-developed tests",
+    "type": "NUM"
+  },
+  {
+    "name": "SC195Q04JA",
+    "label": "How often students assessed by: Teachers' judgmental ratings",
+    "type": "NUM"
+  },
+  {
+    "name": "SC198Q01JA",
+    "label": "Use of math achievement data in your school: Mathematics achievement data are posted publicly (e.g. in the media)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC198Q02JA",
+    "label": "Use of math achievement data in your school: Mathematics achievement data are tracked over time by an administrative authority",
+    "type": "NUM"
+  },
+  {
+    "name": "SC198Q03JA",
+    "label": "Use of math achievement data in your school: Mathematics achievement data are provided directly to parents or guardians",
+    "type": "NUM"
+  },
+  {
+    "name": "SC178Q01JA",
+    "label": "Percentage of students who received these [marks] in math in last [school report]: [Marks] at or above the [pass mark]",
+    "type": "NUM"
+  },
+  {
+    "name": "SC178Q02JA",
+    "label": "Percentage of students who received these [marks] in math in last [school report]: [Marks] below the [pass mark]",
+    "type": "NUM"
+  },
+  {
+    "name": "SC180Q01JA",
+    "label": "Does your school offer additional math lessons apart from math lessons offered during the usual school hours?",
+    "type": "NUM"
+  },
+  {
+    "name": "SC181Q01JA",
+    "label": "Other types of math lessons offered: [Enrichment]",
+    "type": "NUM"
+  },
+  {
+    "name": "SC181Q02JA",
+    "label": "Other types of math lessons offered: [Remedial]",
+    "type": "NUM"
+  },
+  {
+    "name": "SC181Q03JA",
+    "label": "Other types of math lessons offered: Without differentiation depending on the prior achievement level of the students",
+    "type": "NUM"
+  },
+  {
+    "name": "SC189Q02WA",
+    "label": "Applies to your school? The school has a policy on how to use [digital devices] in mathematics instruction (e.g. amount of computer use in mathematics lessons, use of specific mathematics computer programs).",
+    "type": "NUM"
+  },
+  {
+    "name": "SC189Q03WA",
+    "label": "Applies to your school? All [national modal grade for 15-year-olds] mathematics classes in the school use the same textbook.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC189Q04WA",
+    "label": "Applies to your school? Mathematics teachers in the school follow a standardised curriculum that specifies content at least on a monthly basis.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC189Q01JA",
+    "label": "Applies to your school? The school has a specific policy to encourage the teaching and learning of [social and emotional skills].",
+    "type": "NUM"
+  },
+  {
+    "name": "SC189Q05JA",
+    "label": "Applies to your school? There is a mission statement describing the [social and emotional skills] we aim to foster in our school.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC189Q06JA",
+    "label": "Applies to your school? Teachers are asked to evaluate students' [social and emotional skills] as a part of their grading.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC169Q01JA",
+    "label": "Does your school offer career guidance to students in <national modal grade for 15-year-olds>?",
+    "type": "NUM"
+  },
+  {
+    "name": "SC210Q01JA",
+    "label": "Which statements best describe the situation for [national modal grade for 15-year-olds] students at your school?",
+    "type": "NUM"
+  },
+  {
+    "name": "SC170Q01JA",
+    "label": "Who has main responsibility for career guidance for [national modal grade for 15-year-olds] students at your school?",
+    "type": "NUM"
+  },
+  {
+    "name": "SC171Q01JA",
+    "label": "Does school offer this info to [national modal grade for 15-year-olds] students: Information about internships",
+    "type": "NUM"
+  },
+  {
+    "name": "SC171Q02JA",
+    "label": "Does school offer this info to [national modal grade for 15-year-olds] students: Information about future careers",
+    "type": "NUM"
+  },
+  {
+    "name": "SC171Q03JA",
+    "label": "Does school offer this info to [national modal grade for 15-year-olds] students: Information about future educational opportunities",
+    "type": "NUM"
+  },
+  {
+    "name": "SC171Q04JA",
+    "label": "Does school offer this info to [national modal grade for 15-year-olds] students: Information about student financing (e.g. student loans or grants)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC204Q01JA",
+    "label": "Agree/disagree: Creativity can be trained.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC204Q02JA",
+    "label": "Agree/disagree: People can be creative if they keep trying.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC204Q05JA",
+    "label": "Agree/disagree: There are many different ways to be creative.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC204Q06JA",
+    "label": "Agree/disagree: It is possible to be creative in nearly any subject.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC205Q01JA",
+    "label": "Agree/disagree: Teachers in our school give students enough time to come up with creative solutions on assignments.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC205Q02JA",
+    "label": "Agree/disagree: Teachers in our school value students' creativity.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC205Q03JA",
+    "label": "Agree/disagree: Class activities in our school help students think about new ways to solve complex tasks.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC205Q05JA",
+    "label": "Agree/disagree: Mathematics assignments at our school require students to come up with different solutions for a complex task.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC205Q06JA",
+    "label": "Agree/disagree: Teachers in our school encourage students to come up with original answers.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC205Q07JA",
+    "label": "Agree/disagree: At our school, students are given a chance to express their ideas.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC207Q01JA",
+    "label": "Is this offered at your school, and how often offered: Art classes/activities (e.g. painting, drawing)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC207Q02JA",
+    "label": "Is this offered at your school, and how often offered: Creative writing classes/activities",
+    "type": "NUM"
+  },
+  {
+    "name": "SC207Q03JA",
+    "label": "Is this offered at your school, and how often offered: Music classes/activities (e.g. chorus, band)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC207Q04JA",
+    "label": "Is this offered at your school, and how often offered: Debate [club]",
+    "type": "NUM"
+  },
+  {
+    "name": "SC207Q05JA",
+    "label": "Is this offered at your school, and how often offered: Dramatics, theatre class/activities",
+    "type": "NUM"
+  },
+  {
+    "name": "SC207Q06JA",
+    "label": "Is this offered at your school, and how often offered: Publications (e.g. newspaper, [yearbooks], literary magazine)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC207Q07JA",
+    "label": "Is this offered at your school, and how often offered: Science [club]",
+    "type": "NUM"
+  },
+  {
+    "name": "SC207Q08JA",
+    "label": "Is this offered at your school, and how often offered: Computer programming classes/activities",
+    "type": "NUM"
+  },
+  {
+    "name": "SC208Q01JA",
+    "label": "Agree/disagree: Most students at my school are creative.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC208Q02JA",
+    "label": "Agree/disagree: Most students at my school enjoy doing creative projects.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC208Q03JA",
+    "label": "Agree/disagree: Most students at my school perform well when given the freedom to be creative.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC208Q04JA",
+    "label": "Agree/disagree: Most students at my school enjoy work that is challenging.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC208Q05JA",
+    "label": "Agree/disagree: Most students at my school enjoy learning new things.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC208Q06JA",
+    "label": "Agree/disagree: Most students at my school perform well when given complex problems to solve.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC208Q07JA",
+    "label": "Agree/disagree: Most students at my school are artistic.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC208Q08JA",
+    "label": "Agree/disagree: Most students at my school are imaginative.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC208Q09JA",
+    "label": "Agree/disagree: Most students at my school are able to think of many new ideas.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC213Q01JA",
+    "label": "In last 3 yrs, how many school days was school closed due to: Number of school days closed because of COVID-19:",
+    "type": "NUM"
+  },
+  {
+    "name": "SC213Q02JA",
+    "label": "In last 3 yrs, how many school days was school closed due to: Number of school days closed for another reason (e.g. a natural disaster, strikes or demonstrations, air pollution):",
+    "type": "NUM"
+  },
+  {
+    "name": "SC214Q01JA",
+    "label": "During COVID closures, instruction organized: Classes were taught remotely using digital devices.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC214Q02JA",
+    "label": "During COVID closures, instruction organized: Students were asked to complete classes on their own based on materials distributed to them.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC214Q03JA",
+    "label": "During COVID closures, instruction organized: Classes were cancelled and not replaced by remote instruction.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC215Q01JA",
+    "label": "During COVID closures, did school offer students: Paper textbooks, workbooks, or worksheets ",
+    "type": "NUM"
+  },
+  {
+    "name": "SC215Q02JA",
+    "label": "During COVID closures, did school offer students: Digital textbooks, workbooks, or worksheets ",
+    "type": "NUM"
+  },
+  {
+    "name": "SC215Q03JA",
+    "label": "During COVID closures, did school offer students: Real-time lessons by a teacher from my school on a video communication program (e.g. [ZoomTM], [SkypeTM], [Google® MeetTM], [Microsoft® Teams]) ",
+    "type": "NUM"
+  },
+  {
+    "name": "SC215Q04JA",
+    "label": "During COVID closures, did school offer students: Recorded lessons or other digital material created by teachers from my school ",
+    "type": "NUM"
+  },
+  {
+    "name": "SC215Q05JA",
+    "label": "During COVID closures, did school offer students: Recorded lessons or other digital material created by others outside of school ",
+    "type": "NUM"
+  },
+  {
+    "name": "SC215Q06JA",
+    "label": "During COVID closures, did school offer students: Additional instructional resources for students with special learning needs ",
+    "type": "NUM"
+  },
+  {
+    "name": "SC215Q07JA",
+    "label": "During COVID closures, did school offer students: Additional instructional resources for students whose [heritage language] is different from [test language] ",
+    "type": "NUM"
+  },
+  {
+    "name": "SC215Q08JA",
+    "label": "During COVID closures, did school offer students: Lessons broadcast over television or radio ",
+    "type": "NUM"
+  },
+  {
+    "name": "SC216Q01JA",
+    "label": "During COVID closures, remote instruction hindered by: Lack of access to digital devices among students",
+    "type": "NUM"
+  },
+  {
+    "name": "SC216Q02JA",
+    "label": "During COVID closures, remote instruction hindered by: Lack of access to digital devices among teachers",
+    "type": "NUM"
+  },
+  {
+    "name": "SC216Q03JA",
+    "label": "During COVID closures, remote instruction hindered by: Lack of access to the Internet among students",
+    "type": "NUM"
+  },
+  {
+    "name": "SC216Q04JA",
+    "label": "During COVID closures, remote instruction hindered by: Lack of access to the Internet among teachers",
+    "type": "NUM"
+  },
+  {
+    "name": "SC216Q05JA",
+    "label": "During COVID closures, remote instruction hindered by: Lack of learning management systems or school learning platforms (e.g. [Blackboard®], [Edmodo®], [Moodle®], [Google® Classroom™]) ",
+    "type": "NUM"
+  },
+  {
+    "name": "SC216Q06JA",
+    "label": "During COVID closures, remote instruction hindered by: Lack of educational materials for distance learning (e.g. textbooks, workbooks, worksheets, instructional videos) ",
+    "type": "NUM"
+  },
+  {
+    "name": "SC216Q07JA",
+    "label": "During COVID closures, remote instruction hindered by: Difficulty getting in touch with students while school buildings were closed",
+    "type": "NUM"
+  },
+  {
+    "name": "SC216Q08JA",
+    "label": "During COVID closures, remote instruction hindered by: Shortage of teachers available to provide remote instruction",
+    "type": "NUM"
+  },
+  {
+    "name": "SC216Q09JA",
+    "label": "During COVID closures, remote instruction hindered by: Lack of experience in providing remote instruction among teachers ",
+    "type": "NUM"
+  },
+  {
+    "name": "SC217Q01JA",
+    "label": "During COVID closures, were teachers asked to: Communicate with students through written notes or letters",
+    "type": "NUM"
+  },
+  {
+    "name": "SC217Q02JA",
+    "label": "During COVID closures, were teachers asked to: Communicate with students through email",
+    "type": "NUM"
+  },
+  {
+    "name": "SC217Q03JA",
+    "label": "During COVID closures, were teachers asked to: Conduct virtual office hours or meetings with students",
+    "type": "NUM"
+  },
+  {
+    "name": "SC217Q04JA",
+    "label": "During COVID closures, were teachers asked to: Answer students' questions over the phone",
+    "type": "NUM"
+  },
+  {
+    "name": "SC217Q05JA",
+    "label": "During COVID closures, were teachers asked to: Initiate calls to students (e.g. phone, Skype™)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC217Q06JA",
+    "label": "During COVID closures, were teachers asked to: Ask parents or guardians for their help with their child's distance learning",
+    "type": "NUM"
+  },
+  {
+    "name": "SC217Q07JA",
+    "label": "During COVID closures, were teachers asked to:  Initiate communications (e.g. email, phone, [SkypeTM]) with parents or guardians about their child's progress",
+    "type": "NUM"
+  },
+  {
+    "name": "SC217Q08JA",
+    "label": "During COVID closures, were teachers asked to: Provide information to parents or guardians about how to help their child with school work",
+    "type": "NUM"
+  },
+  {
+    "name": "SC217Q10JA",
+    "label": "During COVID closures, were teachers asked to: Keep track of students' completion of distance learning assignments",
+    "type": "NUM"
+  },
+  {
+    "name": "SC218Q01JA",
+    "label": "During COVID closures, did the school keep track of students' attendance in distance learning activities?",
+    "type": "NUM"
+  },
+  {
+    "name": "SC219Q01JA",
+    "label": "During COVID closures, approximately what percentage of students attended distance learning activities in a typical week?",
+    "type": "NUM"
+  },
+  {
+    "name": "SC220Q01JA",
+    "label": "During COVID closures, approximately what percentage of students did not attend any distance learning activities?",
+    "type": "NUM"
+  },
+  {
+    "name": "SC221Q01JA",
+    "label": "During COVID closures, resources for teachers' remote instruction: Regular meetings with other teachers and staff",
+    "type": "NUM"
+  },
+  {
+    "name": "SC221Q02JA",
+    "label": "During COVID closures, resources for teachers' remote instruction: Online platforms and tools for self-directed or collaborative learning (e.g. online forums, discussion boards, professional communities)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC221Q03JA",
+    "label": "During COVID closures, resources for teachers' remote instruction: Tools that help teachers develop remote instruction plans (e.g. digital lesson planners, compiled resources and guides offered by organisations)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC221Q04JA",
+    "label": "During COVID closures, resources for teachers' remote instruction: Professional development activities focused on how to provide remote instruction",
+    "type": "NUM"
+  },
+  {
+    "name": "SC222Q01JA",
+    "label": "During COVID closures, extent you felt these groups supported your school:  A national educational authority",
+    "type": "NUM"
+  },
+  {
+    "name": "SC222Q02JA",
+    "label": "During COVID closures, extent you felt these groups supported your school:  A regional educational authority",
+    "type": "NUM"
+  },
+  {
+    "name": "SC222Q03JA",
+    "label": "During COVID closures, extent you felt these groups supported your school:  A local educational authority",
+    "type": "NUM"
+  },
+  {
+    "name": "SC222Q04JA",
+    "label": "During COVID closures, extent you felt these groups supported your school:  Students' parents or guardians",
+    "type": "NUM"
+  },
+  {
+    "name": "SC222Q05JA",
+    "label": "During COVID closures, extent you felt these groups supported your school:  Private donors",
+    "type": "NUM"
+  },
+  {
+    "name": "SC223Q01JA",
+    "label": "School prepare by? Training teaching staff on the use of video communication programs (e.g. Zoom™, Skype™, Google® Meet™, Microsoft® Teams) for remote instruction",
+    "type": "NUM"
+  },
+  {
+    "name": "SC223Q02JA",
+    "label": "School prepare by? Training students on the use of video communication programs (e.g. Zoom™, Skype™, Google® Meet™, Microsoft® Teams) for remote instruction",
+    "type": "NUM"
+  },
+  {
+    "name": "SC223Q03JA",
+    "label": "School prepare by? Preparing digital material for remote instruction (e.g. reorganising existing resources, designing new resources)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC223Q04JA",
+    "label": "School prepare by? Preparing paper-based material for remote instruction (e.g. reorganising existing resources, designing new resources)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC223Q05JA",
+    "label": "School prepare by? Adapting existing curriculum plans for remote instruction (e.g. modifying course requirements, sequence of lessons, grading policies)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC223Q06JA",
+    "label": "School prepare by? Preparing digital materials for assessing student learning via online assessment (e.g. quizzes, tests)",
+    "type": "NUM"
+  },
+  {
+    "name": "SC223Q07JA",
+    "label": "School prepare by? Compiling instructional resources for parents or guardians to support their child's learning outside the school",
+    "type": "NUM"
+  },
+  {
+    "name": "SC223Q08JA",
+    "label": "School prepare by? Ensuring that students have access to digital devices for remote instruction",
+    "type": "NUM"
+  },
+  {
+    "name": "SC223Q09JA",
+    "label": "School prepare by? Ensuring that teaching staff have access to digital resources for remote instruction",
+    "type": "NUM"
+  },
+  {
+    "name": "SC223Q10JA",
+    "label": "School prepare by? Preparing a plan for transitioning students and teachers from classroom-based instruction to remote instruction",
+    "type": "NUM"
+  },
+  {
+    "name": "SC155Q06HA",
+    "label": "Agree/disagree: Teachers have the necessary technical and pedagogical skills to integrate digital devices in instruction.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC155Q07HA",
+    "label": "Agree/disagree: Teachers have sufficient time to prepare lessons integrating digital devices.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC155Q08HA",
+    "label": "Agree/disagree: Effective professional resources for teachers to learn how to use digital devices are available.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC155Q09HA",
+    "label": "Agree/disagree: An effective online learning support platform is available.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC155Q10HA",
+    "label": "Agree/disagree: Teachers are provided with incentives to integrate digital devices in their teaching.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC155Q11HA",
+    "label": "Agree/disagree: The school has sufficient qualified technical assistant staff.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC224Q01JA",
+    "label": "How prepared is your school to provide remote instruction if closed to students for an extended period in the future?",
+    "type": "NUM"
+  },
+  {
+    "name": "SC209Q04JA",
+    "label": "Have you: I have spoken to teachers at my school about the importance of the PISA test.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC209Q05JA",
+    "label": "Have you: I have spoken to parents or guardians about the importance of the PISA test.",
+    "type": "NUM"
+  },
+  {
+    "name": "SC209Q06JA",
+    "label": "Have you: I have encouraged the students at my school to do their best during the PISA test.",
+    "type": "NUM"
+  },
+  {
+    "name": "PRIVATESCH",
+    "label": "School type derived from sampling information; values = public, private, missing",
+    "type": "CHAR"
+  },
+  {
+    "name": "SCHLTYPE",
+    "label": "School type",
+    "type": "NUM"
+  },
+  {
+    "name": "SCHSIZE",
+    "label": "School size (Sum)",
+    "type": "NUM"
+  },
+  {
+    "name": "TOTAT",
+    "label": "Total number of all teachers at school (Sum)",
+    "type": "NUM"
+  },
+  {
+    "name": "PROATCE",
+    "label": "Proportion of all teachers fully certified",
+    "type": "NUM"
+  },
+  {
+    "name": "PROPAT6",
+    "label": "Proportion of all teachers with at least ISCED level 6 Bachelor qualification",
+    "type": "NUM"
+  },
+  {
+    "name": "PROPAT7",
+    "label": "Proportion of all teachers with at least ISCED level 7 Master qualification",
+    "type": "NUM"
+  },
+  {
+    "name": "PROPAT8",
+    "label": "Proportion of all teachers with ISCED level 8 Doctoral qualification",
+    "type": "NUM"
+  },
+  {
+    "name": "STRATIO",
+    "label": "Student-teacher ratio",
+    "type": "NUM"
+  },
+  {
+    "name": "TOTMATH",
+    "label": "Total number of mathematics teachers at school (Sum)",
+    "type": "NUM"
+  },
+  {
+    "name": "PROPMATH",
+    "label": "Proportion of mathematics teachers at school",
+    "type": "NUM"
+  },
+  {
+    "name": "SMRATIO",
+    "label": "Student-mathematics teacher ratio",
+    "type": "NUM"
+  },
+  {
+    "name": "TOTSTAFF",
+    "label": "Total number of non-teaching staff at school",
+    "type": "NUM"
+  },
+  {
+    "name": "PROPSUPP",
+    "label": "Proportion of personnel for pedagogical support",
+    "type": "NUM"
+  },
+  {
+    "name": "PROADMIN",
+    "label": "Proportion of school administrative personnel",
+    "type": "NUM"
+  },
+  {
+    "name": "PROMGMT",
+    "label": "Proportion of school management personnel",
+    "type": "NUM"
+  },
+  {
+    "name": "PROOSTAF",
+    "label": "Proportion of other non-teaching staff",
+    "type": "NUM"
+  },
+  {
+    "name": "SCHSEL",
+    "label": "School selectivity",
+    "type": "NUM"
+  },
+  {
+    "name": "SCHAUTO",
+    "label": "School autonomy (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "TCHPART",
+    "label": "Teacher participation (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "SRESPCUR",
+    "label": "School responsibility for curriculum",
+    "type": "NUM"
+  },
+  {
+    "name": "SRESPRES",
+    "label": "School responsibility for resources",
+    "type": "NUM"
+  },
+  {
+    "name": "EDULEAD",
+    "label": "Educational leadership (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "INSTLEAD",
+    "label": "Instructional leadership (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "ENCOURPG",
+    "label": "School encouragement of parent or guardian involvement (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "RATCMP1",
+    "label": "Availability of computers",
+    "type": "NUM"
+  },
+  {
+    "name": "RATCMP2",
+    "label": "Computers connected to the Internet",
+    "type": "NUM"
+  },
+  {
+    "name": "RATTAB",
+    "label": "Availability of tablet devices",
+    "type": "NUM"
+  },
+  {
+    "name": "DIGDVPOL",
+    "label": "Digital device policies at school (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "TEAFDBK",
+    "label": "Feedback to teachers (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "MTTRAIN",
+    "label": "Mathematics teacher training (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "DMCVIEWS",
+    "label": "School diversity and multi-cultural views (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "NEGSCLIM",
+    "label": "Negative school climate (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "STAFFSHORT",
+    "label": "Shortage of educational staff (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "EDUSHORT",
+    "label": "Shortage of educational material (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "STUBEHA",
+    "label": "Student-related factors affecting school climate (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "TEACHBEHA",
+    "label": "Teacher-related factors affecting school climate (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "MCLSIZE",
+    "label": "Math class size",
+    "type": "NUM"
+  },
+  {
+    "name": "CLSIZE",
+    "label": "Class size (test language class)",
+    "type": "NUM"
+  },
+  {
+    "name": "STDTEST",
+    "label": "Use of standardized tests (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "TDTEST",
+    "label": "Use of teacher-developed tests (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "CREACTIV",
+    "label": "Creative extra-curricular activities (3 activities)",
+    "type": "NUM"
+  },
+  {
+    "name": "ALLACTIV",
+    "label": "Extra-curricular activities offered (all) (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "MACTIV",
+    "label": "Mathematics-related extra-curricular activities at school ",
+    "type": "NUM"
+  },
+  {
+    "name": "MATHEXC",
+    "label": "Mathematics extension courses offered at school",
+    "type": "NUM"
+  },
+  {
+    "name": "ABGMATH",
+    "label": "Ability grouping for mathematics classes",
+    "type": "NUM"
+  },
+  {
+    "name": "BCREATSC",
+    "label": "Beliefs about creativity (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "CREENVSC",
+    "label": "Creative school environment (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "ACTCRESC",
+    "label": "Creative school activities offered (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "OPENCUL",
+    "label": "Openness culture/climate (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "SCSUPRTED",
+    "label": "School Closure Support from Education Authorities",
+    "type": "NUM"
+  },
+  {
+    "name": "SCSUPRT",
+    "label": "School Closure Support from Other Sources",
+    "type": "NUM"
+  },
+  {
+    "name": "PROBSCRI",
+    "label": "Problems with Schools’ Capacity to Provide Remote Instruction (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "SCPREPBP",
+    "label": "School Preparation for Remote Instruction, Before Pandemic (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "SCPREPAP",
+    "label": "School Preparation for Remote Instruction, In Response to Pandemic (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "DIGPREP",
+    "label": "Preparedness for Digital Learning (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "W_SCHGRNRABWT",
+    "label": "GRADE NONRESPONSE ADJUSTED SCHOOL BASE WEIGHT",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTUWT_SCH_SUM",
+    "label": "Sum of W_FSTUWT",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTUWT_SCH_N",
+    "label": "N of W_FSTUWT",
+    "type": "NUM"
+  },
+  {
+    "name": "SENWT",
+    "label": "Senate Weight (sum of 5000 per country)",
+    "type": "NUM"
+  },
+  {
+    "name": "VER_DAT",
+    "label": "Date of the database creation ",
+    "type": "CHAR"
+  }
+]

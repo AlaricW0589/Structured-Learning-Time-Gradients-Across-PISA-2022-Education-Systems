@@ -1,0 +1,6392 @@
+[
+  {
+    "name": "CNT",
+    "label": "Country code 3-character",
+    "type": "CHAR"
+  },
+  {
+    "name": "CNTRYID",
+    "label": "Country Identifier",
+    "type": "NUM"
+  },
+  {
+    "name": "CNTSCHID",
+    "label": "Intl. School ID",
+    "type": "NUM"
+  },
+  {
+    "name": "CNTSTUID",
+    "label": "Intl. Student ID",
+    "type": "NUM"
+  },
+  {
+    "name": "CYC",
+    "label": "PISA Assessment Cycle (2 digits + 2 character Assessment type - MS/FT)",
+    "type": "CHAR"
+  },
+  {
+    "name": "NatCen",
+    "label": "National Centre 6-digit Code",
+    "type": "CHAR"
+  },
+  {
+    "name": "STRATUM",
+    "label": "Stratum ID 5-character (cnt + original stratum ID)",
+    "type": "CHAR"
+  },
+  {
+    "name": "SUBNATIO",
+    "label": "Adjudicated sub-region code 7-digit code (3-digit country code + region ID + stratum ID)",
+    "type": "CHAR"
+  },
+  {
+    "name": "REGION",
+    "label": "REGION",
+    "type": "NUM"
+  },
+  {
+    "name": "OECD",
+    "label": "OECD country",
+    "type": "NUM"
+  },
+  {
+    "name": "ADMINMODE",
+    "label": "Mode of Respondent",
+    "type": "NUM"
+  },
+  {
+    "name": "LANGTEST_QQQ",
+    "label": "Language of Questionnaire",
+    "type": "NUM"
+  },
+  {
+    "name": "LANGTEST_COG",
+    "label": "Language of Assessment",
+    "type": "NUM"
+  },
+  {
+    "name": "LANGTEST_PAQ",
+    "label": "Language of Parent Questionnaire",
+    "type": "NUM"
+  },
+  {
+    "name": "Option_CT",
+    "label": "Creative Thinking Option",
+    "type": "NUM"
+  },
+  {
+    "name": "Option_FL",
+    "label": "Financial Literacy Option",
+    "type": "NUM"
+  },
+  {
+    "name": "Option_ICTQ",
+    "label": "ICT Questionnaire Option",
+    "type": "NUM"
+  },
+  {
+    "name": "Option_WBQ",
+    "label": "Well-Being Questionnaire Option",
+    "type": "NUM"
+  },
+  {
+    "name": "Option_PQ",
+    "label": "Parent Questionnaire Option",
+    "type": "NUM"
+  },
+  {
+    "name": "Option_TQ",
+    "label": "Teacher Questionnaire Option",
+    "type": "NUM"
+  },
+  {
+    "name": "Option_UH",
+    "label": "Une Heure Option",
+    "type": "NUM"
+  },
+  {
+    "name": "BOOKID",
+    "label": "Form Identifier",
+    "type": "NUM"
+  },
+  {
+    "name": "ST001D01T",
+    "label": "Student International Grade (Derived)",
+    "type": "NUM"
+  },
+  {
+    "name": "ST003D02T",
+    "label": "Student (Standardized) Birth - Month",
+    "type": "NUM"
+  },
+  {
+    "name": "ST003D03T",
+    "label": "Student (Standardized) Birth -Year",
+    "type": "NUM"
+  },
+  {
+    "name": "ST004D01T",
+    "label": "Student (Standardized) Gender",
+    "type": "NUM"
+  },
+  {
+    "name": "ST250Q01JA",
+    "label": "Which of the following are in your [home]: A room of your own",
+    "type": "NUM"
+  },
+  {
+    "name": "ST250Q02JA",
+    "label": "Which of the following are in your [home]: A computer (laptop, desktop, or tablet) that you can use for school work",
+    "type": "NUM"
+  },
+  {
+    "name": "ST250Q03JA",
+    "label": "Which of the following are in your [home]: Educational Software or Apps",
+    "type": "NUM"
+  },
+  {
+    "name": "ST250Q04JA",
+    "label": "Which of the following are in your [home]: Your own [cell phone] with Internet access (e.g. smartphone)",
+    "type": "NUM"
+  },
+  {
+    "name": "ST250Q05JA",
+    "label": "Which of the following are in your [home]: Internet access (e.g. Wi-fi) (excluding through smartphones)",
+    "type": "NUM"
+  },
+  {
+    "name": "ST250D06JA",
+    "label": "Which of the following are in your home? <Country-specific item 1>",
+    "type": "CHAR"
+  },
+  {
+    "name": "ST250D07JA",
+    "label": "Which of the following are in your home? <Country-specific item 2>",
+    "type": "CHAR"
+  },
+  {
+    "name": "ST251Q01JA",
+    "label": "How many of these items are there at your [home]: Cars, vans, or trucks",
+    "type": "NUM"
+  },
+  {
+    "name": "ST251Q02JA",
+    "label": "How many of these items are there at your [home]: Mopeds or motorcycles",
+    "type": "NUM"
+  },
+  {
+    "name": "ST251Q03JA",
+    "label": "How many of these items are there at your [home]: Rooms with a bath or shower",
+    "type": "NUM"
+  },
+  {
+    "name": "ST251Q04JA",
+    "label": "How many of these items are there at your [home]: Rooms with a [flush toilet]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST251Q06JA",
+    "label": "How many of these items are there at your [home]: Musical instruments (e.g. guitar, piano, [country-specific example])",
+    "type": "NUM"
+  },
+  {
+    "name": "ST251Q07JA",
+    "label": "How many of these items are there at your [home]: Works of art (e.g. paintings, sculptures, [country-specific example])",
+    "type": "NUM"
+  },
+  {
+    "name": "ST251D08JA",
+    "label": "How many of these items are there at your home? <Country-specific item 1>",
+    "type": "CHAR"
+  },
+  {
+    "name": "ST251D09JA",
+    "label": "How many of these items are there at your home? <Country-specific item 2>",
+    "type": "CHAR"
+  },
+  {
+    "name": "ST253Q01JA",
+    "label": "How many [digital devices] with screens are there in your [home]?",
+    "type": "NUM"
+  },
+  {
+    "name": "ST254Q01JA",
+    "label": "How many of the following [digital devices] are in your [home]: Televisions",
+    "type": "NUM"
+  },
+  {
+    "name": "ST254Q02JA",
+    "label": "How many of the following [digital devices] are in your [home]: Desktop computers",
+    "type": "NUM"
+  },
+  {
+    "name": "ST254Q03JA",
+    "label": "How many of the following [digital devices] are in your [home]: Laptop computers or notebooks",
+    "type": "NUM"
+  },
+  {
+    "name": "ST254Q04JA",
+    "label": "How many of the following [digital devices] are in your [home]: Tablets (e.g. [iPad®], [BlackBerry® Playbook™])",
+    "type": "NUM"
+  },
+  {
+    "name": "ST254Q05JA",
+    "label": "How many of the following [digital devices] are in your [home]: E-book readers (e.g. [Kindle™], [Kobo], [Bookeen])",
+    "type": "NUM"
+  },
+  {
+    "name": "ST254Q06JA",
+    "label": "How many of the following [digital devices] are in your [home]: [Cell phones] with Internet access (i.e. smartphones)",
+    "type": "NUM"
+  },
+  {
+    "name": "ST255Q01JA",
+    "label": "How many books are there in your [home]?",
+    "type": "NUM"
+  },
+  {
+    "name": "ST256Q01JA",
+    "label": "How many of these books at [home]: Religious books (e.g. [Bible], [Example 2])",
+    "type": "NUM"
+  },
+  {
+    "name": "ST256Q02JA",
+    "label": "How many of these books at [home]: Classical literature (e.g. [Shakespeare], [Example 2])",
+    "type": "NUM"
+  },
+  {
+    "name": "ST256Q03JA",
+    "label": "How many of these books at [home]: Contemporary literature",
+    "type": "NUM"
+  },
+  {
+    "name": "ST256Q06JA",
+    "label": "How many of these books at [home]: Books on science",
+    "type": "NUM"
+  },
+  {
+    "name": "ST256Q07JA",
+    "label": "How many of these books at [home]: Books on art, music, or design",
+    "type": "NUM"
+  },
+  {
+    "name": "ST256Q08JA",
+    "label": "How many of these books at [home]: [Technical reference books]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST256Q09JA",
+    "label": "How many of these books at [home]: Dictionaries",
+    "type": "NUM"
+  },
+  {
+    "name": "ST256Q10JA",
+    "label": "How many of these books at [home]: Books to help with your school work",
+    "type": "NUM"
+  },
+  {
+    "name": "ST230Q01JA",
+    "label": "How many siblings (including brothers, sisters, step-brothers, and step-sisters) do you have?",
+    "type": "NUM"
+  },
+  {
+    "name": "ST005Q01JA",
+    "label": "What is the [highest level of schooling] completed by your mother?",
+    "type": "NUM"
+  },
+  {
+    "name": "ST006Q01JA",
+    "label": "Does your mother have any of the following qualifications: [ISCED level 8]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST006Q02JA",
+    "label": "Does your mother have any of the following qualifications: [ISCED level 7]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST006Q03JA",
+    "label": "Does your mother have any of the following qualifications: [ISCED level 6]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST006Q04JA",
+    "label": "Does your mother have any of the following qualifications: [ISCED level 5]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST006Q05JA",
+    "label": "Does your mother have any of the following qualifications: [ISCED level 4]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST007Q01JA",
+    "label": "What is the [highest level of schooling] completed by your father?",
+    "type": "NUM"
+  },
+  {
+    "name": "ST008Q01JA",
+    "label": "Does your father have any of the following qualifications: [ISCED level 8]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST008Q02JA",
+    "label": "Does your father have any of the following qualifications: [ISCED level 7]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST008Q03JA",
+    "label": "Does your father have any of the following qualifications: [ISCED level 6]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST008Q04JA",
+    "label": "Does your father have any of the following qualifications: [ISCED level 5]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST008Q05JA",
+    "label": "Does your father have any of the following qualifications: [ISCED level 4]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST258Q01JA",
+    "label": "In the past 30 days, how often did you not eat because there was not enough money to buy food?",
+    "type": "NUM"
+  },
+  {
+    "name": "ST259Q01JA",
+    "label": "Now think about where you would place your family on this scale. Where would you say your family stands at this time?",
+    "type": "NUM"
+  },
+  {
+    "name": "ST259Q02JA",
+    "label": "Now think about where you would place your family on this scale. Where do you think you will stand when you are 30?",
+    "type": "NUM"
+  },
+  {
+    "name": "ST019AQ01T",
+    "label": "In what country were you and your parents born? You",
+    "type": "NUM"
+  },
+  {
+    "name": "ST019BQ01T",
+    "label": "In what country were you and your parents born? Mother",
+    "type": "NUM"
+  },
+  {
+    "name": "ST019CQ01T",
+    "label": "In what country were you and your parents born? Father",
+    "type": "NUM"
+  },
+  {
+    "name": "ST021Q01TA",
+    "label": "How old were you when you arrived in [country of test]? ",
+    "type": "NUM"
+  },
+  {
+    "name": "ST022Q01TA",
+    "label": "What language do you speak at home most of the time?",
+    "type": "NUM"
+  },
+  {
+    "name": "ST226Q01JA",
+    "label": "How long have you been enrolled at this school?",
+    "type": "NUM"
+  },
+  {
+    "name": "ST125Q01NA",
+    "label": "How old were you when you started [ISCED 0]: Years",
+    "type": "NUM"
+  },
+  {
+    "name": "ST126Q01TA",
+    "label": "How old were you when you started [ISCED 1]: Years",
+    "type": "NUM"
+  },
+  {
+    "name": "ST127Q01TA",
+    "label": "Have you ever repeated a [grade]: At [ISCED 1]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST127Q02TA",
+    "label": "Have you ever repeated a [grade]: At [ISCED 2]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST127Q03TA",
+    "label": "Have you ever repeated a [grade]: At [ISCED 3]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST260Q01JA",
+    "label": "Have you ever missed school for more than three months in a row: At [ISCED 1]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST260Q02JA",
+    "label": "Have you ever missed school for more than three months in a row: At [ISCED 2]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST260Q03JA",
+    "label": "Have you ever missed school for more than three months in a row: At [ISCED 3]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST261Q01JA",
+    "label": "Why miss school for 3+ months: I was bored.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST261Q02JA",
+    "label": "Why miss school for 3+ months: I was suspended for something (e.g. violence, aggression, use of drugs, drug dealing).",
+    "type": "NUM"
+  },
+  {
+    "name": "ST261Q03JA",
+    "label": "Why miss school for 3+ months: I was pregnant.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST261Q04JA",
+    "label": "Why miss school for 3+ months: I could not reach school because of transportation problems.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST261Q05JA",
+    "label": "Why miss school for 3+ months: I had to take care of a family member.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST261Q06JA",
+    "label": "Why miss school for 3+ months: I had to help with work at home, the family business, or on the family land.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST261Q07JA",
+    "label": "Why miss school for 3+ months: I had to get work to bring money home.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST261Q08JA",
+    "label": "Why miss school for 3+ months: I was sick.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST261Q09JA",
+    "label": "Why miss school for 3+ months: I did not feel safe at school.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST261Q10JA",
+    "label": "Why miss school for 3+ months: I could not pay [school fees].",
+    "type": "NUM"
+  },
+  {
+    "name": "ST261Q11JA",
+    "label": "Why miss school for 3+ months: School was closed because of a natural disaster (e.g. flood, earthquake).",
+    "type": "NUM"
+  },
+  {
+    "name": "ST062Q01TA",
+    "label": "In the last two full weeks of school, how often: I [skipped] a whole school day",
+    "type": "NUM"
+  },
+  {
+    "name": "ST062Q02TA",
+    "label": "In the last two full weeks of school, how often: I [skipped] some classes",
+    "type": "NUM"
+  },
+  {
+    "name": "ST062Q03TA",
+    "label": "In the last two full weeks of school, how often: I arrived late for school",
+    "type": "NUM"
+  },
+  {
+    "name": "ST267Q01JA",
+    "label": "Agree/disagree: The teachers at my school are respectful towards me.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST267Q02JA",
+    "label": "Agree/disagree: If I walked into my classes upset, my teachers would be concerned about me.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST267Q03JA",
+    "label": "Agree/disagree: If I came back to visit my school 3 years from now, my teachers would be excited to see me.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST267Q04JA",
+    "label": "Agree/disagree: I feel intimidated by the teachers at my school.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST267Q05JA",
+    "label": "Agree/disagree: When my teachers ask how I am doing, they are really interested in my answer.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST267Q06JA",
+    "label": "Agree/disagree: The teachers at my school are friendly towards me.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST267Q07JA",
+    "label": "Agree/disagree: The teachers at my school are interested in students' well-being.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST267Q08JA",
+    "label": "Agree/disagree: The teachers at my school are mean towards me.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST034Q01TA",
+    "label": "Agree/disagree:  I feel like an outsider (or left out of things) at school.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST034Q02TA",
+    "label": "Agree/disagree:  I make friends easily at school.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST034Q03TA",
+    "label": "Agree/disagree:  I feel like I belong at school.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST034Q04TA",
+    "label": "Agree/disagree:  I feel awkward and out of place in my school.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST034Q05TA",
+    "label": "Agree/disagree:  Other students seem to like me.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST034Q06TA",
+    "label": "Agree/disagree:  I feel lonely at school.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST038Q03NA",
+    "label": "In past 12 months, how often: Other students left me out of things on purpose.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST038Q04NA",
+    "label": "In past 12 months, how often: Other students made fun of me.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST038Q05NA",
+    "label": "In past 12 months, how often: I was threatened by other students.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST038Q06NA",
+    "label": "In past 12 months, how often: Other students took away or destroyed things that belonged to me.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST038Q07NA",
+    "label": "In past 12 months, how often: I got hit or pushed around by other students.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST038Q08NA",
+    "label": "In past 12 months, how often: Other students spread nasty rumours about me.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST038Q09JA",
+    "label": "In past 12 months, how often: I was in a physical fight on school property.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST038Q10JA",
+    "label": "In past 12 months, how often: I stayed home from school because I felt unsafe.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST038Q11JA",
+    "label": "In past 12 months, how often: I gave money to someone at school because they threatened me.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST265Q01JA",
+    "label": "Agree/disagree: I feel safe on my way to school.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST265Q02JA",
+    "label": "Agree/disagree: I feel safe on my way home from school.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST265Q03JA",
+    "label": "Agree/disagree: I feel safe in my classrooms at school.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST265Q04JA",
+    "label": "Agree/disagree: I feel safe at other places at school (e.g. hallway, cafeteria, restroom).",
+    "type": "NUM"
+  },
+  {
+    "name": "ST266Q01JA",
+    "label": "Occur during past four weeks:  Our school was vandalised.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST266Q02JA",
+    "label": "Occur during past four weeks:  I witnessed a fight on school property in which someone got hurt.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST266Q03JA",
+    "label": "Occur during past four weeks:  I saw gangs in school.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST266Q04JA",
+    "label": "Occur during past four weeks:  I heard a student threaten to hurt another student.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST266Q05JA",
+    "label": "Occur during past four weeks:  I saw a student carrying a gun or knife at school.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST294Q01JA",
+    "label": "How many days/wk before school: Eat breakfast",
+    "type": "NUM"
+  },
+  {
+    "name": "ST294Q02JA",
+    "label": "How many days/wk before school: Study for school or homework",
+    "type": "NUM"
+  },
+  {
+    "name": "ST294Q03JA",
+    "label": "How many days/wk before school: Work in the household or take care of family members",
+    "type": "NUM"
+  },
+  {
+    "name": "ST294Q04JA",
+    "label": "How many days/wk before school: Work for pay",
+    "type": "NUM"
+  },
+  {
+    "name": "ST294Q05JA",
+    "label": "How many days/wk before school: Exercise or practise a sport (e.g. running, cycling, aerobics, soccer, skating, [country-specific])",
+    "type": "NUM"
+  },
+  {
+    "name": "ST295Q01JA",
+    "label": "How many days/wk after school: Eat dinner",
+    "type": "NUM"
+  },
+  {
+    "name": "ST295Q02JA",
+    "label": "How many days/wk after school: Study for school or homework",
+    "type": "NUM"
+  },
+  {
+    "name": "ST295Q03JA",
+    "label": "How many days/wk after school: Work in the household or take care of family members",
+    "type": "NUM"
+  },
+  {
+    "name": "ST295Q04JA",
+    "label": "How many days/wk after school: Work for pay",
+    "type": "NUM"
+  },
+  {
+    "name": "ST295Q05JA",
+    "label": "How many days/wk after school: Exercise or practise a sport (e.g. running, cycling, aerobics, soccer, skating, [country-specific])",
+    "type": "NUM"
+  },
+  {
+    "name": "ST326Q01JA",
+    "label": "This school year, how many hours/day use [digital resources] for: For learning activities at school",
+    "type": "NUM"
+  },
+  {
+    "name": "ST326Q02JA",
+    "label": "This school year, how many hours/day use [digital resources] for: For learning activities before and after school",
+    "type": "NUM"
+  },
+  {
+    "name": "ST326Q03JA",
+    "label": "This school year, how many hours/day use [digital resources] for: For learning activities on weekends",
+    "type": "NUM"
+  },
+  {
+    "name": "ST326Q04JA",
+    "label": "This school year, how many hours/day use [digital resources] for: For leisure at school",
+    "type": "NUM"
+  },
+  {
+    "name": "ST326Q05JA",
+    "label": "This school year, how many hours/day use [digital resources] for: For leisure before and after school",
+    "type": "NUM"
+  },
+  {
+    "name": "ST326Q06JA",
+    "label": "This school year, how many hours/day use [digital resources] for: For leisure on weekends",
+    "type": "NUM"
+  },
+  {
+    "name": "ST326Q07JA",
+    "label": "This school year, how many hours/day use [digital resources] for: For learning activities at school",
+    "type": "NUM"
+  },
+  {
+    "name": "ST326Q08JA",
+    "label": "This school year, how many hours/day use [digital resources] for: For learning activities before and after school",
+    "type": "NUM"
+  },
+  {
+    "name": "ST326Q09JA",
+    "label": "This school year, how many hours/day use [digital resources] for: For learning activities on weekends",
+    "type": "NUM"
+  },
+  {
+    "name": "ST326Q10JA",
+    "label": "This school year, how many hours/day use [digital resources] for: For leisure at school",
+    "type": "NUM"
+  },
+  {
+    "name": "ST326Q11JA",
+    "label": "This school year, how many hours/day use [digital resources] for: For leisure before and after school",
+    "type": "NUM"
+  },
+  {
+    "name": "ST326Q12JA",
+    "label": "This school year, how many hours/day use [digital resources] for: For leisure on weekends",
+    "type": "NUM"
+  },
+  {
+    "name": "ST322Q01JA",
+    "label": "How often: I turn off notifications from social networks and apps on my [digital devices] during class.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST322Q02JA",
+    "label": "How often: I turn off notifications from social networks and apps on my [digital devices] when I go to sleep.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST322Q03JA",
+    "label": "How often: I keep my [digital device] near me to answer messages when I am home.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST322Q04JA",
+    "label": "How often:  I have my [digital device] open in class so I can take notes or search for information.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST322Q06JA",
+    "label": "How often: I feel pressured to be online and answer messages when I am in class.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST322Q07JA",
+    "label": "How often:  I feel nervous/anxious when I don't have my [digital device] near me.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST307Q01JA",
+    "label": "Agree/disagree: I keep working on a task until it is finished.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST307Q02JA",
+    "label": "Agree/disagree: I apply additional effort when work becomes challenging.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST307Q03JA",
+    "label": "Agree/disagree: I finish tasks that I started even when they become boring.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST307Q04JA",
+    "label": "Agree/disagree: I stop when work becomes too difficult.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST307Q05JA",
+    "label": "Agree/disagree: I am more persistent than most people I know.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST307Q06JA",
+    "label": "Agree/disagree: I give up after making mistakes.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST307Q07JA",
+    "label": "Agree/disagree: I quit doing homework if it is too long.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST307Q08JA",
+    "label": "Agree/disagree: I complete tasks even when they become more difficult than I thought.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST307Q09JA",
+    "label": "Agree/disagree: I finish what I start.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST307Q10JA",
+    "label": "Agree/disagree: I give up easily.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST309Q01JA",
+    "label": "Agree/disagree: I am careful with what I say to others.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST309Q02JA",
+    "label": "Agree/disagree: I get easily distracted.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST309Q03JA",
+    "label": "Agree/disagree: I say the first thing that comes to my mind.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST309Q04JA",
+    "label": "Agree/disagree: I like to make sure there are no mistakes.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST309Q05JA",
+    "label": "Agree/disagree: I carefully check homework before turning it in.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST309Q06JA",
+    "label": "Agree/disagree: I stop to think before acting.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST309Q07JA",
+    "label": "Agree/disagree: I rush into activities without thinking.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST309Q08JA",
+    "label": "Agree/disagree: I wait for my turn to speak in class.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST309Q09JA",
+    "label": "Agree/disagree: I am more impulsive than most people I know.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST309Q10JA",
+    "label": "Agree/disagree: I think carefully before doing something.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST301Q01JA",
+    "label": "Agree/disagree: I am curious about many different things.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST301Q02JA",
+    "label": "Agree/disagree: I like to ask questions.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST301Q03JA",
+    "label": "Agree/disagree: I get frustrated when I have to learn the details of a topic.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST301Q04JA",
+    "label": "Agree/disagree: I like to know how things work.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST301Q05JA",
+    "label": "Agree/disagree: I love learning new things in school.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST301Q06JA",
+    "label": "Agree/disagree: I am more curious than most people I know.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST301Q07JA",
+    "label": "Agree/disagree: I like to develop hypotheses and check them based on what I observe.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST301Q08JA",
+    "label": "Agree/disagree: I find learning new things to be boring.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST301Q09JA",
+    "label": "Agree/disagree: I spend time to find more information about things that interest me.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST301Q10JA",
+    "label": "Agree/disagree: I like learning new things.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST343Q01JA",
+    "label": "Agree/disagree: I like to help others.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST343Q02JA",
+    "label": "Agree/disagree: I get annoyed when I have to compromise with others.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST343Q03JA",
+    "label": "Agree/disagree: I work well with other people.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST343Q04JA",
+    "label": "Agree/disagree: I start arguments with others.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST343Q05JA",
+    "label": "Agree/disagree: I avoid working together with other students.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST343Q06JA",
+    "label": "Agree/disagree: I am ready to help anybody.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST343Q07JA",
+    "label": "Agree/disagree: I tend to be selfish.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST343Q08JA",
+    "label": "Agree/disagree: I work better when I am part of a team.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST343Q09JA",
+    "label": "Agree/disagree: I enjoy cooperating with my classmates.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST343Q10JA",
+    "label": "Agree/disagree: I argue a lot.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST311Q01JA",
+    "label": "Agree/disagree: I do not care what happens to other people.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST311Q02JA",
+    "label": "Agree/disagree: I can sense how others feel.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST311Q03JA",
+    "label": "Agree/disagree: It is important to me that my friends are okay.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST311Q04JA",
+    "label": "Agree/disagree: I can see situations from my friends' perspectives.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST311Q05JA",
+    "label": "Agree/disagree: I ignore the feelings of others.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST311Q06JA",
+    "label": "Agree/disagree: I am more compassionate than most people I know.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST311Q07JA",
+    "label": "Agree/disagree: It is difficult for me to sense what others think.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST311Q08JA",
+    "label": "Agree/disagree: I predict the needs of others.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST311Q09JA",
+    "label": "Agree/disagree: I get upset if bad things happen to other people.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST311Q10JA",
+    "label": "Agree/disagree: I understand what others want.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST315Q01JA",
+    "label": "Agree/disagree: I am suspicious of others' intentions.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST315Q02JA",
+    "label": "Agree/disagree: I think most of my classmates keep their promises.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST315Q03JA",
+    "label": "Agree/disagree: I believe that most people are honest.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST315Q04JA",
+    "label": "Agree/disagree: I believe that my friends can keep my secrets.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST315Q05JA",
+    "label": "Agree/disagree: I think most people are selfish.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST315Q06JA",
+    "label": "Agree/disagree: I trust what people say.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST315Q07JA",
+    "label": "Agree/disagree: I think others will try to harm me.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST315Q08JA",
+    "label": "Agree/disagree: I am more trusting with others than most people I know.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST315Q09JA",
+    "label": "Agree/disagree: I believe most people are kind.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST315Q10JA",
+    "label": "Agree/disagree: I am willing to forgive those who have done wrong.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST303Q01JA",
+    "label": "Agree/disagree: I try to consider everybody's perspective before I take a position.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST303Q02JA",
+    "label": "Agree/disagree: I want to understand my classmates' ways of thinking.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST303Q03JA",
+    "label": "Agree/disagree: I can view almost all things from different angles.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST303Q04JA",
+    "label": "Agree/disagree: I imagine how I would feel if I were in somebody else's place.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST303Q05JA",
+    "label": "Agree/disagree: I think there is only one correct position in a disagreement.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST303Q06JA",
+    "label": "Agree/disagree: I want to understand why people behave the way they do.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST303Q07JA",
+    "label": "Agree/disagree: I find it difficult to anticipate what other people think.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST303Q08JA",
+    "label": "Agree/disagree: I try to envision how things look from my friends' points of view.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST305Q01JA",
+    "label": "Agree/disagree: I am comfortable with taking the lead role in a group.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST305Q02JA",
+    "label": "Agree/disagree: I know how to convince others to do what I want.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST305Q03JA",
+    "label": "Agree/disagree: I enjoy leading others.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST305Q04JA",
+    "label": "Agree/disagree: I keep my opinion to myself in group discussions.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST305Q05JA",
+    "label": "Agree/disagree: I speak up to others about things that matter to me.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST305Q06JA",
+    "label": "Agree/disagree: I take initiative when working with my classmates.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST305Q07JA",
+    "label": "Agree/disagree: I wait for others to take a lead.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST305Q08JA",
+    "label": "Agree/disagree: I find it hard to influence people.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST305Q09JA",
+    "label": "Agree/disagree: I want to be in charge.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST305Q10JA",
+    "label": "Agree/disagree: I like to be a leader in my class.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST345Q01JA",
+    "label": "Agree/disagree: I get nervous easily.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST345Q02JA",
+    "label": "Agree/disagree: I am more relaxed than most people I know.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST345Q03JA",
+    "label": "Agree/disagree: I worry about many things.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST345Q04JA",
+    "label": "Agree/disagree: I panic easily.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST345Q05JA",
+    "label": "Agree/disagree: I am able to work under pressure.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST345Q06JA",
+    "label": "Agree/disagree: I remain calm under stress.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST345Q07JA",
+    "label": "Agree/disagree: I feel nervous about approaching exams.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST345Q08JA",
+    "label": "Agree/disagree: I can recover quickly after something bad has happened.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST345Q09JA",
+    "label": "Agree/disagree: I handle stress well.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST345Q10JA",
+    "label": "Agree/disagree: I am afraid of many things.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST313Q01JA",
+    "label": "Agree/disagree: I keep my emotions under control.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST313Q02JA",
+    "label": "Agree/disagree: I get mad easily.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST313Q03JA",
+    "label": "Agree/disagree: I change my mood a lot.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST313Q04JA",
+    "label": "Agree/disagree: I overreact to every little thing in life.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST313Q05JA",
+    "label": "Agree/disagree: I stay calm even in tense situations.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST313Q06JA",
+    "label": "Agree/disagree: I am easily upset.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST313Q07JA",
+    "label": "Agree/disagree: I know how to control my feelings.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST313Q08JA",
+    "label": "Agree/disagree: I have unpredictable emotions.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST313Q09JA",
+    "label": "Agree/disagree: I am moody.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST313Q10JA",
+    "label": "Agree/disagree: I get frustrated quickly.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST263Q02JA",
+    "label": "Agree/disagree: Your intelligence is something about you that you cannot change very much.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST263Q04JA",
+    "label": "Agree/disagree: Some people are just not good at mathematics, no matter how hard they study.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST263Q06JA",
+    "label": "Agree/disagree: Some people are just not good in [test language], no matter how hard they study.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST263Q08JA",
+    "label": "Agree/disagree: Your creativity is something about you that you cannot change very much.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST016Q01NA",
+    "label": "Overall, how satisfied are you with your life as a whole these days?",
+    "type": "NUM"
+  },
+  {
+    "name": "ST059Q01TA",
+    "label": "Number of [class periods] per week in mathematics",
+    "type": "NUM"
+  },
+  {
+    "name": "ST059Q02JA",
+    "label": "Total number of [class periods] per week for all subjects, including mathematics",
+    "type": "NUM"
+  },
+  {
+    "name": "ST296Q01JA",
+    "label": "How much time spent on homework in: Mathematics homework",
+    "type": "NUM"
+  },
+  {
+    "name": "ST296Q02JA",
+    "label": "How much time spent on homework in: [Test language] homework",
+    "type": "NUM"
+  },
+  {
+    "name": "ST296Q03JA",
+    "label": "How much time spent on homework in: [Science] homework",
+    "type": "NUM"
+  },
+  {
+    "name": "ST296Q04JA",
+    "label": "How much time spent on homework in: Total time for all homework in all subjects, including subjects not listed above",
+    "type": "NUM"
+  },
+  {
+    "name": "ST272Q01JA",
+    "label": "On 1-10 scale, rate quality of mathematics instruction this school year? Quality of mathematics instruction?",
+    "type": "NUM"
+  },
+  {
+    "name": "ST273Q01JA",
+    "label": "How often: Students do not listen to what the teacher said.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST273Q02JA",
+    "label": "How often: There is noise and disorder.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST273Q03JA",
+    "label": "How often: The teacher has to wait a long time for students to quiet down.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST273Q04JA",
+    "label": "How often: Students cannot work well.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST273Q05JA",
+    "label": "How often: Students do not start working for a long time after the lesson begins.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST273Q06JA",
+    "label": "How often: Students get distracted by using [digital resources] (e.g. smartphones, websites, apps).",
+    "type": "NUM"
+  },
+  {
+    "name": "ST273Q07JA",
+    "label": "How often: Students get distracted by other students who are using [digital resources] (e.g. smartphones, websites, apps).",
+    "type": "NUM"
+  },
+  {
+    "name": "ST270Q01JA",
+    "label": "How often: The teacher shows an interest in every student's learning.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST270Q02JA",
+    "label": "How often: The teacher gives extra help when students need it.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST270Q03JA",
+    "label": "How often: The teacher helps students with their learning.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST270Q04JA",
+    "label": "How often: The teacher continues teaching until the students understand.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST285Q01JA",
+    "label": "How often: The teacher asked us to solve mathematics problems without computing anything.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST285Q02JA",
+    "label": "How often: The teacher asked us to explain how we solved a mathematics problem.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST285Q03JA",
+    "label": "How often: The teacher asked us to explain what assumptions we were making when solving a mathematics problem.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST285Q04JA",
+    "label": "How often: The teacher asked us to explain our reasoning when solving a mathematics problem.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST285Q05JA",
+    "label": "How often: The teacher asked us to defend our answer to a mathematics problem.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST285Q06JA",
+    "label": "How often: The teacher asked us to think about how new and old mathematics topics were related.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST285Q07JA",
+    "label": "How often: The teacher encouraged us to think about how to solve mathematics problems in different ways than demonstrated in class.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST285Q08JA",
+    "label": "How often: The teacher told us to keep trying even when we face difficulties with a mathematics task.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST285Q09JA",
+    "label": "How often: The teacher taught us to memorize rules and apply them to solve mathematics problems.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST283Q01JA",
+    "label": "How often: The teacher asked us to think of problems from everyday life that could be solved with new mathematics knowledge we learned.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST283Q02JA",
+    "label": "How often: The teacher showed us how mathematics can be useful in our everyday lives.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST283Q03JA",
+    "label": "How often: The teacher encouraged us to 'think mathematically'.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST283Q04JA",
+    "label": "How often: The teacher taught us how to use mathematical logic when approaching new situations.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST283Q05JA",
+    "label": "How often: The teacher showed us how some problems that look difficult can be solved more easily by understanding how the number system is organized.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST283Q06JA",
+    "label": "How often: The teacher gave problems from everyday life involving numbers and asked us to make a decision about the situation.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST283Q07JA",
+    "label": "How often: The teacher asked us how different topics are connected to a bigger mathematical idea.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST283Q08JA",
+    "label": "How often: The teacher encouraged us to think about how a problem from everyday life could be solved using mathematics.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST283Q09JA",
+    "label": "How often: The teacher explained how different mathematical ideas connect to a larger context.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST275Q01WA",
+    "label": "How often at school: Working out from a [train timetable] how long it would take to get from one place to another",
+    "type": "NUM"
+  },
+  {
+    "name": "ST275Q02WA",
+    "label": "How often at school: Calculating how much more expensive a computer would be after adding tax",
+    "type": "NUM"
+  },
+  {
+    "name": "ST275Q03WA",
+    "label": "How often at school: Calculating how many square metres of tiles you need to cover a floor",
+    "type": "NUM"
+  },
+  {
+    "name": "ST275Q04WA",
+    "label": "How often at school: Understanding scientific tables presented in an article",
+    "type": "NUM"
+  },
+  {
+    "name": "ST275Q05WA",
+    "label": "How often at school: Solving an equation like 6x[sup]2[/sup]+5 = 29",
+    "type": "NUM"
+  },
+  {
+    "name": "ST275Q06WA",
+    "label": "How often at school: Finding the actual distance between two places on a map with a 1?10,000 scale",
+    "type": "NUM"
+  },
+  {
+    "name": "ST275Q07WA",
+    "label": "How often at school: Solving an equation like 2(x+3) = (x+3)(x-3)",
+    "type": "NUM"
+  },
+  {
+    "name": "ST275Q08WA",
+    "label": "How often at school: Calculating the power consumption of an electronic appliance per week",
+    "type": "NUM"
+  },
+  {
+    "name": "ST275Q09WA",
+    "label": "How often at school: Solving an equation like 3x+5=17",
+    "type": "NUM"
+  },
+  {
+    "name": "ST276Q01JA",
+    "label": "How often at school: Extracting mathematical information from diagrams, graphs, or simulations",
+    "type": "NUM"
+  },
+  {
+    "name": "ST276Q02JA",
+    "label": "How often at school: Interpreting mathematical solutions in the context of a real-life challenge",
+    "type": "NUM"
+  },
+  {
+    "name": "ST276Q03JA",
+    "label": "How often at school: Using the concept of statistical variation to make a decision",
+    "type": "NUM"
+  },
+  {
+    "name": "ST276Q04JA",
+    "label": "How often at school: Identifying mathematical aspects of a real-world problem",
+    "type": "NUM"
+  },
+  {
+    "name": "ST276Q05JA",
+    "label": "How often at school: Identifying constraints and assumptions behind mathematical modelling",
+    "type": "NUM"
+  },
+  {
+    "name": "ST276Q06JA",
+    "label": "How often at school: Representing a situation mathematically using variables, symbols, or diagrams",
+    "type": "NUM"
+  },
+  {
+    "name": "ST276Q07JA",
+    "label": "How often at school: Evaluating the significance of observed patterns in data",
+    "type": "NUM"
+  },
+  {
+    "name": "ST276Q08JA",
+    "label": "How often at school: Coding/programming computers",
+    "type": "NUM"
+  },
+  {
+    "name": "ST276Q09JA",
+    "label": "How often at school: Working with computer mathematics systems (e.g. spreadsheets, programming software, graphing calculators)",
+    "type": "NUM"
+  },
+  {
+    "name": "ST276Q10JA",
+    "label": "How often at school: Calculating the properties of an irregularly shaped object",
+    "type": "NUM"
+  },
+  {
+    "name": "ST268Q01JA",
+    "label": "Agree/disagree: Mathematics is one of my favourite subjects.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST268Q02JA",
+    "label": "Agree/disagree: [Test language] is one of my favourite subjects.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST268Q03JA",
+    "label": "Agree/disagree: [Science] is one of my favourite subjects.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST268Q04JA",
+    "label": "Agree/disagree: Mathematics is easy for me.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST268Q05JA",
+    "label": "Agree/disagree: [Test language] is easy for me.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST268Q06JA",
+    "label": "Agree/disagree: [Science] is easy for me.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST268Q07JA",
+    "label": "Agree/disagree: I want to do well in my mathematics class.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST268Q08JA",
+    "label": "Agree/disagree: I want to do well in my [test language] class.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST268Q09JA",
+    "label": "Agree/disagree: I want to do well in my [science] class.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST290Q01WA",
+    "label": "How confident in math tasks: Working out from a [train timetable] how long it would take to get from one place to another",
+    "type": "NUM"
+  },
+  {
+    "name": "ST290Q02WA",
+    "label": "How confident in math tasks: Calculating how much more expensive a computer would be after adding tax",
+    "type": "NUM"
+  },
+  {
+    "name": "ST290Q03WA",
+    "label": "How confident in math tasks: Calculating how many square metres of tiles you need to cover a floor",
+    "type": "NUM"
+  },
+  {
+    "name": "ST290Q04WA",
+    "label": "How confident in math tasks: Understanding scientific tables presented in an article",
+    "type": "NUM"
+  },
+  {
+    "name": "ST290Q05WA",
+    "label": "How confident in math tasks: Solving an equation like 6x[sup]2[/sup]+5=29",
+    "type": "NUM"
+  },
+  {
+    "name": "ST290Q06WA",
+    "label": "How confident in math tasks: Finding the actual distance between two places on a map with a 1?10,000 scale",
+    "type": "NUM"
+  },
+  {
+    "name": "ST290Q07WA",
+    "label": "How confident in math tasks: Solving an equation like 2(x+3) = (x+3)(x-3)",
+    "type": "NUM"
+  },
+  {
+    "name": "ST290Q08WA",
+    "label": "How confident in math tasks: Calculating the power consumption of an electronic appliance per week",
+    "type": "NUM"
+  },
+  {
+    "name": "ST290Q09WA",
+    "label": "How confident in math tasks: Solving an equation like 3x+5=17",
+    "type": "NUM"
+  },
+  {
+    "name": "ST291Q01JA",
+    "label": "How confident in math tasks: Extracting mathematical information from diagrams, graphs, or simulations",
+    "type": "NUM"
+  },
+  {
+    "name": "ST291Q02JA",
+    "label": "How confident in math tasks: Interpreting mathematical solutions in the context of a real-life challenge",
+    "type": "NUM"
+  },
+  {
+    "name": "ST291Q03JA",
+    "label": "How confident in math tasks: Using the concept of statistical variation to make a decision",
+    "type": "NUM"
+  },
+  {
+    "name": "ST291Q04JA",
+    "label": "How confident in math tasks: Identifying mathematical aspects of a real-world problem",
+    "type": "NUM"
+  },
+  {
+    "name": "ST291Q05JA",
+    "label": "How confident in math tasks: Identifying constraints and assumptions behind mathematical modelling",
+    "type": "NUM"
+  },
+  {
+    "name": "ST291Q06JA",
+    "label": "How confident in math tasks: Representing a situation mathematically using variables, symbols, or diagrams",
+    "type": "NUM"
+  },
+  {
+    "name": "ST291Q07JA",
+    "label": "How confident in math tasks: Evaluating the significance of observed patterns in data",
+    "type": "NUM"
+  },
+  {
+    "name": "ST291Q08JA",
+    "label": "How confident in math tasks: Coding/programming computers",
+    "type": "NUM"
+  },
+  {
+    "name": "ST291Q09JA",
+    "label": "How confident in math tasks: Working with computer mathematics systems (e.g. spreadsheets, programming software, graphing calculators)",
+    "type": "NUM"
+  },
+  {
+    "name": "ST291Q10JA",
+    "label": "How confident in math tasks: Calculating the properties of an irregularly shaped object",
+    "type": "NUM"
+  },
+  {
+    "name": "ST289Q01WA",
+    "label": "How familiar are you with the following mathematical terms: Divisor",
+    "type": "NUM"
+  },
+  {
+    "name": "ST289Q02JA",
+    "label": "How familiar are you with the following mathematical terms: Area of a circle",
+    "type": "NUM"
+  },
+  {
+    "name": "ST289Q03WA",
+    "label": "How familiar are you with the following mathematical terms: [Subjunctive scaling]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST289Q04JA",
+    "label": "How familiar are you with the following mathematical terms: Congruent figures",
+    "type": "NUM"
+  },
+  {
+    "name": "ST289Q05WA",
+    "label": "How familiar are you with the following mathematical terms: Linear equation",
+    "type": "NUM"
+  },
+  {
+    "name": "ST289Q06JA",
+    "label": "How familiar are you with the following mathematical terms: Pythagorean theorem",
+    "type": "NUM"
+  },
+  {
+    "name": "ST289Q07JA",
+    "label": "How familiar are you with the following mathematical terms: Linear inequalities",
+    "type": "NUM"
+  },
+  {
+    "name": "ST289Q08WA",
+    "label": "How familiar are you with the following mathematical terms: Complex number",
+    "type": "NUM"
+  },
+  {
+    "name": "ST289Q09WA",
+    "label": "How familiar are you with the following mathematical terms: Exponential function",
+    "type": "NUM"
+  },
+  {
+    "name": "ST289Q10WA",
+    "label": "How familiar are you with the following mathematical terms: Probability",
+    "type": "NUM"
+  },
+  {
+    "name": "ST289Q11WA",
+    "label": "How familiar are you with the following mathematical terms: [Declarative fraction]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST289Q14JA",
+    "label": "How familiar are you with the following mathematical terms: 3-dimensional geometry",
+    "type": "NUM"
+  },
+  {
+    "name": "ST293Q01JA",
+    "label": "This school year, how often: I actively participated in group discussions during mathematics class.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST293Q02JA",
+    "label": "This school year, how often: I paid attention when my mathematics teacher was speaking.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST293Q03JA",
+    "label": "This school year, how often: I put effort into my assignments for mathematics class.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST293Q04JA",
+    "label": "This school year, how often: I gave up when I did not understand the mathematics material that was being taught.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST293Q05JA",
+    "label": "This school year, how often: I made time to learn the material for mathematics class.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST293Q06JA",
+    "label": "This school year, how often: I asked questions when I did not understand the mathematics material that was being taught.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST293Q07JA",
+    "label": "This school year, how often: I lost interest during mathematics lessons.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST293Q08JA",
+    "label": "This school year, how often:  I tried to connect new material to what I have learned in previous mathematics lessons.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST293Q09JA",
+    "label": "This school year, how often: I started my work on mathematics assignments right away.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST292Q01JA",
+    "label": "Agree/disagree: I often worry that it will be difficult for me in mathematics classes.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST292Q02JA",
+    "label": "Agree/disagree: I get very tense when I have to do mathematics homework.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST292Q03JA",
+    "label": "Agree/disagree: I get very nervous doing mathematics problems.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST292Q04JA",
+    "label": "Agree/disagree: I feel helpless when doing a mathematics problem.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST292Q05JA",
+    "label": "Agree/disagree: I worry that I will get poor [marks] in mathematics.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST292Q06JA",
+    "label": "Agree/disagree: I feel anxious about failing in mathematics.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST297Q01JA",
+    "label": "[Additional math instruction] received: One-on-one tutoring with a person",
+    "type": "NUM"
+  },
+  {
+    "name": "ST297Q03JA",
+    "label": "[Additional math instruction] received: Internet or computer tutoring with a programme or application",
+    "type": "NUM"
+  },
+  {
+    "name": "ST297Q05JA",
+    "label": "[Additional math instruction] received: Video-recorded instruction by a person",
+    "type": "NUM"
+  },
+  {
+    "name": "ST297Q06JA",
+    "label": "[Additional math instruction] received: Small group study or practice (2 to 7 students)",
+    "type": "NUM"
+  },
+  {
+    "name": "ST297Q07JA",
+    "label": "[Additional math instruction] received: Large group study or practice (8 or more students)",
+    "type": "NUM"
+  },
+  {
+    "name": "ST297Q09JA",
+    "label": "[Additional math instruction] received: I do not participate in [additional mathematics instruction]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST334Q01JA",
+    "label": "How confident about doing: Coming up with creative ideas for school projects",
+    "type": "NUM"
+  },
+  {
+    "name": "ST334Q02JA",
+    "label": "How confident about doing: Being creative",
+    "type": "NUM"
+  },
+  {
+    "name": "ST334Q03JA",
+    "label": "How confident about doing: Telling creative stories",
+    "type": "NUM"
+  },
+  {
+    "name": "ST334Q04JA",
+    "label": "How confident about doing: Expressing your ideas creatively",
+    "type": "NUM"
+  },
+  {
+    "name": "ST334Q05JA",
+    "label": "How confident about doing: Making creative drawings",
+    "type": "NUM"
+  },
+  {
+    "name": "ST334Q06JA",
+    "label": "How confident about doing: Thinking of many good ideas for science experiments",
+    "type": "NUM"
+  },
+  {
+    "name": "ST334Q07JA",
+    "label": "How confident about doing: Inventing new things",
+    "type": "NUM"
+  },
+  {
+    "name": "ST334Q08JA",
+    "label": "How confident about doing: Thinking of many ideas for solving disagreements with people",
+    "type": "NUM"
+  },
+  {
+    "name": "ST334Q09JA",
+    "label": "How confident about doing: Addressing social problems like pollution",
+    "type": "NUM"
+  },
+  {
+    "name": "ST334Q10JA",
+    "label": "How confident about doing: Coming up with many good ideas for helping people in need",
+    "type": "NUM"
+  },
+  {
+    "name": "ST335Q01JA",
+    "label": "Agree/disagree: My teachers give me enough time to come up with creative solutions on assignments.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST335Q02JA",
+    "label": "Agree/disagree: My teachers value students' creativity.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST335Q03JA",
+    "label": "Agree/disagree: The activities we do in my classes help me think about new ways to solve problems.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST335Q05JA",
+    "label": "Agree/disagree: My mathematics assignments require me to come up with different solutions for a problem.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST335Q06JA",
+    "label": "Agree/disagree: My teachers encourage me to come up with original answers.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST335Q07JA",
+    "label": "Agree/disagree: At school, I am given a chance to express my ideas.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST336Q01JA",
+    "label": "Agree/disagree: My friends are open to new ideas.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST336Q03JA",
+    "label": "Agree/disagree: My friends and I give one another feedback about our ideas.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST336Q04JA",
+    "label": "Agree/disagree: My friends and I encourage each other to come up with new ideas.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST336Q05JA",
+    "label": "Agree/disagree: My family encourages me to try new things.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST336Q06JA",
+    "label": "Agree/disagree: At home, I am encouraged to use my imagination.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST336Q07JA",
+    "label": "Agree/disagree: Discussions I have at home help me come up with new ideas.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST337Q01JA",
+    "label": "In your school, how often participate in: Art classes/activities (e.g. painting, drawing)",
+    "type": "NUM"
+  },
+  {
+    "name": "ST337Q02JA",
+    "label": "In your school, how often participate in: Creative writing classes/activities",
+    "type": "NUM"
+  },
+  {
+    "name": "ST337Q03JA",
+    "label": "In your school, how often participate in: Music classes/activities (e.g. chorus, band)",
+    "type": "NUM"
+  },
+  {
+    "name": "ST337Q04JA",
+    "label": "In your school, how often participate in: Debate [club]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST337Q05JA",
+    "label": "In your school, how often participate in: Dramatics, theatre class/activities",
+    "type": "NUM"
+  },
+  {
+    "name": "ST337Q06JA",
+    "label": "In your school, how often participate in: Publications (e.g. newspaper, [yearbooks], literary magazine)",
+    "type": "NUM"
+  },
+  {
+    "name": "ST337Q07JA",
+    "label": "In your school, how often participate in: Science [club]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST337Q08JA",
+    "label": "In your school, how often participate in: Computer programming classes/activities",
+    "type": "NUM"
+  },
+  {
+    "name": "ST338Q01JA",
+    "label": "Out of school, how often participate in: Art classes/activities (e.g. painting, drawing)",
+    "type": "NUM"
+  },
+  {
+    "name": "ST338Q02JA",
+    "label": "Out of school, how often participate in: Creative writing classes/activities",
+    "type": "NUM"
+  },
+  {
+    "name": "ST338Q03JA",
+    "label": "Out of school, how often participate in: Music classes/activities (e.g. chorus, band)",
+    "type": "NUM"
+  },
+  {
+    "name": "ST338Q04JA",
+    "label": "Out of school, how often participate in: Debate [club]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST338Q05JA",
+    "label": "Out of school, how often participate in: Dramatics, theatre class/activities",
+    "type": "NUM"
+  },
+  {
+    "name": "ST338Q06JA",
+    "label": "Out of school, how often participate in: Publications (e.g. newspaper, [yearbooks], literary magazine)",
+    "type": "NUM"
+  },
+  {
+    "name": "ST338Q07JA",
+    "label": "Out of school, how often participate in: Science [club]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST338Q08JA",
+    "label": "Out of school, how often participate in: Computer programming classes/activities",
+    "type": "NUM"
+  },
+  {
+    "name": "ST339Q04JA",
+    "label": "Agree/disagree: Creativity can only be expressed through the arts (e.g. drawing, music, or writing).",
+    "type": "NUM"
+  },
+  {
+    "name": "ST339Q06JA",
+    "label": "Agree/disagree: It is possible to be creative in nearly any subject.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST340Q01JA",
+    "label": "Agree/disagree: Doing something creative satisfies me.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST340Q02JA",
+    "label": "Agree/disagree: I am very creative.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST340Q03JA",
+    "label": "Agree/disagree: I like creating stories.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST340Q04JA",
+    "label": "Agree/disagree: I like games that challenge my creativity.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST340Q05JA",
+    "label": "Agree/disagree: I enjoy projects that require creative solutions.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST340Q06JA",
+    "label": "Agree/disagree: I enjoy thinking about new ways to solve problems.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST340Q07JA",
+    "label": "Agree/disagree: I enjoy solving complex problems.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST340Q08JA",
+    "label": "Agree/disagree: I like school work that is challenging.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST340Q09JA",
+    "label": "Agree/disagree: I can suggest several solutions to problems.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST340Q10JA",
+    "label": "Agree/disagree: I enjoy learning new things.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST341Q01JA",
+    "label": "Agree/disagree: I enjoy creating art.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST341Q02JA",
+    "label": "Agree/disagree: I enjoy artistic activities.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST341Q03JA",
+    "label": "Agree/disagree: I express myself through art.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST341Q04JA",
+    "label": "Agree/disagree: I reflect on movies I watch.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST341Q05JA",
+    "label": "Agree/disagree: I see beauty in everyday things.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST342Q01JA",
+    "label": "Agree/disagree: I have difficulty using my imagination.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST342Q02JA",
+    "label": "Agree/disagree: I often get lost in thought.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST342Q03JA",
+    "label": "Agree/disagree: Coming up with new ideas is satisfying to me.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST342Q04JA",
+    "label": "Agree/disagree: I have a good imagination.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST342Q06JA",
+    "label": "Agree/disagree: I would get bored doing the same thing every day.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST342Q07JA",
+    "label": "Agree/disagree: I like to be spontaneous.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST342Q08JA",
+    "label": "Agree/disagree: I would like to travel to places I have never been.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST300Q01JA",
+    "label": "How often parents/family member: Discuss how well you are doing at school.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST300Q02JA",
+    "label": "How often parents/family member: Eat [the main meal] with you.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST300Q03JA",
+    "label": "How often parents/family member: Spend time just talking with you.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST300Q04JA",
+    "label": "How often parents/family member: Talk to you about the importance of [completing ISCED 3].",
+    "type": "NUM"
+  },
+  {
+    "name": "ST300Q05JA",
+    "label": "How often: parents/family member: Talk to you about any problems you might have at school.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST300Q06JA",
+    "label": "How often parents/family member: Ask you about how well you are getting along with other students at school.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST300Q07JA",
+    "label": "How often parents/family member: Encourage you to get good [marks].",
+    "type": "NUM"
+  },
+  {
+    "name": "ST300Q08JA",
+    "label": "How often parents/family member: Take an interest in what you are learning at school.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST300Q09JA",
+    "label": "How often parents/family member: Talk to you about your future education.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST300Q10JA",
+    "label": "How often parents/family member: Ask you what you did in school that day.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST327Q01JA",
+    "label": "Which of the following qualifications do you expect to complete: [ISCED level 2]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST327Q02JA",
+    "label": "Which of the following qualifications do you expect to complete: [ISCED level 3.3]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST327Q03JA",
+    "label": "Which of the following qualifications do you expect to complete: [ISCED level 3.4]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST327Q04JA",
+    "label": "Which of the following qualifications do you expect to complete: [ISCED level 4]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST327Q05JA",
+    "label": "Which of the following qualifications do you expect to complete: [ISCED level 5]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST327Q06JA",
+    "label": "Which of the following qualifications do you expect to complete: [ISCED level 6]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST327Q07JA",
+    "label": "Which of the following qualifications do you expect to complete: [ISCED level 7]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST327Q08JA",
+    "label": "Which of the following qualifications do you expect to complete: [ISCED level 8]",
+    "type": "NUM"
+  },
+  {
+    "name": "ST330Q01WA",
+    "label": "To learn about future study/work, have you: I did an internship.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST330Q02WA",
+    "label": "To learn about future study/work, have you: I attended [job shadowing or work-site visits].",
+    "type": "NUM"
+  },
+  {
+    "name": "ST330Q03WA",
+    "label": "To learn about future study/work, have you: I visited a [job fair].",
+    "type": "NUM"
+  },
+  {
+    "name": "ST330Q04WA",
+    "label": "To learn about future study/work, have you: I spoke to a [career advisor] at my school.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST330Q05WA",
+    "label": "To learn about future study/work, have you: I spoke to a [career advisor] outside of my school.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST330Q06WA",
+    "label": "To learn about future study/work, have you: I completed a questionnaire to find out about my interests and abilities.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST330Q07WA",
+    "label": "To learn about future study/work, have you: I researched the internet for information about careers.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST330Q08WA",
+    "label": "To learn about future study/work, have you: I went to an organised tour in an [ISCED 3-7] institution.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST330Q09WA",
+    "label": "To learn about future study/work, have you: I researched the internet for information about [ISCED 3-7] programmes.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST330Q11WA",
+    "label": "To learn about future study/work, have you: I researched information on student financing (e.g. student loans or grants).",
+    "type": "NUM"
+  },
+  {
+    "name": "ST330D10WA",
+    "label": "Have you done any of the following to find out about future study or types of work? <Country-specific item>",
+    "type": "CHAR"
+  },
+  {
+    "name": "ST324Q02JA",
+    "label": "Agree/disagree: I worry that I am not prepared for life after [the final year of compulsory education].",
+    "type": "NUM"
+  },
+  {
+    "name": "ST324Q04JA",
+    "label": "Agree/disagree: I feel well-informed about possible paths for me after [the final year of compulsory education].",
+    "type": "NUM"
+  },
+  {
+    "name": "ST324Q05JA",
+    "label": "Agree/disagree: I feel pressure from my family to follow a specific path (e.g. go to college, work in the family business, learn a trade) after [the final year of compulsory education].",
+    "type": "NUM"
+  },
+  {
+    "name": "ST324Q07JA",
+    "label": "Agree/disagree: I worry that I won't have enough money to do what I'd like to do after [the final year of compulsory education].",
+    "type": "NUM"
+  },
+  {
+    "name": "ST324Q10JA",
+    "label": "Agree/disagree: School has done little to prepare me for adult life when I leave school.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST324Q11JA",
+    "label": "Agree/disagree: School has been a waste of time.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST324Q12JA",
+    "label": "Agree/disagree: School has helped give me confidence to make decisions.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST324Q13JA",
+    "label": "Agree/disagree: School has taught me things which could be useful in a job.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST324Q14JA",
+    "label": "Agree/disagree: I feel well-prepared for my future path after [the final year of compulsory education].",
+    "type": "NUM"
+  },
+  {
+    "name": "ST347Q01JA",
+    "label": "In last 3 years, did school close because: Because of COVID-19",
+    "type": "NUM"
+  },
+  {
+    "name": "ST347Q02JA",
+    "label": "In last 3 years, did school close because: For another reason (e.g. a natural disaster, strikes or demonstrations, air pollution)",
+    "type": "NUM"
+  },
+  {
+    "name": "ST348Q01JA",
+    "label": "During COVID closures, how often: Sent you learning materials to study on your own",
+    "type": "NUM"
+  },
+  {
+    "name": "ST348Q02JA",
+    "label": "During COVID closures, how often: Sent you assignments",
+    "type": "NUM"
+  },
+  {
+    "name": "ST348Q03JA",
+    "label": "During COVID closures, how often: Uploaded material on a learning management system or school learning platform (e.g. [Blackboard®], [Edmodo®], [Moodle®], [Google® Classroom™])",
+    "type": "NUM"
+  },
+  {
+    "name": "ST348Q04JA",
+    "label": "During COVID closures, how often: Checked in with you to ensure that you were completing your assignments",
+    "type": "NUM"
+  },
+  {
+    "name": "ST348Q05JA",
+    "label": "During COVID closures, how often: Offered live virtual classes on a video communication program (e.g. Zoom™, Skype™, Google® Meet™, Microsoft® Teams)",
+    "type": "NUM"
+  },
+  {
+    "name": "ST348Q06JA",
+    "label": "During COVID closures, how often: Asked you to submit completed school assignments",
+    "type": "NUM"
+  },
+  {
+    "name": "ST348Q07JA",
+    "label": "During COVID closures, how often: Gave you helpful tips about how to study on your own",
+    "type": "NUM"
+  },
+  {
+    "name": "ST348Q08JA",
+    "label": "During COVID closures, how often: Checked in with you to ask how you were feeling",
+    "type": "NUM"
+  },
+  {
+    "name": "ST349Q01JA",
+    "label": "During COVID closures, which of the following digital devices did you use most often for your school work?",
+    "type": "NUM"
+  },
+  {
+    "name": "ST350Q01JA",
+    "label": "During COVID closures, how much learned compared to typical week of in person school?",
+    "type": "NUM"
+  },
+  {
+    "name": "ST351Q01JA",
+    "label": "During COVID closures, how often use: Paper textbooks, workbooks, or worksheets",
+    "type": "NUM"
+  },
+  {
+    "name": "ST351Q02JA",
+    "label": "During COVID closures, how often use: Digital textbooks, workbooks, or worksheets",
+    "type": "NUM"
+  },
+  {
+    "name": "ST351Q03JA",
+    "label": "During COVID closures, how often use: Real-time lessons by a teacher from my school on a video communication program (e.g. ZoomTM, SkypeTM, Google® Meet™, Microsoft® Teams)",
+    "type": "NUM"
+  },
+  {
+    "name": "ST351Q04JA",
+    "label": "During COVID closures, how often use: Real time lessons by a private tutor on a video communication program (e.g. Zoom™, Skype™, Google® Meet™, Microsoft® Teams)",
+    "type": "NUM"
+  },
+  {
+    "name": "ST351Q05JA",
+    "label": "During COVID closures, how often use: Learning material my teachers sent via SMS or WhatsApp™",
+    "type": "NUM"
+  },
+  {
+    "name": "ST351Q06JA",
+    "label": "During COVID closures, how often use: Recorded lessons or other digital material provided by teachers from my school",
+    "type": "NUM"
+  },
+  {
+    "name": "ST351Q07JA",
+    "label": "During COVID closures, how often use: Recorded lessons or other digital material from other sources (e.g. Khan Academy®, Coursera®)",
+    "type": "NUM"
+  },
+  {
+    "name": "ST351Q08JA",
+    "label": "During COVID closures, how often use: Lessons broadcast over television or radio",
+    "type": "NUM"
+  },
+  {
+    "name": "ST352Q01JA",
+    "label": "During COVID closures, how often problems with: Problems with access to a digital device when I needed it",
+    "type": "NUM"
+  },
+  {
+    "name": "ST352Q02JA",
+    "label": "During COVID closures, how often problems with: Problems with Internet access",
+    "type": "NUM"
+  },
+  {
+    "name": "ST352Q03JA",
+    "label": "During COVID closures, how often problems with: Problems with access to school supplies (e.g. paper, pencil)",
+    "type": "NUM"
+  },
+  {
+    "name": "ST352Q04JA",
+    "label": "During COVID closures, how often problems with: Problems with finding a quiet place to study",
+    "type": "NUM"
+  },
+  {
+    "name": "ST352Q05JA",
+    "label": "During COVID closures, how often problems with: Problems finding time to study because I had household responsibilities",
+    "type": "NUM"
+  },
+  {
+    "name": "ST352Q06JA",
+    "label": "During COVID closures, how often problems with: Problems with motivating myself to do school work",
+    "type": "NUM"
+  },
+  {
+    "name": "ST352Q07JA",
+    "label": "During COVID closures, how often problems with: Problems with understanding my school assignments",
+    "type": "NUM"
+  },
+  {
+    "name": "ST352Q08JA",
+    "label": "During COVID closures, how often problems with: Problems with finding someone who could help me with my school work",
+    "type": "NUM"
+  },
+  {
+    "name": "ST353Q01JA",
+    "label": "During COVID closures, how often did family member: Help you with your school work",
+    "type": "NUM"
+  },
+  {
+    "name": "ST353Q02JA",
+    "label": "During COVID closures, how often did family member: Ask you what you were learning",
+    "type": "NUM"
+  },
+  {
+    "name": "ST353Q03JA",
+    "label": "During COVID closures, how often did family member: Help you create a learning schedule",
+    "type": "NUM"
+  },
+  {
+    "name": "ST353Q04JA",
+    "label": "During COVID closures, how often did family member: Help you access learning materials online",
+    "type": "NUM"
+  },
+  {
+    "name": "ST353Q05JA",
+    "label": "During COVID closures, how often did family member: Check whether you were completing your school assignments",
+    "type": "NUM"
+  },
+  {
+    "name": "ST353Q06JA",
+    "label": "During COVID closures, how often did family member: Explain new content to you",
+    "type": "NUM"
+  },
+  {
+    "name": "ST353Q07JA",
+    "label": "During COVID closures, how often did family member: Help you find additional learning resources",
+    "type": "NUM"
+  },
+  {
+    "name": "ST353Q08JA",
+    "label": "During COVID closures, how often did family member: Teach you additional topics not part of your school assignments",
+    "type": "NUM"
+  },
+  {
+    "name": "ST354Q01JA",
+    "label": "During COVID closures, agree/disagree: I felt lonely.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST354Q02JA",
+    "label": "During COVID closures, agree/disagree: I enjoyed learning by myself.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST354Q03JA",
+    "label": "During COVID closures, agree/disagree: My teachers were available when I needed help (e.g. through virtual office hours, email, chat).",
+    "type": "NUM"
+  },
+  {
+    "name": "ST354Q04JA",
+    "label": "During COVID closures, agree/disagree: I felt anxious about school work.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST354Q05JA",
+    "label": "During COVID closures, agree/disagree: I was motivated to learn.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST354Q06JA",
+    "label": "During COVID closures, agree/disagree: I fell behind in my school work.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST354Q07JA",
+    "label": "During COVID closures, agree/disagree: I improved my skills in using digital devices for learning purposes.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST354Q08JA",
+    "label": "During COVID closures, agree/disagree: My teachers were well prepared to provide instruction remotely.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST354Q09JA",
+    "label": "During COVID closures, agree/disagree: I was well prepared to learn on my own.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST354Q10JA",
+    "label": "During COVID closures, agree/disagree: I missed sports and other physical activities organised by my school.",
+    "type": "NUM"
+  },
+  {
+    "name": "ST355Q01JA",
+    "label": "Confident can do in future: Using a learning management system or school learning platform (e.g. Blackboard®, Edmodo®, Moodle®, Google® Classroom™)",
+    "type": "NUM"
+  },
+  {
+    "name": "ST355Q02JA",
+    "label": "Confident can do in future: Using a video communication program (e.g. Zoom™, Skype™, Google® Meet™, Microsoft® Teams)",
+    "type": "NUM"
+  },
+  {
+    "name": "ST355Q03JA",
+    "label": "Confident can do in future: : Finding learning resources online on my own",
+    "type": "NUM"
+  },
+  {
+    "name": "ST355Q04JA",
+    "label": "Confident can do in future: Planning when to do school work on my own",
+    "type": "NUM"
+  },
+  {
+    "name": "ST355Q05JA",
+    "label": "Confident can do in future: Motivating myself to do school work",
+    "type": "NUM"
+  },
+  {
+    "name": "ST355Q06JA",
+    "label": "Confident can do in future: Focusing on school work without reminders",
+    "type": "NUM"
+  },
+  {
+    "name": "ST355Q07JA",
+    "label": "Confident can do in future: Completing school work independently",
+    "type": "NUM"
+  },
+  {
+    "name": "ST355Q08JA",
+    "label": "Confident can do in future: Assessing my progress with learning",
+    "type": "NUM"
+  },
+  {
+    "name": "ST356Q01JA",
+    "label": "Overall, how prepared feel for learning on own if school building closed again for extended period the future?",
+    "type": "NUM"
+  },
+  {
+    "name": "ST331Q01JA",
+    "label": "How much effort did you put into doing well on the PISA test?",
+    "type": "NUM"
+  },
+  {
+    "name": "ST331Q02JA",
+    "label": "How much effort would you have invested if your results from the PISA test were counted in your [school marks]?",
+    "type": "NUM"
+  },
+  {
+    "name": "ST331Q03JA",
+    "label": "How much effort did you put into giving accurate answers?",
+    "type": "NUM"
+  },
+  {
+    "name": "FL150Q01TA",
+    "label": "Have you learned to manage money in a course: At school, in a subject or course specifically about managing your money",
+    "type": "NUM"
+  },
+  {
+    "name": "FL150Q02TA",
+    "label": "Have you learned to manage money in a course: At school as part of another subject or course",
+    "type": "NUM"
+  },
+  {
+    "name": "FL150Q03TA",
+    "label": "Have you learned to manage money in a course: In an activity outside school",
+    "type": "NUM"
+  },
+  {
+    "name": "FL164Q01HA",
+    "label": "In school lessons in last 12 months, have you heard of or learnt about: Interest payment",
+    "type": "NUM"
+  },
+  {
+    "name": "FL164Q02HA",
+    "label": "In school lessons in last 12 months, have you heard of or learnt about: Compound interest",
+    "type": "NUM"
+  },
+  {
+    "name": "FL164Q03HA",
+    "label": "In school lessons in last 12 months, have you heard of or learnt about: Exchange rate",
+    "type": "NUM"
+  },
+  {
+    "name": "FL164Q04HA",
+    "label": "In school lessons in last 12 months, have you heard of or learnt about: Depreciation",
+    "type": "NUM"
+  },
+  {
+    "name": "FL164Q05HA",
+    "label": "In school lessons in last 12 months, have you heard of or learnt about: Shares/stocks",
+    "type": "NUM"
+  },
+  {
+    "name": "FL164Q06HA",
+    "label": "In school lessons in last 12 months, have you heard of or learnt about: Return on investment",
+    "type": "NUM"
+  },
+  {
+    "name": "FL164Q07HA",
+    "label": "In school lessons in last 12 months, have you heard of or learnt about: Dividend",
+    "type": "NUM"
+  },
+  {
+    "name": "FL164Q08HA",
+    "label": "In school lessons in last 12 months, have you heard of or learnt about: Diversification",
+    "type": "NUM"
+  },
+  {
+    "name": "FL164Q09HA",
+    "label": "In school lessons in last 12 months, have you heard of or learnt about: Debit card",
+    "type": "NUM"
+  },
+  {
+    "name": "FL164Q10HA",
+    "label": "In school lessons in last 12 months, have you heard of or learnt about: Bank loan",
+    "type": "NUM"
+  },
+  {
+    "name": "FL164Q11HA",
+    "label": "In school lessons in last 12 months, have you heard of or learnt about: Pension plan",
+    "type": "NUM"
+  },
+  {
+    "name": "FL164Q12HA",
+    "label": "In school lessons in last 12 months, have you heard of or learnt about: Budget",
+    "type": "NUM"
+  },
+  {
+    "name": "FL164Q13HA",
+    "label": "In school lessons in last 12 months, have you heard of or learnt about: Wage",
+    "type": "NUM"
+  },
+  {
+    "name": "FL164Q14HA",
+    "label": "In school lessons in last 12 months, have you heard of or learnt about: Entrepreneur",
+    "type": "NUM"
+  },
+  {
+    "name": "FL164Q15HA",
+    "label": "In school lessons in last 12 months, have you heard of or learnt about: Central bank",
+    "type": "NUM"
+  },
+  {
+    "name": "FL164Q16HA",
+    "label": "In school lessons in last 12 months, have you heard of or learnt about: Income tax",
+    "type": "NUM"
+  },
+  {
+    "name": "FL166Q01HA",
+    "label": "In school, how often encountered: Describing the purpose and uses of money",
+    "type": "NUM"
+  },
+  {
+    "name": "FL166Q02HA",
+    "label": "In school, how often encountered: Exploring the difference between spending money on needs and wants",
+    "type": "NUM"
+  },
+  {
+    "name": "FL166Q03HA",
+    "label": "In school, how often encountered: Exploring ways of planning to pay an expense",
+    "type": "NUM"
+  },
+  {
+    "name": "FL166Q05HA",
+    "label": "In school, how often encountered: Discussing the rights of consumers when dealing with financial institutions",
+    "type": "NUM"
+  },
+  {
+    "name": "FL166Q06HA",
+    "label": "In school, how often encountered: Discussing the ways in which money invested in the stock market changes value over time",
+    "type": "NUM"
+  },
+  {
+    "name": "FL166Q07HA",
+    "label": "In school, how often encountered: Analysing advertisements to understand how they encourage people to buy things",
+    "type": "NUM"
+  },
+  {
+    "name": "FL174Q01JA",
+    "label": "Encountered these during: During your mathematics class",
+    "type": "NUM"
+  },
+  {
+    "name": "FL174Q02JA",
+    "label": "Encountered these during: During classes about social sciences ([national example])",
+    "type": "NUM"
+  },
+  {
+    "name": "FL174Q03JA",
+    "label": "Encountered these during: During classes about citizenship ([civic education or 'the world around me' or other national example])",
+    "type": "NUM"
+  },
+  {
+    "name": "FL174Q04JA",
+    "label": "Encountered these during: During classes about economics or business",
+    "type": "NUM"
+  },
+  {
+    "name": "FL174Q05JA",
+    "label": "Encountered these during: During another class",
+    "type": "NUM"
+  },
+  {
+    "name": "FL174Q06JA",
+    "label": "Encountered these during: During a one-off lesson or activity in school time from an outside visitor (not one of your teachers)",
+    "type": "NUM"
+  },
+  {
+    "name": "FL174Q07JA",
+    "label": "Encountered these during: During extra-curricular activity outside of school time",
+    "type": "NUM"
+  },
+  {
+    "name": "FL167Q01HA",
+    "label": "How often discuss with parents/guardians/relatives: Your spending decisions",
+    "type": "NUM"
+  },
+  {
+    "name": "FL167Q02HA",
+    "label": "How often discuss with parents/guardians/relatives: Your savings decisions",
+    "type": "NUM"
+  },
+  {
+    "name": "FL167Q06JA",
+    "label": "How often discuss with parents/guardians/relatives: How to use your allowance or pocket money",
+    "type": "NUM"
+  },
+  {
+    "name": "FL167Q03HA",
+    "label": "How often discuss with parents/guardians/relatives: The family budget",
+    "type": "NUM"
+  },
+  {
+    "name": "FL167Q04HA",
+    "label": "How often discuss with parents/guardians/relatives: Money for things you want to buy",
+    "type": "NUM"
+  },
+  {
+    "name": "FL167Q05HA",
+    "label": "How often discuss with parents/guardians/relatives: News related to economics or finance",
+    "type": "NUM"
+  },
+  {
+    "name": "FL167Q07JA",
+    "label": "How often discuss with parents/guardians/relatives: Shopping online",
+    "type": "NUM"
+  },
+  {
+    "name": "FL170Q01JA",
+    "label": "In last 12 months, how often get money from: An allowance or pocket money for doing chores at home",
+    "type": "NUM"
+  },
+  {
+    "name": "FL170Q02JA",
+    "label": "In last 12 months, how often get money from: An allowance or pocket money, without having to do any chores",
+    "type": "NUM"
+  },
+  {
+    "name": "FL170Q03JA",
+    "label": "In last 12 months, how often get money from: Working outside school hours (e.g. a holiday job, part-time work)",
+    "type": "NUM"
+  },
+  {
+    "name": "FL170Q04JA",
+    "label": "In last 12 months, how often get money from: Working in a family business",
+    "type": "NUM"
+  },
+  {
+    "name": "FL170Q05JA",
+    "label": "In last 12 months, how often get money from: Occasional informal jobs (e.g. baby-sitting or gardening)",
+    "type": "NUM"
+  },
+  {
+    "name": "FL170Q06JA",
+    "label": "In last 12 months, how often get money from: Gifts from friends or relatives",
+    "type": "NUM"
+  },
+  {
+    "name": "FL170Q07JA",
+    "label": "In last 12 months, how often get money from: Selling things (e.g. at local markets or on [eBay])",
+    "type": "NUM"
+  },
+  {
+    "name": "FL159Q01HA",
+    "label": "Agree/disagree: I can decide independently what to spend my money on.",
+    "type": "NUM"
+  },
+  {
+    "name": "FL159Q02HA",
+    "label": "Agree/disagree: I can spend small amounts of my money independently, but for larger amounts I need to ask my parents or guardians for permission.",
+    "type": "NUM"
+  },
+  {
+    "name": "FL159Q03HA",
+    "label": "Agree/disagree: I need to ask my parents or guardians for permission before I spend any money on my own.",
+    "type": "NUM"
+  },
+  {
+    "name": "FL159Q04HA",
+    "label": "Agree/disagree: I am responsible for my own money matters (e.g. for preventing theft).",
+    "type": "NUM"
+  },
+  {
+    "name": "FL160Q01HA",
+    "label": "When buying product, how often: Compare prices in different shops",
+    "type": "NUM"
+  },
+  {
+    "name": "FL160Q02HA",
+    "label": "When buying product, how often: Compare prices between a shop and an online shop",
+    "type": "NUM"
+  },
+  {
+    "name": "FL160Q03HA",
+    "label": "When buying product, how often: Buy the product without comparing prices",
+    "type": "NUM"
+  },
+  {
+    "name": "FL160Q04HA",
+    "label": "When buying product, how often: Wait until the product gets cheaper before buying it",
+    "type": "NUM"
+  },
+  {
+    "name": "FL161Q01HA",
+    "label": "Do you have any of the following things: An account with a [bank, building society, post office or credit union]",
+    "type": "NUM"
+  },
+  {
+    "name": "FL161Q02HA",
+    "label": "Do you have any of the following things: A payment card/debit card",
+    "type": "NUM"
+  },
+  {
+    "name": "FL161Q03HA",
+    "label": "Do you have any of the following things: A mobile app to access your account",
+    "type": "NUM"
+  },
+  {
+    "name": "FL162Q01HA",
+    "label": "How confident would you feel about: Making a money transfer (e.g. paying a bill)",
+    "type": "NUM"
+  },
+  {
+    "name": "FL162Q02HA",
+    "label": "How confident would you feel about: Filling in forms at the bank",
+    "type": "NUM"
+  },
+  {
+    "name": "FL162Q03HA",
+    "label": "How confident would you feel about: Understanding bank statements",
+    "type": "NUM"
+  },
+  {
+    "name": "FL162Q04HA",
+    "label": "How confident would you feel about: Understanding a sales contract",
+    "type": "NUM"
+  },
+  {
+    "name": "FL162Q05HA",
+    "label": "How confident would you feel about: Keeping track of my account balance",
+    "type": "NUM"
+  },
+  {
+    "name": "FL162Q06HA",
+    "label": "How confident would you feel about: Planning my spending with consideration of my current financial situation",
+    "type": "NUM"
+  },
+  {
+    "name": "FL163Q01HA",
+    "label": "Confident use digital device to: Transferring money",
+    "type": "NUM"
+  },
+  {
+    "name": "FL163Q02HA",
+    "label": "Confident use digital device to: Keeping track of my balance",
+    "type": "NUM"
+  },
+  {
+    "name": "FL163Q03HA",
+    "label": "Confident use digital device to: Paying with a debit card instead of using cash",
+    "type": "NUM"
+  },
+  {
+    "name": "FL163Q04HA",
+    "label": "Confident use digital device to: Paying with a mobile device (e.g. mobile phone or tablet) instead of using cash",
+    "type": "NUM"
+  },
+  {
+    "name": "FL163Q05HA",
+    "label": "Confident use digital device to: Ensuring the safety of sensitive information when making an electronic payment or using online banking",
+    "type": "NUM"
+  },
+  {
+    "name": "FL171Q01JA",
+    "label": "How often: Checked that you were given the right change when you bought something with cash",
+    "type": "NUM"
+  },
+  {
+    "name": "FL171Q02JA",
+    "label": "How often:  Felt that you did not have enough money for something you wanted to buy",
+    "type": "NUM"
+  },
+  {
+    "name": "FL171Q03JA",
+    "label": "How often: Bought something online (alone or with a family member)",
+    "type": "NUM"
+  },
+  {
+    "name": "FL171Q04JA",
+    "label": "How often: Made a payment using a smartphone (i.e. mobile phone with Internet access)",
+    "type": "NUM"
+  },
+  {
+    "name": "FL171Q05JA",
+    "label": "How often: Made a payment using a bank card (e.g. [debit card])",
+    "type": "NUM"
+  },
+  {
+    "name": "FL171Q07JA",
+    "label": "How often: Bought something that cost more money than you intended to spend",
+    "type": "NUM"
+  },
+  {
+    "name": "FL171Q08JA",
+    "label": "How often:  Checked how much money you have",
+    "type": "NUM"
+  },
+  {
+    "name": "FL171Q09JA",
+    "label": "How often:  Bought something because your friends have it",
+    "type": "NUM"
+  },
+  {
+    "name": "FL171Q10JA",
+    "label": "How often: Sent money to other people with a smartphone (i.e. mobile phone with Internet access)",
+    "type": "NUM"
+  },
+  {
+    "name": "FL171Q11JA",
+    "label": "How often: Saved money in an account at a [bank, online bank, building society, post office or credit union]",
+    "type": "NUM"
+  },
+  {
+    "name": "FL171Q12JA",
+    "label": "How often: Saved money at home",
+    "type": "NUM"
+  },
+  {
+    "name": "FL169Q01HA",
+    "label": "Agree/disagree:  I enjoy talking about money matters.",
+    "type": "NUM"
+  },
+  {
+    "name": "FL169Q05JA",
+    "label": "Agree/disagree:  I know how to manage my money.",
+    "type": "NUM"
+  },
+  {
+    "name": "FL169Q02HA",
+    "label": "Agree/disagree:  Young people should make their own decisions about how to spend their money.",
+    "type": "NUM"
+  },
+  {
+    "name": "FL169Q06JA",
+    "label": "Agree/disagree:  I buy things according to how I feel at the moment.",
+    "type": "NUM"
+  },
+  {
+    "name": "FL169Q07JA",
+    "label": "Agree/disagree:  Saving is something I do only if I have money left over.",
+    "type": "NUM"
+  },
+  {
+    "name": "FL169Q03HA",
+    "label": "Agree/disagree:  Money matters are not relevant for me right now.",
+    "type": "NUM"
+  },
+  {
+    "name": "FL169Q04HA",
+    "label": "Agree/disagree:  I would like to run my own business in the future.",
+    "type": "NUM"
+  },
+  {
+    "name": "FL169Q08JA",
+    "label": "Agree/disagree:  I am able to work effectively towards long-term goals.",
+    "type": "NUM"
+  },
+  {
+    "name": "FL169Q10JA",
+    "label": "Agree/disagree:  I make savings goals for certain things I want to buy or to do.",
+    "type": "NUM"
+  },
+  {
+    "name": "FL169Q11JA",
+    "label": "Agree/disagree:  It is easier to monitor my spending when I pay by cash than when I pay with a bank card.",
+    "type": "NUM"
+  },
+  {
+    "name": "FL172Q01JA",
+    "label": "Agree/disagree: My friends have a strong influence on my spending decisions.",
+    "type": "NUM"
+  },
+  {
+    "name": "FL172Q03JA",
+    "label": "Agree/disagree: I want to keep up with my friends' life style.",
+    "type": "NUM"
+  },
+  {
+    "name": "FL172Q05JA",
+    "label": "Agree/disagree: Sometimes I spend more than I would like when I am with my friends.",
+    "type": "NUM"
+  },
+  {
+    "name": "FL172Q06JA",
+    "label": "Agree/disagree: I often buy what my friends recommend.",
+    "type": "NUM"
+  },
+  {
+    "name": "IC170Q01JA",
+    "label": "How often use at school: Desktop or laptop computer",
+    "type": "NUM"
+  },
+  {
+    "name": "IC170Q02JA",
+    "label": "How often use at school: Smartphone (i.e. mobile phone with internet access)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC170Q03JA",
+    "label": "How often use at school: [Tablet device] (e.g. [iPad®], [Galaxy Book®],) or [e-book reader] (e.g. [Amazon Kindle™], [Kobo®])",
+    "type": "NUM"
+  },
+  {
+    "name": "IC170Q04JA",
+    "label": "How often use at school: Internet access (except on smartphones)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC170Q05JA",
+    "label": "How often use at school: School portal (to consult timetable, absences, etc.)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC170Q06JA",
+    "label": "How often use at school: Educational software, games or apps, other learning tools (e.g. [CK-12™] or [Mathalicious®] online support)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC170Q07JA",
+    "label": "How often use at school: A learning management system or school learning platform (e.g. [Blackboard®], [Edmodo®], [Moodle®], [Google® Classroom™])",
+    "type": "NUM"
+  },
+  {
+    "name": "IC171Q01JA",
+    "label": "How often use out of school: Desktop or laptop computer",
+    "type": "NUM"
+  },
+  {
+    "name": "IC171Q02JA",
+    "label": "How often use out of school: Smartphone (i.e. mobile phone with Internet access)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC171Q03JA",
+    "label": "How often use out of school: Tablet device (e.g.iPad®, Galaxy Book®,) or e-book reader (e.g., Amazon® Kindle™, Kobo®)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC171Q04JA",
+    "label": "How often use out of school: Internet access (except on smartphones)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC171Q05JA",
+    "label": "How often use out of school: Educational software, games or Apps, other learning tools (e.g. CK-12™ or Mathalicious® online support)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC171Q06JA",
+    "label": "How often use out of school: Video or online games (e.g. used with game consoles such as a  Play Station 4® or Nintendo Wii®, online gaming platforms such as  Steam® or gaming Apps such as Angry Birds®)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC172Q01JA",
+    "label": "Agree/disagree: There are enough [digital resources] for every student at my school.",
+    "type": "NUM"
+  },
+  {
+    "name": "IC172Q02JA",
+    "label": "Agree/disagree: There are enough digital devices with access to the Internet at my school.",
+    "type": "NUM"
+  },
+  {
+    "name": "IC172Q03JA",
+    "label": "Agree/disagree: The school's Internet speed is sufficient.",
+    "type": "NUM"
+  },
+  {
+    "name": "IC172Q04JA",
+    "label": "Agree/disagree: [Digital resources] function properly at my school.",
+    "type": "NUM"
+  },
+  {
+    "name": "IC172Q05JA",
+    "label": "Agree/disagree: [Digital resources] are easily accessible within the classroom.",
+    "type": "NUM"
+  },
+  {
+    "name": "IC172Q06JA",
+    "label": "Agree/disagree: Digital learning resources available at my school make learning interesting.",
+    "type": "NUM"
+  },
+  {
+    "name": "IC172Q07JA",
+    "label": "Agree/disagree: The school provides sufficient technical support to help students in their use of [digital resources].",
+    "type": "NUM"
+  },
+  {
+    "name": "IC172Q08JA",
+    "label": "Agree/disagree: Teachers at my school have the necessary skills to use digital devices during instruction.",
+    "type": "NUM"
+  },
+  {
+    "name": "IC172Q09JA",
+    "label": "Agree/disagree: Teachers at my school are willing to use [digital resources] for teaching.",
+    "type": "NUM"
+  },
+  {
+    "name": "IC173Q01JA",
+    "label": "How often use [digital resources] in lessons in: [Test language]",
+    "type": "NUM"
+  },
+  {
+    "name": "IC173Q02JA",
+    "label": "How often use [digital resources] in lessons in: [Mathematics]",
+    "type": "NUM"
+  },
+  {
+    "name": "IC173Q03JA",
+    "label": "How often use [digital resources] in lessons in: [Science]",
+    "type": "NUM"
+  },
+  {
+    "name": "IC173Q04JA",
+    "label": "How often use [digital resources] in lessons in: [Computer science], [information technology], [informatics] or similar lessons.",
+    "type": "NUM"
+  },
+  {
+    "name": "IC174Q01JA",
+    "label": "How often used [digital resources] to: Create a multi-media presentation with pictures, sound or video",
+    "type": "NUM"
+  },
+  {
+    "name": "IC174Q02JA",
+    "label": "How often used [digital resources] to: Write or edit text for a school assignment (e.g. using [Google® Docs™], [Microsoft® Word])",
+    "type": "NUM"
+  },
+  {
+    "name": "IC174Q03JA",
+    "label": "How often used [digital resources] to: Find information online about real-world problems or phenomena (e.g. climate change, oil spills, measuring the height of a building)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC174Q04JA",
+    "label": "How often used [digital resources] to: Collect and record data (e.g. using data loggers, [Microsoft® Access™], [Google® Forms], spreadsheets)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC174Q05JA",
+    "label": "How often: used [digital resources] to: Analyse data that you have collected yourself (e.g. using [Microsoft® Excel™])",
+    "type": "NUM"
+  },
+  {
+    "name": "IC174Q06JA",
+    "label": "How often used [digital resources] to: Report or share your results from your own experiments or investigations",
+    "type": "NUM"
+  },
+  {
+    "name": "IC174Q07JA",
+    "label": "How often used [digital resources] to: Plan and manage work or projects (e.g. dividing tasks, managing deadlines)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC174Q08JA",
+    "label": "How often used [digital resources] to: Track the progress of your own work projects",
+    "type": "NUM"
+  },
+  {
+    "name": "IC174Q09JA",
+    "label": "How often used [digital resources] to: Collaborate with other students to create digital content (e.g. presentation, etc.)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC174Q10JA",
+    "label": "How often used [digital resources] to: Play digital learning games (e.g. [Atlantis Remixed], [Duolingo®])",
+    "type": "NUM"
+  },
+  {
+    "name": "IC175Q01JA",
+    "label": "How often used [digital resources] to: Read or listen to feedback sent by my teachers regarding my work and academic results",
+    "type": "NUM"
+  },
+  {
+    "name": "IC175Q02JA",
+    "label": "How often used [digital resources] to: Read or listen to feedback sent by other students on my work",
+    "type": "NUM"
+  },
+  {
+    "name": "IC175Q03JA",
+    "label": "How often used [digital resources] to: Read or listen to feedback automatically selected for me by an educational software or app",
+    "type": "NUM"
+  },
+  {
+    "name": "IC175Q05JA",
+    "label": "How often used [digital resources] to: Work on drill and practice exercises using an educational software or app",
+    "type": "NUM"
+  },
+  {
+    "name": "IC176Q01JA",
+    "label": "How often used [digital resources] to: See my grades or results from specific assignments (e.g. homework or tests)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC176Q02JA",
+    "label": "How often used [digital resources] to: Browse the Internet for schoolwork (e.g. for preparing an essay or presentation)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC176Q03JA",
+    "label": "How often used [digital resources] to: Browse the Internet to follow up lessons (e.g. for finding explanations)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC176Q04JA",
+    "label": "How often used [digital resources] to: Receive or download assignments or instructions (via [digital resources]) from my teacher",
+    "type": "NUM"
+  },
+  {
+    "name": "IC176Q05JA",
+    "label": "How often used [digital resources] to: Upload my work (e.g. documents or presentations) to a school portal or another platform to share materials with my teacher and/or students",
+    "type": "NUM"
+  },
+  {
+    "name": "IC176Q06JA",
+    "label": "How often used [digital resources] to: Communicate with my teacher",
+    "type": "NUM"
+  },
+  {
+    "name": "IC176Q07JA",
+    "label": "How often used [digital resources] to: Communicate with other students about schoolwork",
+    "type": "NUM"
+  },
+  {
+    "name": "IC176Q08JA",
+    "label": "How often used [digital resources] to: Search for information on school-related activities or assignments",
+    "type": "NUM"
+  },
+  {
+    "name": "IC184Q01JA",
+    "label": "How often: I use [digital resources] for simple calculations.",
+    "type": "NUM"
+  },
+  {
+    "name": "IC184Q02JA",
+    "label": "How often: I use [digital resources] to solve equations.",
+    "type": "NUM"
+  },
+  {
+    "name": "IC184Q03JA",
+    "label": "How often: I use [digital resources] for simulations and modelling (e.g. [GeoGebra], [NetLogo]), virtual laboratories (e.g. [Labster]).",
+    "type": "NUM"
+  },
+  {
+    "name": "IC184Q04JA",
+    "label": "How often: I use [digital resources] for coding or algorithm activities (e.g. using [Scratch], etc.)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC177Q01JA",
+    "label": "How much time spent: Play video-games (using my smartphone, a gaming console or an online platform or apps)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC177Q02JA",
+    "label": "How much time spent: Browse social networks (e.g. [Instagram®], [Facebook®])",
+    "type": "NUM"
+  },
+  {
+    "name": "IC177Q03JA",
+    "label": "How much time spent: Browse the Internet (excluding social networks) for fun (e.g. reading news, listening to podcasts and music or watching videos)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC177Q04JA",
+    "label": "How much time spent: Look for practical information online (e.g. find a place, book a train ticket, buy a product)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC177Q05JA",
+    "label": "How much time spent: Communicate and share digital content on social networks or any communication platform (e.g. [Facebook®], [Instagram®], [Twitter®], emails, chat)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC177Q06JA",
+    "label": "How much time spent: Read, listen to or view informational materials to learn how to do something (e.g. tutorial, podcast)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC177Q07JA",
+    "label": "How much time spent: Create or edit my own digital content (pictures, videos, music, videos, computer programs)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC178Q01JA",
+    "label": "How much time using [digital resources] to: Play video-games (using my smartphone, a gaming console or an online platform or apps)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC178Q02JA",
+    "label": "How much time using [digital resources] to: Browse social networks (e.g. Instagram®, Facebook®)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC178Q03JA",
+    "label": "How much time using [digital resources] to: Browse the Internet (excluding social networks) for fun  (e.g. reading news, listening to podcasts and music or watching videos)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC178Q04JA",
+    "label": "How much time using [digital resources] to: Look for practical information online (e.g. find a place, book a train ticket, buy a product)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC178Q05JA",
+    "label": "How much time using [digital resources] to: Communicate and share digital content on social networks or any communication platform (e.g. Facebook®, Instagram®, Twitter®, emails, chat) ",
+    "type": "NUM"
+  },
+  {
+    "name": "IC178Q06JA",
+    "label": "How much time using [digital resources] to: Read, listen to or view informational materials to learn how to do something (e.g. tutorial, podcast)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC178Q07JA",
+    "label": "How much time using [digital resources] to: Create or edit my own digital content (pictures, videos, music, videos, computer programs)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC179Q01JA",
+    "label": "Agree/disagree: Students should not be allowed to bring mobile phones to class.",
+    "type": "NUM"
+  },
+  {
+    "name": "IC179Q02JA",
+    "label": "Agree/disagree: Students should not be allowed to bring their own laptop (or tablet device) to class.",
+    "type": "NUM"
+  },
+  {
+    "name": "IC179Q03JA",
+    "label": "Agree/disagree: Students should collaborate with teachers to decide on the rules regarding the use of digital devices during lessons.",
+    "type": "NUM"
+  },
+  {
+    "name": "IC179Q04JA",
+    "label": "Agree/disagree: The school should set up filters to prevent students from going on social media.",
+    "type": "NUM"
+  },
+  {
+    "name": "IC179Q05JA",
+    "label": "Agree/disagree: The school should set up filters to prevent students from playing games online.",
+    "type": "NUM"
+  },
+  {
+    "name": "IC179Q06JA",
+    "label": "Agree/disagree: Teachers should monitor what students do on their laptops.",
+    "type": "NUM"
+  },
+  {
+    "name": "IC180Q01JA",
+    "label": "Agree/disagree: I trust what I read online.",
+    "type": "NUM"
+  },
+  {
+    "name": "IC180Q02JA",
+    "label": "Agree/disagree: When searching for information online I compare different sources.",
+    "type": "NUM"
+  },
+  {
+    "name": "IC180Q03JA",
+    "label": "Agree/disagree: I check the accuracy of online information before sharing it on social networks.",
+    "type": "NUM"
+  },
+  {
+    "name": "IC180Q04JA",
+    "label": "Agree/disagree: I discuss the accuracy of online information with my teachers or in class.",
+    "type": "NUM"
+  },
+  {
+    "name": "IC180Q05JA",
+    "label": "Agree/disagree: I discuss the accuracy of online information with friends or other students.",
+    "type": "NUM"
+  },
+  {
+    "name": "IC180Q06JA",
+    "label": "Agree/disagree: I discuss the accuracy of online information with my parents (or family).",
+    "type": "NUM"
+  },
+  {
+    "name": "IC180Q07JA",
+    "label": "Agree/disagree: I try to flag wrong information when I encounter it online.",
+    "type": "NUM"
+  },
+  {
+    "name": "IC180Q08JA",
+    "label": "Agree/disagree: I share made-up information on social networks without flagging its inaccuracy.",
+    "type": "NUM"
+  },
+  {
+    "name": "IC181Q01JA",
+    "label": "How upset were you when: Encountering content online that was inappropriate for my age",
+    "type": "NUM"
+  },
+  {
+    "name": "IC181Q02JA",
+    "label": "How upset were you when: Encountering discriminatory content online (e.g. about race, gender, sexual orientation or physical appearance)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC181Q03JA",
+    "label": "How upset were you when: Receiving unkind, vulgar or offending messages, comments or videos",
+    "type": "NUM"
+  },
+  {
+    "name": "IC181Q04JA",
+    "label": "How upset were you when: Information about me was publicly displayed online without my consent",
+    "type": "NUM"
+  },
+  {
+    "name": "IC182Q01JA",
+    "label": "Agree/disagree: I am interested in learning more about [digital resources].",
+    "type": "NUM"
+  },
+  {
+    "name": "IC182Q02JA",
+    "label": "Agree/disagree: I am interested in learning [computer programming].",
+    "type": "NUM"
+  },
+  {
+    "name": "IC182Q03JA",
+    "label": "Agree/disagree: I am interested in learning [digital resources] because it could be useful in a job.",
+    "type": "NUM"
+  },
+  {
+    "name": "IC183Q01JA",
+    "label": "Can do with [digital resources]: Search for and find relevant information online",
+    "type": "NUM"
+  },
+  {
+    "name": "IC183Q02JA",
+    "label": "Can do with [digital resources]: Assess the quality of information you found online",
+    "type": "NUM"
+  },
+  {
+    "name": "IC183Q03JA",
+    "label": "Can do with [digital resources]: Share practical information with a group of students",
+    "type": "NUM"
+  },
+  {
+    "name": "IC183Q04JA",
+    "label": "Can do with [digital resources]: Collaborate with other students on a group assignment",
+    "type": "NUM"
+  },
+  {
+    "name": "IC183Q05JA",
+    "label": "Can do with [digital resources]: Explain to other students how to share digital content online or on a school platform",
+    "type": "NUM"
+  },
+  {
+    "name": "IC183Q07JA",
+    "label": "Can do with [digital resources]: Write or edit text for a school assignment",
+    "type": "NUM"
+  },
+  {
+    "name": "IC183Q08JA",
+    "label": "Can do with [digital resources]: Collect and record data (e.g. using data loggers, [Microsoft® Access™], [Google® Forms], spreadsheets)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC183Q09JA",
+    "label": "Can do with [digital resources]: Create a multi-media presentation (with sound, pictures, or video)",
+    "type": "NUM"
+  },
+  {
+    "name": "IC183Q10JA",
+    "label": "Can do with [digital resources]: Create, update and maintain a webpage or a blog",
+    "type": "NUM"
+  },
+  {
+    "name": "IC183Q12JA",
+    "label": "Can do with [digital resources]: Change the settings of a device or app in order to protect my data and privacy",
+    "type": "NUM"
+  },
+  {
+    "name": "IC183Q13JA",
+    "label": "Can do with [digital resources]: Select the most efficient programme or app that allows me to carry out a specific task",
+    "type": "NUM"
+  },
+  {
+    "name": "IC183Q14JA",
+    "label": "Can do with [digital resources]: Create a computer program (e.g., in [Scratch®], [Python®], [Java®])",
+    "type": "NUM"
+  },
+  {
+    "name": "IC183Q15JA",
+    "label": "Can do with [digital resources]: Identify the source of an error in a software after considering a list of potential causes",
+    "type": "NUM"
+  },
+  {
+    "name": "IC183Q16JA",
+    "label": "Can do with [digital resources]: Break down a problem and represent a solution as a series of logical steps, such as an algorithm",
+    "type": "NUM"
+  },
+  {
+    "name": "WB150Q01HA",
+    "label": "How is your health?",
+    "type": "NUM"
+  },
+  {
+    "name": "WB151Q01HA",
+    "label": "How much do you weigh?",
+    "type": "NUM"
+  },
+  {
+    "name": "WB152Q01HA",
+    "label": "How tall are you?",
+    "type": "NUM"
+  },
+  {
+    "name": "WB153Q01HA",
+    "label": "Thinking about yourself, how much do you agree: I like my look just the way it is.",
+    "type": "NUM"
+  },
+  {
+    "name": "WB153Q02HA",
+    "label": "Thinking about yourself, how much do you agree: I consider myself to be attractive.",
+    "type": "NUM"
+  },
+  {
+    "name": "WB153Q03HA",
+    "label": "Thinking about yourself, how much do you agree: I am not concerned about my weight.",
+    "type": "NUM"
+  },
+  {
+    "name": "WB153Q04HA",
+    "label": "Thinking about yourself, how much do you agree: I like my body.",
+    "type": "NUM"
+  },
+  {
+    "name": "WB153Q05HA",
+    "label": "Thinking about yourself, how much do you agree: I like the way my clothes fit me.",
+    "type": "NUM"
+  },
+  {
+    "name": "WB154Q01HA",
+    "label": "In the past six months, how often have you had the following: Headache",
+    "type": "NUM"
+  },
+  {
+    "name": "WB154Q02HA",
+    "label": "In the past six months, how often have you had the following: Stomach pain",
+    "type": "NUM"
+  },
+  {
+    "name": "WB154Q03HA",
+    "label": "In the past six months, how often have you had the following: Back pain",
+    "type": "NUM"
+  },
+  {
+    "name": "WB154Q04HA",
+    "label": "In the past six months, how often have you had the following: Feeling depressed",
+    "type": "NUM"
+  },
+  {
+    "name": "WB154Q05HA",
+    "label": "In the past six months, how often have you had the following: Irritability or bad temper",
+    "type": "NUM"
+  },
+  {
+    "name": "WB154Q06HA",
+    "label": "In the past six months, how often have you had the following: Feeling nervous",
+    "type": "NUM"
+  },
+  {
+    "name": "WB154Q07HA",
+    "label": "In the past six months, how often have you had the following: Difficulties in getting to sleep",
+    "type": "NUM"
+  },
+  {
+    "name": "WB154Q08HA",
+    "label": "In the past six months, how often have you had the following: Feeling dizzy",
+    "type": "NUM"
+  },
+  {
+    "name": "WB154Q09HA",
+    "label": "In the past six months, how often have you had the following: Feeling anxious",
+    "type": "NUM"
+  },
+  {
+    "name": "WB155Q01HA",
+    "label": "How satisfied are you with each of the following: Your health",
+    "type": "NUM"
+  },
+  {
+    "name": "WB155Q02HA",
+    "label": "How satisfied are you with each of the following: The way that you look",
+    "type": "NUM"
+  },
+  {
+    "name": "WB155Q03HA",
+    "label": "How satisfied are you with each of the following: What you learn at school",
+    "type": "NUM"
+  },
+  {
+    "name": "WB155Q04HA",
+    "label": "How satisfied are you with each of the following: The friends you have",
+    "type": "NUM"
+  },
+  {
+    "name": "WB155Q05HA",
+    "label": "How satisfied are you with each of the following: The neighbourhood you live in",
+    "type": "NUM"
+  },
+  {
+    "name": "WB155Q06HA",
+    "label": "How satisfied are you with each of the following: All the things you have",
+    "type": "NUM"
+  },
+  {
+    "name": "WB155Q07HA",
+    "label": "How satisfied are you with each of the following: How you use your time",
+    "type": "NUM"
+  },
+  {
+    "name": "WB155Q08HA",
+    "label": "How satisfied are you with each of the following: Your relationship with your parents/guardians",
+    "type": "NUM"
+  },
+  {
+    "name": "WB155Q09HA",
+    "label": "How satisfied are you with each of the following: Your relationship with your teachers",
+    "type": "NUM"
+  },
+  {
+    "name": "WB155Q10HA",
+    "label": "How satisfied are you with each of the following: Your life at school",
+    "type": "NUM"
+  },
+  {
+    "name": "WB156Q01HA",
+    "label": "At present, how many close friends do you have?",
+    "type": "NUM"
+  },
+  {
+    "name": "WB158Q01HA",
+    "label": "How many days a week do you usually spend time with your friends right after school? ",
+    "type": "NUM"
+  },
+  {
+    "name": "WB160Q01HA",
+    "label": "How often do you talk to your friends on the phone, send them text messages or have contact through social media?",
+    "type": "NUM"
+  },
+  {
+    "name": "WB161Q01HA",
+    "label": "Are your friends well accepted by your parents or guardians?",
+    "type": "NUM"
+  },
+  {
+    "name": "WB162Q01HA",
+    "label": "How easy is it for you to talk to the following people about things that really bother you: Your father",
+    "type": "NUM"
+  },
+  {
+    "name": "WB162Q02HA",
+    "label": "How easy is it for you to talk to the following people about things that really bother you: Your mother's partner",
+    "type": "NUM"
+  },
+  {
+    "name": "WB162Q03HA",
+    "label": "How easy is it for you to talk to the following people about things that really bother you: Your mother",
+    "type": "NUM"
+  },
+  {
+    "name": "WB162Q04HA",
+    "label": "How easy is it for you to talk to the following people about things that really bother you: Your father's partner",
+    "type": "NUM"
+  },
+  {
+    "name": "WB162Q05HA",
+    "label": "How easy is it for you to talk to the following people about things that really bother you: Your brother(s)",
+    "type": "NUM"
+  },
+  {
+    "name": "WB162Q06HA",
+    "label": "How easy is it for you to talk to the following people about things that really bother you: Your sister(s)",
+    "type": "NUM"
+  },
+  {
+    "name": "WB162Q07HA",
+    "label": "How easy is it for you to talk to the following people about things that really bother you: Your close friend(s)",
+    "type": "NUM"
+  },
+  {
+    "name": "WB162Q08HA",
+    "label": "How easy is it for you to talk to the following people about things that really bother you: Your teachers",
+    "type": "NUM"
+  },
+  {
+    "name": "WB162Q09HA",
+    "label": "How easy is it for you to talk to the following people about things that really bother you: Other family members",
+    "type": "NUM"
+  },
+  {
+    "name": "WB163Q01HA",
+    "label": "Thinking about your parents or guardians, how often do they: Help me as much as I need",
+    "type": "NUM"
+  },
+  {
+    "name": "WB163Q02HA",
+    "label": "Thinking about your parents or guardians, how often do they: Let me do the things I like doing",
+    "type": "NUM"
+  },
+  {
+    "name": "WB163Q03HA",
+    "label": "Thinking about your parents or guardians, how often do they: Show that they care",
+    "type": "NUM"
+  },
+  {
+    "name": "WB163Q04HA",
+    "label": "Thinking about your parents or guardians, how often do they: Try to understand my problems and worries",
+    "type": "NUM"
+  },
+  {
+    "name": "WB163Q05HA",
+    "label": "Thinking about your parents or guardians, how often do they: Encourage me to make my own decisions",
+    "type": "NUM"
+  },
+  {
+    "name": "WB163Q06HA",
+    "label": "Thinking about your parents or guardians, how often do they: Try to control everything I do",
+    "type": "NUM"
+  },
+  {
+    "name": "WB163Q07HA",
+    "label": "Thinking about your parents or guardians, how often do they: Treat me like a baby",
+    "type": "NUM"
+  },
+  {
+    "name": "WB163Q08HA",
+    "label": "Thinking about your parents or guardians, how often do they: Make me feel better when I am upset",
+    "type": "NUM"
+  },
+  {
+    "name": "WB164Q01HA",
+    "label": "How often do you worry about how much money your family has?",
+    "type": "NUM"
+  },
+  {
+    "name": "WB165Q01HA",
+    "label": "When was the last time you attended a mathematics class at school?",
+    "type": "NUM"
+  },
+  {
+    "name": "WB166Q01HA",
+    "label": "How did you feel the last time you attended a mathematics class at school: Bored",
+    "type": "NUM"
+  },
+  {
+    "name": "WB166Q02HA",
+    "label": "How did you feel the last time you attended a mathematics class at school: Challenged",
+    "type": "NUM"
+  },
+  {
+    "name": "WB166Q03HA",
+    "label": "How did you feel the last time you attended a mathematics class at school: Nervous or tense",
+    "type": "NUM"
+  },
+  {
+    "name": "WB166Q04HA",
+    "label": "How did you feel the last time you attended a mathematics class at school: Motivated or inspired",
+    "type": "NUM"
+  },
+  {
+    "name": "WB167Q01HA",
+    "label": "When was the last time you attended a [test language lesson] at school?",
+    "type": "NUM"
+  },
+  {
+    "name": "WB168Q01HA",
+    "label": "How did you feel the last time you attended a [test language lesson] at school: Bored",
+    "type": "NUM"
+  },
+  {
+    "name": "WB168Q02HA",
+    "label": "How did you feel the last time you attended a [test language lesson] at school: Challenged",
+    "type": "NUM"
+  },
+  {
+    "name": "WB168Q03HA",
+    "label": "How did you feel the last time you attended a [test language lesson] at school: Nervous or tense",
+    "type": "NUM"
+  },
+  {
+    "name": "WB168Q04HA",
+    "label": "How did you feel the last time you attended a [test language lesson] at school: Motivated or inspired",
+    "type": "NUM"
+  },
+  {
+    "name": "WB171Q01HA",
+    "label": "Now think of the last time you had a break between classes at school: How did you feel: Happy",
+    "type": "NUM"
+  },
+  {
+    "name": "WB171Q02HA",
+    "label": "Now think of the last time you had a break between classes at school: How did you feel: Lonely",
+    "type": "NUM"
+  },
+  {
+    "name": "WB171Q03HA",
+    "label": "Now think of the last time you had a break between classes at school: How did you feel: Nervous or tense",
+    "type": "NUM"
+  },
+  {
+    "name": "WB171Q04HA",
+    "label": "Now think of the last time you had a break between classes at school: How did you feel: Full of energy",
+    "type": "NUM"
+  },
+  {
+    "name": "WB172Q01HA",
+    "label": "When was the last time you spent time outside your home with your friends?",
+    "type": "NUM"
+  },
+  {
+    "name": "WB173Q01HA",
+    "label": "How did you feel the last time you spent time outside your home with your friends: Bored",
+    "type": "NUM"
+  },
+  {
+    "name": "WB173Q02HA",
+    "label": "How did you feel the last time you spent time outside your home with your friends: Happy",
+    "type": "NUM"
+  },
+  {
+    "name": "WB173Q03HA",
+    "label": "How did you feel the last time you spent time outside your home with your friends: Nervous or tense",
+    "type": "NUM"
+  },
+  {
+    "name": "WB173Q04HA",
+    "label": "How did you feel the last time you spent time outside your home with your friends: Full of energy",
+    "type": "NUM"
+  },
+  {
+    "name": "WB176Q01HA",
+    "label": "When was the very last time you did your homework/studied for school?",
+    "type": "NUM"
+  },
+  {
+    "name": "WB177Q01HA",
+    "label": "How did you feel the last time you did your homework/studied for school: Bored",
+    "type": "NUM"
+  },
+  {
+    "name": "WB177Q02HA",
+    "label": "How did you feel the last time you did your homework/studied for school: Challenged",
+    "type": "NUM"
+  },
+  {
+    "name": "WB177Q03HA",
+    "label": "How did you feel the last time you did your homework/studied for school: Nervous or tense",
+    "type": "NUM"
+  },
+  {
+    "name": "WB177Q04HA",
+    "label": "How did you feel the last time you did your homework/studied for school: Motivated or inspired",
+    "type": "NUM"
+  },
+  {
+    "name": "WB032Q01NA",
+    "label": "How often: Moderate physical activities for a total of at least 60 minutes per day (e.g., walking, climbing stairs, riding a bike to school, [country-specific]) ",
+    "type": "NUM"
+  },
+  {
+    "name": "WB032Q02NA",
+    "label": "How often: Vigorous physical activities for at least 20 minutes per day that made you sweat and breathe hard (e.g. running, cycling, aerobics, soccer, skating, [country-specific]) ",
+    "type": "NUM"
+  },
+  {
+    "name": "WB031Q01NA",
+    "label": "This school year, on average, on how many days do you attend physical education classes each week? ",
+    "type": "NUM"
+  },
+  {
+    "name": "WB178Q01HA",
+    "label": "The following questions refer to your day yesterday. Overall, did you feel that you accomplished something yesterday?",
+    "type": "NUM"
+  },
+  {
+    "name": "WB178Q02HA",
+    "label": "The following questions refer to your day yesterday. Were you treated with respect all day yesterday?",
+    "type": "NUM"
+  },
+  {
+    "name": "WB178Q03HA",
+    "label": "The following questions refer to your day yesterday. Did you smile or laugh a lot yesterday?",
+    "type": "NUM"
+  },
+  {
+    "name": "WB178Q04HA",
+    "label": "The following questions refer to your day yesterday. Did you learn or do something interesting yesterday?",
+    "type": "NUM"
+  },
+  {
+    "name": "WB178Q05HA",
+    "label": "The following questions refer to your day yesterday. Did you have enough energy to get things done yesterday?",
+    "type": "NUM"
+  },
+  {
+    "name": "WB178Q06HA",
+    "label": "The following questions refer to your day yesterday. Overall, are you satisfied with how you spent your time yesterday?",
+    "type": "NUM"
+  },
+  {
+    "name": "WB178Q07HA",
+    "label": "The following questions refer to your day yesterday. Was yesterday a typical day?",
+    "type": "NUM"
+  },
+  {
+    "name": "PA001Q01TA",
+    "label": "Who will complete this questionnaire? Mother or other female guardian",
+    "type": "NUM"
+  },
+  {
+    "name": "PA001Q02TA",
+    "label": "Who will complete this questionnaire? Father or other male guardian",
+    "type": "NUM"
+  },
+  {
+    "name": "PA001Q03TA",
+    "label": "Who will complete this questionnaire? Other",
+    "type": "NUM"
+  },
+  {
+    "name": "PA003Q01TA",
+    "label": "How often someone in home does? Discuss how well my child is doing at school",
+    "type": "NUM"
+  },
+  {
+    "name": "PA003Q02TA",
+    "label": "How often someone in home does? Eat [the main meal] with my child around a table",
+    "type": "NUM"
+  },
+  {
+    "name": "PA003Q03TA",
+    "label": "How often someone in home does? Spend time just talking to my child",
+    "type": "NUM"
+  },
+  {
+    "name": "PA003Q05IA",
+    "label": "How often someone in home does? Discuss political or social issues with my child",
+    "type": "NUM"
+  },
+  {
+    "name": "PA003Q18WA",
+    "label": "How often someone in home does? Help my child with his/her mathematics homework",
+    "type": "NUM"
+  },
+  {
+    "name": "PA003Q19WA",
+    "label": "How often someone in home does? Obtain mathematics materials (e.g. applications, software, study guides etc.) for my child",
+    "type": "NUM"
+  },
+  {
+    "name": "PA003Q20WA",
+    "label": "How often someone in home does? Discuss with my child how mathematics can be applied in everyday life",
+    "type": "NUM"
+  },
+  {
+    "name": "PA003Q11JA",
+    "label": "How often someone in home does? Talk to my child about the importance of [completing ISCED 3]",
+    "type": "NUM"
+  },
+  {
+    "name": "PA003Q12JA",
+    "label": "How often: someone in home does? Talk to my child about any problems he/she may have at school",
+    "type": "NUM"
+  },
+  {
+    "name": "PA003Q13JA",
+    "label": "How often someone in home does? Ask my child about how he/she is getting along with other students at school",
+    "type": "NUM"
+  },
+  {
+    "name": "PA003Q14JA",
+    "label": "How often someone in home does? Encourage my child to get good [marks]",
+    "type": "NUM"
+  },
+  {
+    "name": "PA003Q15JA",
+    "label": "How often someone in home does? Take an interest in what my child is learning at school",
+    "type": "NUM"
+  },
+  {
+    "name": "PA003Q16JA",
+    "label": "How often someone in home does? Talk to my child about his/her future education",
+    "type": "NUM"
+  },
+  {
+    "name": "PA003Q17JA",
+    "label": "How often someone in home does? Ask my child what he/she did in school that day",
+    "type": "NUM"
+  },
+  {
+    "name": "PA196Q01WA",
+    "label": "Agree/disagree: It is important to have good mathematics knowledge and skills in order to get any good job in today's world.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA196Q02WA",
+    "label": "Agree/disagree: Employers generally appreciate strong mathematics knowledge and skills among their employees.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA196Q03WA",
+    "label": "Agree/disagree: Most jobs today require some mathematics knowledge and skills.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA196Q04WA",
+    "label": "Agree/disagree: It is an advantage in the job market to have good mathematics knowledge and skills.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA197Q01WA",
+    "label": "Please answer: Does anybody in your family (including you) work in a [mathematics-related career]?",
+    "type": "NUM"
+  },
+  {
+    "name": "PA197Q02WA",
+    "label": "Please answer: Does your child show an interest in working in a [mathematics-related career]?",
+    "type": "NUM"
+  },
+  {
+    "name": "PA197Q03WA",
+    "label": "Please answer: Do you expect your child will go into a [mathematics-related career]?",
+    "type": "NUM"
+  },
+  {
+    "name": "PA197Q04WA",
+    "label": "Please answer: Has your child shown interest in studying mathematics after completing [secondary school]?",
+    "type": "NUM"
+  },
+  {
+    "name": "PA197Q05WA",
+    "label": "Please answer: Do you expect your child will study mathematics after completing [secondary school]?",
+    "type": "NUM"
+  },
+  {
+    "name": "PA008Q01TA",
+    "label": "Last year, have you? Discussed my child’s behaviour with a teacher on my own initiative.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA008Q02TA",
+    "label": "Last year, have you? Discussed my child’s behaviour on the initiative of one of his/her teachers.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA008Q03TA",
+    "label": "Last year, have you? Discussed my child’s progress with a teacher on my own initiative.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA008Q04TA",
+    "label": "Last year, have you? Discussed my child’s progress on the initiative of one of their teachers.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA008Q05TA",
+    "label": "Last year, have you? Participated in local school government, e.g. parent council or school management committee.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA008Q06NA",
+    "label": "Last year, have you? Volunteered in physical or extra-curricular activities (e.g. building maintenance, carpentry, gardening or yard work, school play, sports, field trip)",
+    "type": "NUM"
+  },
+  {
+    "name": "PA008Q07NA",
+    "label": "Last year, have you? Volunteered to support school activities (volunteered in the school library, media centre, or canteen, assisted a teacher, appeared as a guest speaker)",
+    "type": "NUM"
+  },
+  {
+    "name": "PA008Q08NA",
+    "label": "Last year, have you? Attended a scheduled meeting or conferences for parents.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA008Q09NA",
+    "label": "Last year, have you? Talked about how to support learning at home and homework with my child’s teachers.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA008Q10NA",
+    "label": "Last year, have you? Exchanged ideas on parenting, family support, or the child’s development with my child’s teachers.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA009Q01NA",
+    "label": "Last year, was your participation at child’s school hindered by? The meeting times were inconvenient.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA009Q02NA",
+    "label": "Last year, was your participation at child’s school hindered by? I was not able to get off from work.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA009Q03NA",
+    "label": "Last year, was your participation at child’s school hindered by? I had no one to take care of my child/ children.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA009Q04NA",
+    "label": "Last year, was your participation at child’s school hindered by? The way to school is unsafe.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA009Q05NA",
+    "label": "Last year, was your participation at child’s school hindered by? I had problems with transportation.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA009Q06NA",
+    "label": "Last year, was your participation at child’s school hindered by? I felt unwelcome at my child’s school.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA009Q07NA",
+    "label": "Last year, was your participation at child’s school hindered by? I feel generally awkward in a school.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA009Q08NA",
+    "label": "Last year, was your participation at child’s school hindered by? My [language skills] were not sufficient.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA009Q09NA",
+    "label": "Last year, was your participation at child’s school hindered by? I think participation is not relevant for my child’s development.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA009Q10NA",
+    "label": "Last year, was your participation at child’s school hindered by? I do not know how I could participate in school activities.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA009Q11NA",
+    "label": "Last year, was your participation at child’s school hindered by? My child does not want me to participate.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA007Q01TA",
+    "label": "Agree/disagree? Most of my child’s school teachers seem competent and dedicated.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA007Q02TA",
+    "label": "Agree/disagree? Standards of achievement are high in my child’s school.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA007Q03TA",
+    "label": "Agree/disagree? I am happy with the content taught and the instructional methods used in my child’s school.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA007Q04TA",
+    "label": "Agree/disagree? I am satisfied with the disciplinary atmosphere in my child’s school.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA007Q05TA",
+    "label": "Agree/disagree? My child’s progress is carefully monitored by the school.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA007Q06TA",
+    "label": "Agree/disagree? My child’s school provides regular and useful information on my child’s progress.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA007Q07TA",
+    "label": "Agree/disagree? My child’s school does a good job in educating students.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA007Q09NA",
+    "label": "Agree/disagree? My child’s school provides an inviting atmosphere for parents to get involved.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA007Q11NA",
+    "label": "Agree/disagree? My child’s school provides effective communication between the school and families.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA007Q12NA",
+    "label": "Agree/disagree? My child’s school involves parents in the school’s decision-making process.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA007Q13NA",
+    "label": "Agree/disagree? My child’s school offers parent education (e.g. [courses on family literacy]) or family support programmes (e.g. [to assist with health, nutrition]).",
+    "type": "NUM"
+  },
+  {
+    "name": "PA007Q14NA",
+    "label": "Agree/disagree? My child’s school informs families about how to help students with homework and other school-related activities.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA007Q15NA",
+    "label": "Agree/disagree? My child’s school cooperates with [community services] to strengthen school programmes and student development.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA005Q01TA",
+    "label": "Which of the following statements best describes the schooling available to students in your location?",
+    "type": "NUM"
+  },
+  {
+    "name": "PA006Q01TA",
+    "label": "When choosing school, how important: The school is at a short distance to home.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA006Q02TA",
+    "label": "When choosing school, how important: The school has a good reputation.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA006Q03TA",
+    "label": "When choosing school, how important: The school offers particular courses or school subjects.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA006Q04TA",
+    "label": "When choosing school, how important: The school adheres to a particular [religious philosophy].",
+    "type": "NUM"
+  },
+  {
+    "name": "PA006Q05TA",
+    "label": "When choosing school, how important: The school has a particular approach to [pedagogy/didactics, e.g. example].",
+    "type": "NUM"
+  },
+  {
+    "name": "PA006Q06TA",
+    "label": "When choosing school, how important: Other family members attended the school.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA006Q07TA",
+    "label": "When choosing school, how important: Expenses are low (e.g. tuition, books, room and board).",
+    "type": "NUM"
+  },
+  {
+    "name": "PA006Q08TA",
+    "label": "When choosing school, how important: The school has financial aid available, such as a school loan, scholarship, or grant.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA006Q09TA",
+    "label": "When choosing school, how important: The school has an active and pleasant school climate.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA006Q10TA",
+    "label": "When choosing school, how important: The academic achievements of students in the school are high.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA006Q11TA",
+    "label": "When choosing school, how important: There is a safe school environment.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA006Q12HA",
+    "label": "When choosing school, how important: The school has an international student body.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA006Q13HA",
+    "label": "When choosing school, how important: The school offers exchange programmes with schools in other countries.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA006Q14HA",
+    "label": "When choosing school, how important: The school has a focus on foreign language instruction.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA166Q01HA",
+    "label": "How many languages, including the language(s) you speak at home, do you speak well enough to converse with others?",
+    "type": "NUM"
+  },
+  {
+    "name": "PA167Q02HA",
+    "label": "Agree/disagree: Immigrant children should have the same opportunities for education that other children in the country have.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA167Q03HA",
+    "label": "Agree/disagree: Immigrants who live in a country for several years should have the opportunity to vote in elections.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA167Q04HA",
+    "label": "Agree/disagree: Immigrants should have the opportunity to continue their own customs and lifestyle.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA167Q05HA",
+    "label": "Agree/disagree: Immigrants should have all the same rights that everyone else in the country has.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA183Q01JA",
+    "label": "Which qualification do you expect your child to complete? [ISCED level 2]",
+    "type": "NUM"
+  },
+  {
+    "name": "PA183Q02JA",
+    "label": "Which qualification do you expect your child to complete? [ISCED level 3.3]",
+    "type": "NUM"
+  },
+  {
+    "name": "PA183Q03JA",
+    "label": "Which qualification do you expect your child to complete? [ISCED level 3.4]",
+    "type": "NUM"
+  },
+  {
+    "name": "PA183Q04JA",
+    "label": "Which qualification do you expect your child to complete? [ISCED level 4]",
+    "type": "NUM"
+  },
+  {
+    "name": "PA183Q05JA",
+    "label": "Which qualification do you expect your child to complete? [ISCED level 5]",
+    "type": "NUM"
+  },
+  {
+    "name": "PA183Q06JA",
+    "label": "Which qualification do you expect your child to complete? [ISCED level 6]",
+    "type": "NUM"
+  },
+  {
+    "name": "PA183Q07JA",
+    "label": "Which qualification do you expect your child to complete? [ISCED level 7]",
+    "type": "NUM"
+  },
+  {
+    "name": "PA183Q08JA",
+    "label": "Which qualification do you expect your child to complete? [ISCED level 8]",
+    "type": "NUM"
+  },
+  {
+    "name": "PA018Q01NA",
+    "label": "Prior to [grade 1 in ISCED 1], did child attend: Supervision and care (e.g. [national examples])",
+    "type": "NUM"
+  },
+  {
+    "name": "PA018Q02NA",
+    "label": "Prior to [grade 1 in ISCED 1], did child attend: Early childhood educational development (e.g. [national examples])",
+    "type": "NUM"
+  },
+  {
+    "name": "PA018Q03NA",
+    "label": "Prior to [grade 1 in ISCED 1], did child attend: Pre-primary education (e.g. [national examples])",
+    "type": "NUM"
+  },
+  {
+    "name": "PA177Q01HA",
+    "label": "Prior to [grade 1 in ISCED 1], ages child attended [early childhood education and care arrangement]: Up to age 1",
+    "type": "NUM"
+  },
+  {
+    "name": "PA177Q02HA",
+    "label": "Prior to [grade 1 in ISCED 1], ages child attended [early childhood education and care arrangement]: Age 1",
+    "type": "NUM"
+  },
+  {
+    "name": "PA177Q03HA",
+    "label": "Prior to [grade 1 in ISCED 1], ages child attended [early childhood education and care arrangement]: Age 2",
+    "type": "NUM"
+  },
+  {
+    "name": "PA177Q04HA",
+    "label": "Prior to [grade 1 in ISCED 1], ages child attended [early childhood education and care arrangement]: Age 3",
+    "type": "NUM"
+  },
+  {
+    "name": "PA177Q05HA",
+    "label": "Prior to [grade 1 in ISCED 1], ages child attended [early childhood education and care arrangement]: Age 4",
+    "type": "NUM"
+  },
+  {
+    "name": "PA177Q06HA",
+    "label": "Prior to [grade 1 in ISCED 1], ages child attended [early childhood education and care arrangement]: Age 5",
+    "type": "NUM"
+  },
+  {
+    "name": "PA177Q07HA",
+    "label": "Prior to [grade 1 in ISCED 1], ages child attended [early childhood education and care arrangement]: Age 6",
+    "type": "NUM"
+  },
+  {
+    "name": "PA177Q08HA",
+    "label": "Prior to [grade 1 in ISCED 1], ages child attended [early childhood education and care arrangement]: Age 7",
+    "type": "NUM"
+  },
+  {
+    "name": "PA180Q01HA",
+    "label": "What was the most important reason why your child attended an [early childhood education and care arrangement]? ",
+    "type": "NUM"
+  },
+  {
+    "name": "PA182Q01HA",
+    "label": "How many hours per week did your child attend a [early childhood education and care arrangement] at age of three years? ",
+    "type": "NUM"
+  },
+  {
+    "name": "PA175Q01HA",
+    "label": "During [ISCED 1], did child attend: [Enrichment lessons] in [test language]",
+    "type": "NUM"
+  },
+  {
+    "name": "PA175Q02HA",
+    "label": "During [ISCED 1], did child attend: [Remedial lessons] in [test language]",
+    "type": "NUM"
+  },
+  {
+    "name": "PA175Q03JA",
+    "label": "During [ISCED 1], did child attend: [Enrichment lessons] in mathematics",
+    "type": "NUM"
+  },
+  {
+    "name": "PA175Q04JA",
+    "label": "During [ISCED 1], did child attend: [Remedial lessons] in mathematics",
+    "type": "NUM"
+  },
+  {
+    "name": "PA185Q01JA",
+    "label": "Agree/disagree: In our family, we encourage participating in extracurricular activities that require creativity.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA185Q02JA",
+    "label": "Agree/disagree: At home, we are open to new ideas.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA185Q03JA",
+    "label": "Agree/disagree: At home, we encourage trying new things",
+    "type": "NUM"
+  },
+  {
+    "name": "PA185Q04JA",
+    "label": "Agree/disagree: At home, we encourage being imaginative.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA185Q05JA",
+    "label": "Agree/disagree: Discussions we have at home help with developing new ideas.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA185Q07JA",
+    "label": "Agree/disagree: At home, we create works of art together (e.g. paintings, sculptures).",
+    "type": "NUM"
+  },
+  {
+    "name": "PA185Q08JA",
+    "label": "Agree/disagree: At home, we discuss the books we are reading.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA185Q09JA",
+    "label": "Agree/disagree: At home, we try to fix things that are broken.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA185Q10JA",
+    "label": "Agree/disagree: At home, we discuss different solutions to social problems (e.g. unemployment, pollution).",
+    "type": "NUM"
+  },
+  {
+    "name": "PA186Q01JA",
+    "label": "Out of school, how often child does: Art classes/activities (e.g. painting, drawing)",
+    "type": "NUM"
+  },
+  {
+    "name": "PA186Q02JA",
+    "label": "Out of school, how often child does: Creative writing classes/activities",
+    "type": "NUM"
+  },
+  {
+    "name": "PA186Q03JA",
+    "label": "Out of school, how often child does: Music classes/activities (e.g. chorus, band)",
+    "type": "NUM"
+  },
+  {
+    "name": "PA186Q04JA",
+    "label": "Out of school, how often child does: Debate [club]",
+    "type": "NUM"
+  },
+  {
+    "name": "PA186Q05JA",
+    "label": "Out of school, how often child does: Dramatics, theatre class/activities",
+    "type": "NUM"
+  },
+  {
+    "name": "PA186Q06JA",
+    "label": "Out of school, how often child does: Publications (e.g. newspaper, [yearbooks], literary magazine)",
+    "type": "NUM"
+  },
+  {
+    "name": "PA186Q07JA",
+    "label": "Out of school, how often child does: Science [club]",
+    "type": "NUM"
+  },
+  {
+    "name": "PA186Q08JA",
+    "label": "Out of school, how often child does: Computer programming classes/activities",
+    "type": "NUM"
+  },
+  {
+    "name": "PA187Q04JA",
+    "label": "Agree/disagree: Creativity can only be expressed through the arts (e.g. drawing, music, writing).",
+    "type": "NUM"
+  },
+  {
+    "name": "PA187Q06JA",
+    "label": "Agree/disagree: It is possible to be creative in nearly any subject.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA188Q01JA",
+    "label": "Agree/disagree: I am very creative.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA188Q02JA",
+    "label": "Agree/disagree: I enjoy projects that require creative solutions.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA188Q03JA",
+    "label": "Agree/disagree: I enjoy solving complex problems",
+    "type": "NUM"
+  },
+  {
+    "name": "PA188Q04JA",
+    "label": "Agree/disagree: I enjoy learning new things.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA188Q05JA",
+    "label": "Agree/disagree: I enjoy artistic activities.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA188Q06JA",
+    "label": "Agree/disagree: I express myself through art.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA188Q08JA",
+    "label": "Agree/disagree: I have difficulty using my imagination.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA188Q09JA",
+    "label": "Agree/disagree: I have a good imagination.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA188Q10JA",
+    "label": "Agree/disagree: I like to be spontaneous",
+    "type": "NUM"
+  },
+  {
+    "name": "PA189Q01JA",
+    "label": "Agree/disagree: My child is very creative.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA189Q02JA",
+    "label": "Agree/disagree: My child enjoys projects that require creative solutions.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA189Q03JA",
+    "label": "Agree/disagree: My child enjoys solving complex problems.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA189Q04JA",
+    "label": "Agree/disagree: My child enjoys learning new things.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA189Q05JA",
+    "label": "Agree/disagree: My child enjoys artistic activities.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA189Q06JA",
+    "label": "Agree/disagree: My child expresses him/herself through art.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA189Q09JA",
+    "label": "Agree/disagree: My child has a good imagination",
+    "type": "NUM"
+  },
+  {
+    "name": "PA189Q10JA",
+    "label": "Agree/disagree: My child likes to be spontaneous.",
+    "type": "NUM"
+  },
+  {
+    "name": "PA194Q01JA",
+    "label": "How many [digital devices] with screens are there in your home?",
+    "type": "NUM"
+  },
+  {
+    "name": "PA195Q01JA",
+    "label": "How many books are there in your home?",
+    "type": "NUM"
+  },
+  {
+    "name": "PA041Q01TA",
+    "label": "In the last twelve months, about how much would you have paid to educational providers for services? ",
+    "type": "NUM"
+  },
+  {
+    "name": "PA042Q01TA",
+    "label": "What is your annual household income?",
+    "type": "NUM"
+  },
+  {
+    "name": "EFFORT1",
+    "label": "How much effort did you put into this test? (after cognitive assessment)",
+    "type": "NUM"
+  },
+  {
+    "name": "EFFORT2",
+    "label": "How much effort would you have invested? (after cognitive assessment)",
+    "type": "NUM"
+  },
+  {
+    "name": "OCOD1",
+    "label": "ISCO-08 Occupation code - Mother",
+    "type": "CHAR"
+  },
+  {
+    "name": "OCOD2",
+    "label": "ISCO-08 Occupation code - Father",
+    "type": "CHAR"
+  },
+  {
+    "name": "OCOD3",
+    "label": "ISCO-08 Occupation code - Self",
+    "type": "CHAR"
+  },
+  {
+    "name": "PROGN",
+    "label": "Unique national study programme code",
+    "type": "CHAR"
+  },
+  {
+    "name": "AGE",
+    "label": "Students' age",
+    "type": "NUM"
+  },
+  {
+    "name": "GRADE",
+    "label": "Grade compared to modal grade in country",
+    "type": "NUM"
+  },
+  {
+    "name": "ISCEDP",
+    "label": "Levels of education programmes (ISCED 2011)",
+    "type": "NUM"
+  },
+  {
+    "name": "IMMIG",
+    "label": "Index on immigrant background (OECD definition)",
+    "type": "NUM"
+  },
+  {
+    "name": "COBN_S",
+    "label": "Student's county of birth",
+    "type": "CHAR"
+  },
+  {
+    "name": "COBN_M",
+    "label": "Student mother's country of birth",
+    "type": "CHAR"
+  },
+  {
+    "name": "COBN_F",
+    "label": "Student father's country of birth",
+    "type": "CHAR"
+  },
+  {
+    "name": "LANGN",
+    "label": "Language spoken at home",
+    "type": "NUM"
+  },
+  {
+    "name": "REPEAT",
+    "label": "Grade repetition",
+    "type": "NUM"
+  },
+  {
+    "name": "MISSSC",
+    "label": "Missing school for more than 3 months",
+    "type": "NUM"
+  },
+  {
+    "name": "SKIPPING",
+    "label": "Skipping classes or days of school",
+    "type": "NUM"
+  },
+  {
+    "name": "TARDYSD",
+    "label": "Arriving late for school stricter definition",
+    "type": "NUM"
+  },
+  {
+    "name": "EXERPRAC",
+    "label": "Exercise or practice a sport before or after school",
+    "type": "NUM"
+  },
+  {
+    "name": "STUDYHMW",
+    "label": "Studying for school or homework before or after school",
+    "type": "NUM"
+  },
+  {
+    "name": "WORKPAY",
+    "label": "Working for pay before or after school",
+    "type": "NUM"
+  },
+  {
+    "name": "WORKHOME",
+    "label": "Working in household/take care of family members before or after school",
+    "type": "NUM"
+  },
+  {
+    "name": "EXPECEDU",
+    "label": "Highest expected educational level",
+    "type": "NUM"
+  },
+  {
+    "name": "MATHPREF",
+    "label": "Preference of Math over other core subjects",
+    "type": "NUM"
+  },
+  {
+    "name": "MATHEASE",
+    "label": "Perception of Mathematics as easier than other subjects",
+    "type": "NUM"
+  },
+  {
+    "name": "MATHMOT",
+    "label": "Motivation to do well in mathematics ",
+    "type": "NUM"
+  },
+  {
+    "name": "DURECEC",
+    "label": "Duration in early childhood education and care",
+    "type": "NUM"
+  },
+  {
+    "name": "BSMJ",
+    "label": "Expected occupation status (free response)- 4 digits",
+    "type": "NUM"
+  },
+  {
+    "name": "SISCO",
+    "label": "Clear idea about future job",
+    "type": "NUM"
+  },
+  {
+    "name": "RELATST",
+    "label": "Quality of student-teacher relationships (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "BELONG",
+    "label": "Sense of belonging (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "BULLIED",
+    "label": "Being bullied (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "FEELSAFE",
+    "label": "Feeling safe (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "SCHRISK",
+    "label": "School safety risks (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "PERSEVAGR",
+    "label": "Perseverance (agreement) (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "CURIOAGR",
+    "label": "Curiosity (agreement) (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "COOPAGR",
+    "label": "Cooperation (agreement) (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "EMPATAGR",
+    "label": "Empathy (agreement) (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "ASSERAGR",
+    "label": "Assertiveness (agreement) (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "STRESAGR",
+    "label": "Stress resistance (agreement) (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "EMOCOAGR",
+    "label": "Emotional control (agreement) (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "GROSAGR",
+    "label": "Growth Mindset (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "INFOSEEK",
+    "label": "Information seeking about future careers (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "FAMSUP",
+    "label": "Family support (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "DISCLIM",
+    "label": "Disciplinary climate in mathematics (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "TEACHSUP",
+    "label": "Mathematics Teacher Support (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "COGACRCO",
+    "label": "Cognitive activation in mathematics: Foster reasoning Version B (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "COGACMCO",
+    "label": "Cognitive activation in mathematics: Encourage mathematical thinking Version B (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "EXPOFA",
+    "label": "Exposure to Formal and Applied Mathematics Tasks (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "EXPO21ST",
+    "label": "Exposure to Mathematical Reasoning and 21st century mathematics tasks (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "MATHEFF",
+    "label": "Mathematics self-efficacy: formal and applied mathematics - response options reversed in 2022 (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "MATHEF21",
+    "label": "Mathematics self-efficacy: mathematical reasoning and 21st century skills (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "FAMCON",
+    "label": "Subjective familiarity with mathematics concepts (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "ANXMAT",
+    "label": "Mathematics Anxiety (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "MATHPERS",
+    "label": "Effort and Persistence in Mathematics  (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "CREATEFF",
+    "label": "Creative self-efficacy (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "CREATSCH",
+    "label": "Creative school and class environment (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "CREATFAM",
+    "label": "Creative peers and family environment (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "CREATAS",
+    "label": "Creative Activities at school (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "CREATOOS",
+    "label": "Creative Activities outside of school (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "CREATOP",
+    "label": "Creativity and Openness to Intellect TBD (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "OPENART",
+    "label": "Openness to Art and Reflection TBD (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "IMAGINE",
+    "label": "Imagination and Adventurousness TBD (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "SCHSUST",
+    "label": "School actions/activities to sustain learning  (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "LEARRES",
+    "label": "Types of learning resources used while school was closed (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "PROBSELF",
+    "label": "Problems with self-directed learning (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "FAMSUPSL",
+    "label": "Family support for self-directed learning (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "FEELLAH",
+    "label": "Feelings about learning at home (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "SDLEFF",
+    "label": "Self-directed learning self-efficacy (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "MISCED",
+    "label": "Mother’s level of education (ISCED)",
+    "type": "NUM"
+  },
+  {
+    "name": "FISCED",
+    "label": "Father’s level of education (ISCED)",
+    "type": "NUM"
+  },
+  {
+    "name": "HISCED",
+    "label": "Highest level of education of parents (ISCED)",
+    "type": "NUM"
+  },
+  {
+    "name": "PAREDINT",
+    "label": "Index highest parental education (international years of schooling scale)",
+    "type": "NUM"
+  },
+  {
+    "name": "BMMJ1",
+    "label": "Mother’s occupational status (ISEI) based on 4-digit human coded ISCO",
+    "type": "NUM"
+  },
+  {
+    "name": "BFMJ2",
+    "label": "Father’s occupational status (ISEI) based on 4-digit human coded ISCO",
+    "type": "NUM"
+  },
+  {
+    "name": "HISEI",
+    "label": "Highest parental occupational status (ISEI) based on 4-digit human coded ISCO",
+    "type": "NUM"
+  },
+  {
+    "name": "ICTRES",
+    "label": "ICT Resources (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "HOMEPOS",
+    "label": "Home possessions (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "ESCS",
+    "label": "Index of economic, social and cultural status",
+    "type": "NUM"
+  },
+  {
+    "name": "FCFMLRTY",
+    "label": "Familiarity with concepts of finance",
+    "type": "NUM"
+  },
+  {
+    "name": "FLSCHOOL",
+    "label": "Financial education in school lessons (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "FLMULTSB",
+    "label": "Financial education in school lessons, multiple subjects (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "FLFAMILY",
+    "label": "Parental involvement in matters of FL (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "ACCESSFP",
+    "label": "Access to money and financial products, sources of money (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "FLCONFIN",
+    "label": "Confidence about financial matters (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "FLCONICT",
+    "label": "Confidence about financial matters using digital devices (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "ACCESSFA",
+    "label": "Access to money and financial products, financial activities (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "ATTCONFM",
+    "label": "Attitudes towards and confidence about financial matters (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "FRINFLFM",
+    "label": "Friends’ influence on financial matters (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "ICTSCH",
+    "label": "ICT availability at school  (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "ICTAVSCH",
+    "label": "Availability and Usage of ICT at School ",
+    "type": "NUM"
+  },
+  {
+    "name": "ICTHOME",
+    "label": "ICT availability outside of school  (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "ICTAVHOM",
+    "label": "Availability and Usage of ICT at Home ",
+    "type": "NUM"
+  },
+  {
+    "name": "ICTQUAL",
+    "label": "Quality of access to ICT (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "ICTSUBJ",
+    "label": "Subject-related ICT Use During Lessons (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "ICTENQ",
+    "label": "Use of ICT in enquiry-based learning activities (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "ICTFEED",
+    "label": "Support or feedback via ICT  (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "ICTOUT",
+    "label": "Use of ICT for school activities outside of the classroom (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "ICTWKDY",
+    "label": "Frequency of ICT activity (weekday) (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "ICTWKEND",
+    "label": "Frequency of ICT activity (weekend) (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "ICTREG",
+    "label": "Views of regulated ICT use in school (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "ICTINFO",
+    "label": "Students’ practices regarding online information (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "ICTDISTR",
+    "label": "Distress from online content and cyberbullying ",
+    "type": "NUM"
+  },
+  {
+    "name": "ICTEFFIC",
+    "label": "Self-efficacy in digital competencies (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "STUBMI",
+    "label": "Body Mass Index (BMI)",
+    "type": "NUM"
+  },
+  {
+    "name": "BODYIMA",
+    "label": "Body Image (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "SOCONPA",
+    "label": "Social connection to Parents (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "LIFESAT",
+    "label": "Students' Life Satisfaction across Domains (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "PSYCHSYM",
+    "label": "Psychosomatic Symptoms (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "SOCCON",
+    "label": "Social Connections: Ease of Communication About Worries and Concerns (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "EXPWB",
+    "label": "Experienced Well-being (Previous Day) (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "CURSUPP",
+    "label": "Current parental/guardian Support (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "PQMIMP",
+    "label": "Parent Attitudes Toward Mathematics (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "PQMCAR",
+    "label": "Mathematics Career (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "PARINVOL",
+    "label": "Parental Involvement (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "PQSCHOOL",
+    "label": "School quality (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "PASCHPOL",
+    "label": "School Policies for Parental Involvement  (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "ATTIMMP",
+    "label": "Parents' Attitudes towards Immigrants (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "PAREXPT",
+    "label": "Parent’s expectations in child’s career",
+    "type": "NUM"
+  },
+  {
+    "name": "CREATHME",
+    "label": "Creative Home Environment (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "CREATACT",
+    "label": "Participation in creative activities outside of school (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "CREATOPN",
+    "label": "Creativity and Openness to Intellect (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "CREATOR",
+    "label": "Openness to creativity: Other’s report (WLE)",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTUWT",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT WEIGHT",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT1",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 1",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT2",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 2",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT3",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 3",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT4",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 4",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT5",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 5",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT6",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 6",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT7",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 7",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT8",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 8",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT9",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 9",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT10",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 10",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT11",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 11",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT12",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 12",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT13",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 13",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT14",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 14",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT15",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 15",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT16",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 16",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT17",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 17",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT18",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 18",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT19",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 19",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT20",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 20",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT21",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 21",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT22",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 22",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT23",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 23",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT24",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 24",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT25",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 25",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT26",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 26",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT27",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 27",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT28",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 28",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT29",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 29",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT30",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 30",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT31",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 31",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT32",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 32",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT33",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 33",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT34",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 34",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT35",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 35",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT36",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 36",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT37",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 37",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT38",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 38",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT39",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 39",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT40",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 40",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT41",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 41",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT42",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 42",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT43",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 43",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT44",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 44",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT45",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 45",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT46",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 46",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT47",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 47",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT48",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 48",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT49",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 49",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT50",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 50",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT51",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 51",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT52",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 52",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT53",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 53",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT54",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 54",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT55",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 55",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT56",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 56",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT57",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 57",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT58",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 58",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT59",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 59",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT60",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 60",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT61",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 61",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT62",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 62",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT63",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 63",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT64",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 64",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT65",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 65",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT66",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 66",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT67",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 67",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT68",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 68",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT69",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 69",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT70",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 70",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT71",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 71",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT72",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 72",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT73",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 73",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT74",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 74",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT75",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 75",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT76",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 76",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT77",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 77",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT78",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 78",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT79",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 79",
+    "type": "NUM"
+  },
+  {
+    "name": "W_FSTURWT80",
+    "label": "FINAL TRIMMED NONRESPONSE ADJUSTED STUDENT REPLICATE BRR-FAY WEIGHTS 80",
+    "type": "NUM"
+  },
+  {
+    "name": "UNIT",
+    "label": "REP_BWGT: RANDOMLY ASSIGNED UNIT NUMBER",
+    "type": "NUM"
+  },
+  {
+    "name": "WVARSTRR",
+    "label": "RANDOMIZED FINAL VARIANCE STRATUM (1-80)",
+    "type": "NUM"
+  },
+  {
+    "name": "PV1MATH",
+    "label": "Plausible Value 1 in Mathematics",
+    "type": "NUM"
+  },
+  {
+    "name": "PV2MATH",
+    "label": "Plausible Value 2 in Mathematics",
+    "type": "NUM"
+  },
+  {
+    "name": "PV3MATH",
+    "label": "Plausible Value 3 in Mathematics",
+    "type": "NUM"
+  },
+  {
+    "name": "PV4MATH",
+    "label": "Plausible Value 4 in Mathematics",
+    "type": "NUM"
+  },
+  {
+    "name": "PV5MATH",
+    "label": "Plausible Value 5 in Mathematics",
+    "type": "NUM"
+  },
+  {
+    "name": "PV6MATH",
+    "label": "Plausible Value 6 in Mathematics",
+    "type": "NUM"
+  },
+  {
+    "name": "PV7MATH",
+    "label": "Plausible Value 7 in Mathematics",
+    "type": "NUM"
+  },
+  {
+    "name": "PV8MATH",
+    "label": "Plausible Value 8 in Mathematics",
+    "type": "NUM"
+  },
+  {
+    "name": "PV9MATH",
+    "label": "Plausible Value 9 in Mathematics",
+    "type": "NUM"
+  },
+  {
+    "name": "PV10MATH",
+    "label": "Plausible Value 10 in Mathematics",
+    "type": "NUM"
+  },
+  {
+    "name": "PV1READ",
+    "label": "Plausible Value 1 in Reading",
+    "type": "NUM"
+  },
+  {
+    "name": "PV2READ",
+    "label": "Plausible Value 2 in Reading",
+    "type": "NUM"
+  },
+  {
+    "name": "PV3READ",
+    "label": "Plausible Value 3 in Reading",
+    "type": "NUM"
+  },
+  {
+    "name": "PV4READ",
+    "label": "Plausible Value 4 in Reading",
+    "type": "NUM"
+  },
+  {
+    "name": "PV5READ",
+    "label": "Plausible Value 5 in Reading",
+    "type": "NUM"
+  },
+  {
+    "name": "PV6READ",
+    "label": "Plausible Value 6 in Reading",
+    "type": "NUM"
+  },
+  {
+    "name": "PV7READ",
+    "label": "Plausible Value 7 in Reading",
+    "type": "NUM"
+  },
+  {
+    "name": "PV8READ",
+    "label": "Plausible Value 8 in Reading",
+    "type": "NUM"
+  },
+  {
+    "name": "PV9READ",
+    "label": "Plausible Value 9 in Reading",
+    "type": "NUM"
+  },
+  {
+    "name": "PV10READ",
+    "label": "Plausible Value 10 in Reading",
+    "type": "NUM"
+  },
+  {
+    "name": "PV1SCIE",
+    "label": "Plausible Value 1 in Science",
+    "type": "NUM"
+  },
+  {
+    "name": "PV2SCIE",
+    "label": "Plausible Value 2 in Science",
+    "type": "NUM"
+  },
+  {
+    "name": "PV3SCIE",
+    "label": "Plausible Value 3 in Science",
+    "type": "NUM"
+  },
+  {
+    "name": "PV4SCIE",
+    "label": "Plausible Value 4 in Science",
+    "type": "NUM"
+  },
+  {
+    "name": "PV5SCIE",
+    "label": "Plausible Value 5 in Science",
+    "type": "NUM"
+  },
+  {
+    "name": "PV6SCIE",
+    "label": "Plausible Value 6 in Science",
+    "type": "NUM"
+  },
+  {
+    "name": "PV7SCIE",
+    "label": "Plausible Value 7 in Science",
+    "type": "NUM"
+  },
+  {
+    "name": "PV8SCIE",
+    "label": "Plausible Value 8 in Science",
+    "type": "NUM"
+  },
+  {
+    "name": "PV9SCIE",
+    "label": "Plausible Value 9 in Science",
+    "type": "NUM"
+  },
+  {
+    "name": "PV10SCIE",
+    "label": "Plausible Value 10 in Science",
+    "type": "NUM"
+  },
+  {
+    "name": "PV1MCCR",
+    "label": "Plausible Value 1 in Content Subscale of Mathematics - Change and Relationships",
+    "type": "NUM"
+  },
+  {
+    "name": "PV2MCCR",
+    "label": "Plausible Value 2 in Content Subscale of Mathematics - Change and Relationships",
+    "type": "NUM"
+  },
+  {
+    "name": "PV3MCCR",
+    "label": "Plausible Value 3 in Content Subscale of Mathematics - Change and Relationships",
+    "type": "NUM"
+  },
+  {
+    "name": "PV4MCCR",
+    "label": "Plausible Value 4 in Content Subscale of Mathematics - Change and Relationships",
+    "type": "NUM"
+  },
+  {
+    "name": "PV5MCCR",
+    "label": "Plausible Value 5 in Content Subscale of Mathematics - Change and Relationships",
+    "type": "NUM"
+  },
+  {
+    "name": "PV6MCCR",
+    "label": "Plausible Value 6 in Content Subscale of Mathematics - Change and Relationships",
+    "type": "NUM"
+  },
+  {
+    "name": "PV7MCCR",
+    "label": "Plausible Value 7 in Content Subscale of Mathematics - Change and Relationships",
+    "type": "NUM"
+  },
+  {
+    "name": "PV8MCCR",
+    "label": "Plausible Value 8 in Content Subscale of Mathematics - Change and Relationships",
+    "type": "NUM"
+  },
+  {
+    "name": "PV9MCCR",
+    "label": "Plausible Value 9 in Content Subscale of Mathematics - Change and Relationships",
+    "type": "NUM"
+  },
+  {
+    "name": "PV10MCCR",
+    "label": "Plausible Value 10 in Content Subscale of Mathematics - Change and Relationships",
+    "type": "NUM"
+  },
+  {
+    "name": "PV1MCQN",
+    "label": "Plausible Value 1 in Content Subscale of Mathematics - Quantity",
+    "type": "NUM"
+  },
+  {
+    "name": "PV2MCQN",
+    "label": "Plausible Value 2 in Content Subscale of Mathematics - Quantity",
+    "type": "NUM"
+  },
+  {
+    "name": "PV3MCQN",
+    "label": "Plausible Value 3 in Content Subscale of Mathematics - Quantity",
+    "type": "NUM"
+  },
+  {
+    "name": "PV4MCQN",
+    "label": "Plausible Value 4 in Content Subscale of Mathematics - Quantity",
+    "type": "NUM"
+  },
+  {
+    "name": "PV5MCQN",
+    "label": "Plausible Value 5 in Content Subscale of Mathematics - Quantity",
+    "type": "NUM"
+  },
+  {
+    "name": "PV6MCQN",
+    "label": "Plausible Value 6 in Content Subscale of Mathematics - Quantity",
+    "type": "NUM"
+  },
+  {
+    "name": "PV7MCQN",
+    "label": "Plausible Value 7 in Content Subscale of Mathematics - Quantity",
+    "type": "NUM"
+  },
+  {
+    "name": "PV8MCQN",
+    "label": "Plausible Value 8 in Content Subscale of Mathematics - Quantity",
+    "type": "NUM"
+  },
+  {
+    "name": "PV9MCQN",
+    "label": "Plausible Value 9 in Content Subscale of Mathematics - Quantity",
+    "type": "NUM"
+  },
+  {
+    "name": "PV10MCQN",
+    "label": "Plausible Value 10 in Content Subscale of Mathematics - Quantity",
+    "type": "NUM"
+  },
+  {
+    "name": "PV1MCSS",
+    "label": "Plausible Value 1 in Content Subscale of Mathematics - Space and Shape",
+    "type": "NUM"
+  },
+  {
+    "name": "PV2MCSS",
+    "label": "Plausible Value 2 in Content Subscale of Mathematics - Space and Shape",
+    "type": "NUM"
+  },
+  {
+    "name": "PV3MCSS",
+    "label": "Plausible Value 3 in Content Subscale of Mathematics - Space and Shape",
+    "type": "NUM"
+  },
+  {
+    "name": "PV4MCSS",
+    "label": "Plausible Value 4 in Content Subscale of Mathematics - Space and Shape",
+    "type": "NUM"
+  },
+  {
+    "name": "PV5MCSS",
+    "label": "Plausible Value 5 in Content Subscale of Mathematics - Space and Shape",
+    "type": "NUM"
+  },
+  {
+    "name": "PV6MCSS",
+    "label": "Plausible Value 6 in Content Subscale of Mathematics - Space and Shape",
+    "type": "NUM"
+  },
+  {
+    "name": "PV7MCSS",
+    "label": "Plausible Value 7 in Content Subscale of Mathematics - Space and Shape",
+    "type": "NUM"
+  },
+  {
+    "name": "PV8MCSS",
+    "label": "Plausible Value 8 in Content Subscale of Mathematics - Space and Shape",
+    "type": "NUM"
+  },
+  {
+    "name": "PV9MCSS",
+    "label": "Plausible Value 9 in Content Subscale of Mathematics - Space and Shape",
+    "type": "NUM"
+  },
+  {
+    "name": "PV10MCSS",
+    "label": "Plausible Value 10 in Content Subscale of Mathematics - Space and Shape",
+    "type": "NUM"
+  },
+  {
+    "name": "PV1MCUD",
+    "label": "Plausible Value 1 in Content Subscale of Mathematics - Uncertainty and Data",
+    "type": "NUM"
+  },
+  {
+    "name": "PV2MCUD",
+    "label": "Plausible Value 2 in Content Subscale of Mathematics - Uncertainty and Data",
+    "type": "NUM"
+  },
+  {
+    "name": "PV3MCUD",
+    "label": "Plausible Value 3 in Content Subscale of Mathematics - Uncertainty and Data",
+    "type": "NUM"
+  },
+  {
+    "name": "PV4MCUD",
+    "label": "Plausible Value 4 in Content Subscale of Mathematics - Uncertainty and Data",
+    "type": "NUM"
+  },
+  {
+    "name": "PV5MCUD",
+    "label": "Plausible Value 5 in Content Subscale of Mathematics - Uncertainty and Data",
+    "type": "NUM"
+  },
+  {
+    "name": "PV6MCUD",
+    "label": "Plausible Value 6 in Content Subscale of Mathematics - Uncertainty and Data",
+    "type": "NUM"
+  },
+  {
+    "name": "PV7MCUD",
+    "label": "Plausible Value 7 in Content Subscale of Mathematics - Uncertainty and Data",
+    "type": "NUM"
+  },
+  {
+    "name": "PV8MCUD",
+    "label": "Plausible Value 8 in Content Subscale of Mathematics - Uncertainty and Data",
+    "type": "NUM"
+  },
+  {
+    "name": "PV9MCUD",
+    "label": "Plausible Value 9 in Content Subscale of Mathematics - Uncertainty and Data",
+    "type": "NUM"
+  },
+  {
+    "name": "PV10MCUD",
+    "label": "Plausible Value 10 in Content Subscale of Mathematics - Uncertainty and Data",
+    "type": "NUM"
+  },
+  {
+    "name": "PV1MPEM",
+    "label": "Plausible Value 1 in Process Subscale of Mathematics - Employing Mathematical Concepts, Facts, and Procedures",
+    "type": "NUM"
+  },
+  {
+    "name": "PV2MPEM",
+    "label": "Plausible Value 2 in Process Subscale of Mathematics - Employing Mathematical Concepts, Facts, and Procedures",
+    "type": "NUM"
+  },
+  {
+    "name": "PV3MPEM",
+    "label": "Plausible Value 3 in Process Subscale of Mathematics - Employing Mathematical Concepts, Facts, and Procedures",
+    "type": "NUM"
+  },
+  {
+    "name": "PV4MPEM",
+    "label": "Plausible Value 4 in Process Subscale of Mathematics - Employing Mathematical Concepts, Facts, and Procedures",
+    "type": "NUM"
+  },
+  {
+    "name": "PV5MPEM",
+    "label": "Plausible Value 5 in Process Subscale of Mathematics - Employing Mathematical Concepts, Facts, and Procedures",
+    "type": "NUM"
+  },
+  {
+    "name": "PV6MPEM",
+    "label": "Plausible Value 6 in Process Subscale of Mathematics - Employing Mathematical Concepts, Facts, and Procedures",
+    "type": "NUM"
+  },
+  {
+    "name": "PV7MPEM",
+    "label": "Plausible Value 7 in Process Subscale of Mathematics - Employing Mathematical Concepts, Facts, and Procedures",
+    "type": "NUM"
+  },
+  {
+    "name": "PV8MPEM",
+    "label": "Plausible Value 8 in Process Subscale of Mathematics - Employing Mathematical Concepts, Facts, and Procedures",
+    "type": "NUM"
+  },
+  {
+    "name": "PV9MPEM",
+    "label": "Plausible Value 9 in Process Subscale of Mathematics - Employing Mathematical Concepts, Facts, and Procedures",
+    "type": "NUM"
+  },
+  {
+    "name": "PV10MPEM",
+    "label": "Plausible Value 10 in Process Subscale of Mathematics - Employing Mathematical Concepts, Facts, and Procedures",
+    "type": "NUM"
+  },
+  {
+    "name": "PV1MPFS",
+    "label": "Plausible Value 1 in Process Subscale of Mathematics - Formulating Situations Mathematically",
+    "type": "NUM"
+  },
+  {
+    "name": "PV2MPFS",
+    "label": "Plausible Value 2 in Process Subscale of Mathematics - Formulating Situations Mathematically",
+    "type": "NUM"
+  },
+  {
+    "name": "PV3MPFS",
+    "label": "Plausible Value 3 in Process Subscale of Mathematics - Formulating Situations Mathematically",
+    "type": "NUM"
+  },
+  {
+    "name": "PV4MPFS",
+    "label": "Plausible Value 4 in Process Subscale of Mathematics - Formulating Situations Mathematically",
+    "type": "NUM"
+  },
+  {
+    "name": "PV5MPFS",
+    "label": "Plausible Value 5 in Process Subscale of Mathematics - Formulating Situations Mathematically",
+    "type": "NUM"
+  },
+  {
+    "name": "PV6MPFS",
+    "label": "Plausible Value 6 in Process Subscale of Mathematics - Formulating Situations Mathematically",
+    "type": "NUM"
+  },
+  {
+    "name": "PV7MPFS",
+    "label": "Plausible Value 7 in Process Subscale of Mathematics - Formulating Situations Mathematically",
+    "type": "NUM"
+  },
+  {
+    "name": "PV8MPFS",
+    "label": "Plausible Value 8 in Process Subscale of Mathematics - Formulating Situations Mathematically",
+    "type": "NUM"
+  },
+  {
+    "name": "PV9MPFS",
+    "label": "Plausible Value 9 in Process Subscale of Mathematics - Formulating Situations Mathematically",
+    "type": "NUM"
+  },
+  {
+    "name": "PV10MPFS",
+    "label": "Plausible Value 10 in Process Subscale of Mathematics - Formulating Situations Mathematically",
+    "type": "NUM"
+  },
+  {
+    "name": "PV1MPIN",
+    "label": "Plausible Value 1 in Process Subscale of Mathematics - Interpreting, Applying, and Evaluating Mathematical Outcomes",
+    "type": "NUM"
+  },
+  {
+    "name": "PV2MPIN",
+    "label": "Plausible Value 2 in Process Subscale of Mathematics - Interpreting, Applying, and Evaluating Mathematical Outcomes",
+    "type": "NUM"
+  },
+  {
+    "name": "PV3MPIN",
+    "label": "Plausible Value 3 in Process Subscale of Mathematics - Interpreting, Applying, and Evaluating Mathematical Outcomes",
+    "type": "NUM"
+  },
+  {
+    "name": "PV4MPIN",
+    "label": "Plausible Value 4 in Process Subscale of Mathematics - Interpreting, Applying, and Evaluating Mathematical Outcomes",
+    "type": "NUM"
+  },
+  {
+    "name": "PV5MPIN",
+    "label": "Plausible Value 5 in Process Subscale of Mathematics - Interpreting, Applying, and Evaluating Mathematical Outcomes",
+    "type": "NUM"
+  },
+  {
+    "name": "PV6MPIN",
+    "label": "Plausible Value 6 in Process Subscale of Mathematics - Interpreting, Applying, and Evaluating Mathematical Outcomes",
+    "type": "NUM"
+  },
+  {
+    "name": "PV7MPIN",
+    "label": "Plausible Value 7 in Process Subscale of Mathematics - Interpreting, Applying, and Evaluating Mathematical Outcomes",
+    "type": "NUM"
+  },
+  {
+    "name": "PV8MPIN",
+    "label": "Plausible Value 8 in Process Subscale of Mathematics - Interpreting, Applying, and Evaluating Mathematical Outcomes",
+    "type": "NUM"
+  },
+  {
+    "name": "PV9MPIN",
+    "label": "Plausible Value 9 in Process Subscale of Mathematics - Interpreting, Applying, and Evaluating Mathematical Outcomes",
+    "type": "NUM"
+  },
+  {
+    "name": "PV10MPIN",
+    "label": "Plausible Value 10 in Process Subscale of Mathematics - Interpreting, Applying, and Evaluating Mathematical Outcomes",
+    "type": "NUM"
+  },
+  {
+    "name": "PV1MPRE",
+    "label": "Plausible Value 1 in Process Subscale of Mathematics - Reasoning",
+    "type": "NUM"
+  },
+  {
+    "name": "PV2MPRE",
+    "label": "Plausible Value 2 in Process Subscale of Mathematics - Reasoning",
+    "type": "NUM"
+  },
+  {
+    "name": "PV3MPRE",
+    "label": "Plausible Value 3 in Process Subscale of Mathematics - Reasoning",
+    "type": "NUM"
+  },
+  {
+    "name": "PV4MPRE",
+    "label": "Plausible Value 4 in Process Subscale of Mathematics - Reasoning",
+    "type": "NUM"
+  },
+  {
+    "name": "PV5MPRE",
+    "label": "Plausible Value 5 in Process Subscale of Mathematics - Reasoning",
+    "type": "NUM"
+  },
+  {
+    "name": "PV6MPRE",
+    "label": "Plausible Value 6 in Process Subscale of Mathematics - Reasoning",
+    "type": "NUM"
+  },
+  {
+    "name": "PV7MPRE",
+    "label": "Plausible Value 7 in Process Subscale of Mathematics - Reasoning",
+    "type": "NUM"
+  },
+  {
+    "name": "PV8MPRE",
+    "label": "Plausible Value 8 in Process Subscale of Mathematics - Reasoning",
+    "type": "NUM"
+  },
+  {
+    "name": "PV9MPRE",
+    "label": "Plausible Value 9 in Process Subscale of Mathematics - Reasoning",
+    "type": "NUM"
+  },
+  {
+    "name": "PV10MPRE",
+    "label": "Plausible Value 10 in Process Subscale of Mathematics - Reasoning",
+    "type": "NUM"
+  },
+  {
+    "name": "SENWT",
+    "label": "Senate Weight (sum of 5000 per country)",
+    "type": "NUM"
+  },
+  {
+    "name": "VER_DAT",
+    "label": "Date of the database creation ",
+    "type": "CHAR"
+  }
+]
